@@ -158,44 +158,61 @@ public class Main {
 			String curMessage = logFile.messages.get(i);
 			
 			long timeDiff = curTimestamp.getTime() - lastTimestamp.getTime();
-						
-			long timeDiffSeconds = TimeUnit.MILLISECONDS.toSeconds(timeDiff);
 			
-			//if 30 seconds have not elapsed yet
-			if(timeDiffSeconds <= 30)
+			long timeDiffSeconds = TimeUnit.MILLISECONDS.toSeconds(timeDiff);			
+			//if we have a debug message:
+			
+			if(messagesDebug.contains(curMessage))
 			{
-				//if within 30 seconds, just add it to the current sequence
 				sequenceIDs.set(i, index);
 				
-			    //and update the timestamp only if we don't have a debug msg
-				if(!(messagesDebug.contains(curMessage)))
+				//if more than 30 seconds have elapsed
+				if(timeDiffSeconds >= 30)
 				{
-					lastTimestamp = curTimestamp;
+					index = index + 1;					
 				}
-			}
-			//30 seconds have elapsed
-			else
-			{
-				//if it's a debug message, then save the sequence so far and increase the index
-				if(messagesDebug.contains(curMessage))
-				{
-					sequenceIDs.set(i, index);
-					index = index + 1;
-				}
-				//not a debug message, then just add it to the current sequence
-				else
-				{
-					sequenceIDs.set(i, index);
-				}
-				
 				lastTimestamp = curTimestamp;
 			}
+			else
+			{
+				if(timeDiffSeconds <= 30)
+				{
+					sequenceIDs.set(i, index);
+				}
+				else
+				{
+					sequenceIDs.set(i, 0);
+				}
+			}			
 		}
-				
-		//at the end, need to set the sequenceIDs of the logFile before returning it. 
-		logFile.setSequenceID(sequenceIDs);
 		
-		System.out.println("Amount of sequences identified: " + sequenceIDs.get(sequenceIDs.size() - 1));
+		ArrayList<Date> timestamps = new ArrayList<Date>();
+		ArrayList<Integer> devIDs = new ArrayList<Integer>();
+		ArrayList<String> messages = new ArrayList<String>();
+		ArrayList<Integer> sequenceIDsFinal = new ArrayList<Integer>();
+		
+		//now cycle through all the lines and eliminate those that have a sequence ID of 0 (they don't belong to any sequence). 
+		for(int i = 0; i < sequenceIDs.size(); i++)
+		{
+			//firstly, identify whether the current message is an outlier (i.e: in the messagesRemove)
+			//and in that case removes the corresponding timestamp and dev ID as well. 
+			int seqID = sequenceIDs.get(i);
+			
+			if(seqID != 0)
+			{
+				devIDs.add(logFile.devIDs.get(i));
+				messages.add(logFile.messages.get(i));
+				timestamps.add(logFile.timestamps.get(i));
+				sequenceIDsFinal.add(seqID);				
+			}
+		}
+		
+		logFile.setDevIDs(devIDs);
+		logFile.setTimeStamps(timestamps);
+		logFile.setMessages(messages);
+		logFile.setSequenceID(sequenceIDsFinal);
+		
+		System.out.println("Amount of sequences identified: " + sequenceIDsFinal.get(sequenceIDsFinal.size() - 1));
 		
 		return logFile;
 	}
