@@ -7,12 +7,16 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException, ParseException, IOException {
 		
-		String filePath1 = "/home/hadoop/ABB_Logs/BlazeData_Dev_27.csv";
+		String filePath1 = "/home/hadoop/ABB_Logs_Small/BlazeData_Dev_33.csv";
+		
+		System.out.println("Loading data from " + filePath1);
+		
 		
 		//messagesFilter represent outlier symbols to remove. 
 		ArrayList<String> messagesRemove = new ArrayList<>(Arrays.asList("View.OnChangeCaretLine", "View.OnChangeScrollInfo", "View.File", 
@@ -28,10 +32,17 @@ public class Main {
 	public static String loadFilterSingleDataset(String filePath, ArrayList<String> messagesRemove) throws FileNotFoundException, ParseException, IOException
 	{
 		
-		//we have successfully loaded the file from the disk. 
+		//we have successfully loaded the file from the disk into three array lists
 		LogFile logFile = readArraysFromFile(filePath);
+		System.out.println("Amount of messages before removing outliers: " + logFile.messages.size());
 		
+		//we have successfully remove all those lines that contain an outlier message.
 		LogFile logFileNoOutliers = removeOutliers(logFile, messagesRemove);
+		
+		System.out.println("Amount of messages after removing outliers: " + logFileNoOutliers.messages.size());
+		
+		//we have successfully marked every single message with a sequence ID
+		LogFile logFileSeqID = markSequenceIDs(logFileNoOutliers);
 		
 		
 		
@@ -82,6 +93,11 @@ public class Main {
 	//Output: a LogFile with the outliers removed. 
 	public static LogFile removeOutliers(LogFile logFile, ArrayList<String> messagesRemove)
 	{
+		
+		ArrayList<Date> timestamps = new ArrayList<Date>();
+		ArrayList<Integer> devIDs = new ArrayList<Integer>();
+		ArrayList<String> messages = new ArrayList<String>();
+		
 		//now iterate through all the logs' lines and remove all those lines 
 		//that contain a message which is found to be an outlier. 
 		for(int i = 0; i < logFile.messages.size(); i++)
@@ -90,14 +106,98 @@ public class Main {
 			//and in that case removes the corresponding timestamp and dev ID as well. 
 			String message = logFile.messages.get(i);
 			
-			if(messagesRemove.contains(message))
+			//if not an outlier, then add it. we perform some filtering here. 
+			if(!(messagesRemove.contains(message)))
 			{
-				logFile.messages.remove(i);
-				logFile.timestamps.remove(i);
-				logFile.devIDs.remove(i);
+				devIDs.add(logFile.devIDs.get(i));
+				messages.add(logFile.messages.get(i));
+				timestamps.add(logFile.timestamps.get(i));
 			}
 		}
+		
+		logFile.setDevIDs(devIDs);
+		logFile.setTimeStamps(timestamps);
+		logFile.setMessages(messages);
+		
 		return logFile;		
+	}
+	
+	public static LogFile markSequenceIDs(LogFile logFile)
+	{
+		//these are the IDE debug messages, which act as a starting point for the interaction of a developer with the IDE
+		ArrayList<String> messagesDebug = new ArrayList<>(Arrays.asList(
+				"Debug.ToggleBreakpoint", "Debug.CallStack", "View.Call Stack", "Debug.Start", "Debug.StepOver", "Debug.StepInto", "Debug.StepOut", 
+                "Debug.AttachtoProcess", "Debug.StartDebugTarget", "Debug.StopDebugging", "Debug.QuickWatch", "Debug.AddWatch", "View.Watch 1", 
+                "Debug.DisableAllBreakpoints", "Debug.DetachAll", "Debug.Restart", "Debug.RunToCursor", "Debug.EnableAllBreakpoints", 
+                "Debug.ShowNextStatement", "Debug.BreakatFunction", "Debug.StartPerformanceAnalysis", "Debug.AddParallelWatch", 
+                "Debug.Threads", "Debug.Disassembly", "Debug.GoToDisassembly", "Debug.EvaluateStatement", "Debug.SetNextStatement", 
+                "Debug.Exceptions", "Debug.BreakAll", "Debug.Breakpoints", "Debug.AddParallelWatch", "Debug.Watch1", "Debug.Modules", 
+                "Debug.Output", "Debug.Print", "Debug.DeleteAllBreakpoints", "TestExplorer.DebugSelectedTests", 
+                "TestExplorer.DebugAllTestsInContext", "TestExplorer.DebugAllTests", "View.Locals"
+				));
+		
+		ArrayList<Integer> sequenceIDs = new ArrayList<Integer>();
+		
+		for(int i = 0; i < logFile.messages.size(); i++)
+		{
+			//just populate the array list with dummy values
+			sequenceIDs.add(0);
+		}
+		
+		
+		Date lastTimestamp = logFile.timestamps.get(0);
+		
+		
+		//TODO: change the index later to an input value which changes based on the index of parallel map phase
+		//i.e: index*10.000.000
+		int index = 1;
+		
+		for(int i = 0; i < logFile.messages.size(); i++)
+		{
+			Date curTimestamp = logFile.timestamps.get(i);
+			String curMessage = logFile.messages.get(i);
+			
+			long timeDiff = curTimestamp.getTime() - lastTimestamp.getTime();
+						
+			long timeDiffSeconds = TimeUnit.MILLISECONDS.toSeconds(timeDiff);
+			
+			//if 30 seconds have not elapsed yet
+			if(timeDiffSeconds <= 30)
+			{
+				//if within 30 seconds, just add it to the current sequence
+				sequenceIDs.set(i, index);
+				
+			    //and update the timestamp only if we don't have a debug msg
+				if(!(messagesDebug.contains(curMessage)))
+				{
+					lastTimestamp = curTimestamp;
+				}
+			}
+			//30 seconds have elapsed
+			else
+			{
+				//if it's a debug message, then save the sequence so far and increase the index
+				if(messagesDebug.contains(curMessage))
+				{
+					sequenceIDs.set(i, index);
+					index = index + 1;
+				}
+				//not a debug message, then just add it to the current sequence
+				else
+				{
+					sequenceIDs.set(i, index);
+				}
+				
+				lastTimestamp = curTimestamp;
+			}
+		}
+				
+		//at the end, need to set the sequenceIDs of the logFile before returning it. 
+		logFile.setSequenceID(sequenceIDs);
+		
+		System.out.println("Amount of sequences identified: " + sequenceIDs.get(sequenceIDs.size() - 1));
+		
+		return logFile;
 	}
 
 }
