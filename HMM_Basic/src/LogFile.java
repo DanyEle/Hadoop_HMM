@@ -12,11 +12,20 @@ public class LogFile
 	public ArrayList<Integer> sequenceIDs = new ArrayList<Integer>();
 	
 	
+	
 	public LogFile(ArrayList<Date> timestampsIn, ArrayList<Integer> devIdsIn, ArrayList<String>  messagesIn)
 	{
-		timestamps = timestampsIn;
-		devIDs = devIdsIn;
-		messages = messagesIn;
+		this.timestamps = timestampsIn;
+		this.devIDs = devIdsIn;
+		this.messages = messagesIn;
+	}
+	
+	public LogFile(ArrayList<Date> timestampsIn, ArrayList<Integer> devIdsIn, ArrayList<String>  messagesIn, ArrayList<Integer> sequenceIDsIn)
+	{
+		this.timestamps = timestampsIn;
+		this.devIDs = devIdsIn;
+		this.messages = messagesIn;
+		this.sequenceIDs = sequenceIDsIn;
 	}
 	
 	public void setMessages(ArrayList<String> messagesIn)
