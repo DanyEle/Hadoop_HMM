@@ -1,3 +1,7 @@
+//PAD - Distributed Enabling Platforms
+//University of Pisa 2019
+//Author: Daniele Gadler
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -7,7 +11,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
@@ -30,6 +33,8 @@ public class Main {
 		
 		//need to merge the log files by appending the respective array lists' contents one after the other.
 		LogFile reducedLogFile = reduceArrayLists(loadedLogFiles);
+		
+		return;
 	}
 	
 	//Input: - String filePath: the path of a file to be loaded and filtered. 
@@ -136,8 +141,12 @@ public class Main {
 		return logFile;		
 	}
 	
+	//Input: - logFile: a logFile with timestamps, devIDs and messages
+	//		 - startIndex: the starting index of the sequence ID to be assigned to messages. 
+	//Output: a logFile with one sequence ID assigned to every single message, and messages assigned to no sequences removed. 
 	public static LogFile markSequenceIDs(LogFile logFile, int startIndex)
 	{
+		
 		//these are the IDE debug messages, which act as a starting point for the interaction of a developer with the IDE
 		ArrayList<String> messagesDebug = new ArrayList<>(Arrays.asList(
 				"Debug.ToggleBreakpoint", "Debug.CallStack", "View.Call Stack", "Debug.Start", "Debug.StepOver", "Debug.StepInto", "Debug.StepOut", 
@@ -205,7 +214,7 @@ public class Main {
 		ArrayList<String> messages = new ArrayList<String>();
 		ArrayList<Integer> sequenceIDsFinal = new ArrayList<Integer>();
 		
-		//now cycle through all the lines and eliminate those that have a sequence ID of 0 (they don't belong to any sequence). 
+		//now cycle through all the lines and eliminate those lines that have a sequence ID of 0 (they don't belong to any sequence). 
 		for(int i = 0; i < sequenceIDs.size(); i++)
 		{
 			//firstly, identify whether the current message is an outlier (i.e: in the messagesRemove)
