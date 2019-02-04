@@ -1,12 +1,6 @@
 package it.cnr.isti.pad;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Scanner;
 
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.conf.Configuration;
@@ -16,17 +10,10 @@ import org.apache.hadoop.io.BytesWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.InputSplit;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.JobContext;
 import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.TaskAttemptContext;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
-import org.apache.hadoop.mapreduce.lib.input.NLineInputFormat;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class HMM
@@ -99,11 +86,11 @@ public class HMM
 	        System.err.println("Failed to delete temporary 'output' path");
 	    }
 		
-		
 		Configuration conf = new Configuration();
 		Job job = new Job(conf, "hmm");
+		
 		job.setJarByClass(HMM.class);
-	    job.setInputFormatClass(WholeFileInputFormat.class);
+		
 		//need to process whole file, not just single line here.
 		
 		//Mapper output values
@@ -121,6 +108,12 @@ public class HMM
 
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
+		job.setInputFormatClass(WholeFileInputFormat.class);
+
+		
+
+		
 		
 
 		System.exit(job.waitForCompletion(true) ? 0 : 1);

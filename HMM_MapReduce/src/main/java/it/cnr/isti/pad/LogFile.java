@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
-import org.apache.commons.lang.SerializationUtils;
 
 
 import org.apache.hadoop.io.WritableComparable;
@@ -20,9 +19,7 @@ import org.apache.hadoop.io.WritableComparable;
 @SuppressWarnings("serial")
 public class LogFile implements WritableComparable<LogFile>, Serializable
 {
-	/**
-	 * 
-	 */
+	
 
 	public String filePath;
 	

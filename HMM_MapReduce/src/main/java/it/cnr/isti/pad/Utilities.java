@@ -14,7 +14,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
@@ -116,17 +115,21 @@ public class Utilities {
 			try 
 			{
 				parsedTimestamp = dateFormat.parse(allColumns[0]);
-			} catch (ParseException e) 
+			}			
+			//when an exception occurs that means that the file has terminated
+			// i.e: blank line at the end of the file is reached
+			catch (ParseException e) 
 			{
-				e.printStackTrace();
+				break;
 			}     
+			
 	        int devId = new Integer(allColumns[1]);
 	        String message = new String(allColumns[2]);
 	        //add the timestamp, the dev_id and the message to the respective array lists
 	        timestamps.add(parsedTimestamp);
 	        devIDs.add(devId);
 	        messages.add(message);                
-	        // System.out.println("Timestamp = " + allColumns[0] + " , dev_id=" + allColumns[1] + ", message = " + allColumns[2]);
+	        //System.out.println("Timestamp = " + allColumns[0] + " , dev_id=" + allColumns[1] + ", message = " + allColumns[2]);
         } 
         scanner.close();
         

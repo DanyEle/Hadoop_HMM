@@ -26,10 +26,10 @@ public class Main {
 		ArrayList<LogFile> loadedLogFiles = new ArrayList<LogFile>();
 
 		LogFile logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_33.csv", messagesRemove, 1);
-		LogFile logFileFiltered2 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_35.csv", messagesRemove, 10000000);
+		//LogFile logFileFiltered2 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_35.csv", messagesRemove, 10000000);
 		
 		loadedLogFiles.add(logFileFiltered1);
-		loadedLogFiles.add(logFileFiltered2);
+		//loadedLogFiles.add(logFileFiltered2);
 		
 		//need to merge the log files by appending the respective array lists' contents one after the other.
 		LogFile reducedLogFile = reduceArrayLists(loadedLogFiles);
@@ -46,7 +46,7 @@ public class Main {
 		System.out.println("Loading data from " + filePath);
 		
 		//we have successfully loaded the file from the disk into three array lists
-		LogFile logFile = readArraysFromFile(filePath);
+		LogFile logFile = readArraysFromFileContent(filePath);
 		System.out.println("Amount of messages before removing outliers: " + logFile.messages.size());
 		
 		//we have successfully remove all those lines that contain an outlier message.
@@ -71,7 +71,7 @@ public class Main {
 
 	//Input: the path of a file containing three columns: timestamp, dev_id, message
 	//Output: an object storing each one of the three different columns in array lists for easy access. 
-	public static LogFile readArraysFromFile(String filePath) throws ParseException, FileNotFoundException, IOException
+	public static LogFile readArraysFromFileContent(String filePath) throws ParseException, FileNotFoundException, IOException
 	{
 		ArrayList<Date> timestamps = new ArrayList<Date>();
 		ArrayList<Integer> devIDs = new ArrayList<Integer>();
