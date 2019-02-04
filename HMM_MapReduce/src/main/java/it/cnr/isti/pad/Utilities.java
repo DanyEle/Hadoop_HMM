@@ -16,10 +16,19 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class Utilities {
+public class Utilities 
+{
+	
+	public Utilities()
+	{
+		
+	}
 
+	
 	public static void startApplication(String[] args) throws FileNotFoundException, ParseException, IOException {
 		
 		
@@ -41,6 +50,8 @@ public class Utilities {
 		
 		return;
 	}
+	
+	
 	
 	//Input: - String filePath: the path of a file to be loaded and filtered. 
 	//		 - ArrayList<String> messagesRemove: a set of messages that ought to be remove from the dataset.
@@ -76,7 +87,50 @@ public class Utilities {
 		return logFileFiltered;
 	}
 	
-	static String readFile(String path, Charset encoding) throws IOException 
+	public static int extraSeqIDFromFilePath(String filePath)
+	{
+		 String regex = "[^\\/]+$";
+		 Pattern pattern = Pattern.compile(regex);
+		 Matcher matcher = pattern.matcher(filePath);
+		 
+		 //firstly, get the fileName
+		 if (matcher.find()) 
+		 {
+			  String fileName = matcher.group(0);
+			  //now use another regex to get the fileNumber within the fileName
+			  regex = "[0-9]+";
+			  pattern = Pattern.compile(regex);
+			  
+			  matcher = pattern.matcher(fileName);
+			  
+			  //i.e: the filename actually does contain a number
+			  if(matcher.find())
+			  {
+				  int fileNumber = new Integer(matcher.group(0));
+				  return fileNumber;
+			  }
+			  //the filename does not contain a number
+			  else
+			  {
+				 try 
+				 {
+					throw new ParseException("", 0);
+				 } 
+				 catch (ParseException e) 
+				 {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				return -1;
+			 }		
+		 }
+		 
+		 return 0;
+		
+	}
+	
+	
+	public static String readFile(String path, Charset encoding) throws IOException 
 	{
 	  byte[] encoded = Files.readAllBytes(Paths.get(path));
 	  return new String(encoded, encoding);
@@ -200,9 +254,6 @@ public class Utilities {
 		
 		Date lastTimestamp = logFile.timestamps.get(0);
 		
-		
-		//TODO: change the index later to an input value which changes based on the index of parallel map phase
-		//i.e: index*10.000.000
 		int index = startIndex;
 		
 		for(int i = 0; i < logFile.messages.size(); i++)
@@ -275,7 +326,7 @@ public class Utilities {
 	//Input: a logFile with the sequenceIDs marked
 	//Output: a logFile where the sequences that have too small(< 2 minutes) or too long (> 100 minutes)
 	//have been filtered out
-	private static LogFile removeLongSmallSequences(LogFile logFileSeqID) 
+	public static LogFile removeLongSmallSequences(LogFile logFileSeqID) 
 	{
 		
 		//list of all those sequenceIDs that have been found to be valid (i.e: respect the constraints specified
