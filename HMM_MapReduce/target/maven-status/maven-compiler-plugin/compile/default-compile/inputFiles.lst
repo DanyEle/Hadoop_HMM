@@ -1,6 +1,6 @@
-/home/hadoop/Hadoop_HMM/HMM_MapReduce/src/main/java/it/cnr/isti/pad/Utilities.java
-/home/hadoop/Hadoop_HMM/HMM_MapReduce/src/main/java/it/cnr/isti/pad/HMM.java
-/home/hadoop/Hadoop_HMM/HMM_MapReduce/src/main/java/it/cnr/isti/pad/WholeFileInputFormat.java
-/home/hadoop/Hadoop_HMM/HMM_MapReduce/src/main/java/it/cnr/isti/pad/LogFile.java
-/home/hadoop/Hadoop_HMM/HMM_MapReduce/src/main/java/it/cnr/isti/pad/WholeFileRecordReader.java
-/home/hadoop/Hadoop_HMM/HMM_MapReduce/src/main/java/it/cnr/isti/pad/NonSplittableTextInputFormat.java
+/home/hadoop/eclipse-workspace/HMM_MapReduce/src/main/java/it/cnr/isti/pad/Utilities.java
+/home/hadoop/eclipse-workspace/HMM_MapReduce/src/main/java/it/cnr/isti/pad/LogFile.java
+/home/hadoop/eclipse-workspace/HMM_MapReduce/src/main/java/it/cnr/isti/pad/HMM.java
+/home/hadoop/eclipse-workspace/HMM_MapReduce/src/main/java/it/cnr/isti/pad/NonSplittableTextInputFormat.java
+/home/hadoop/eclipse-workspace/HMM_MapReduce/src/main/java/it/cnr/isti/pad/WholeFileRecordReader.java
+/home/hadoop/eclipse-workspace/HMM_MapReduce/src/main/java/it/cnr/isti/pad/WholeFileInputFormat.java
