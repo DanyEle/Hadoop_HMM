@@ -186,8 +186,6 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 			this.messages.add(in.readUTF());
 		}
 		
-		
-		
 		//de-serialize timestamps
 		for(int i = 0; i < arrayListLength; i++)
 		{

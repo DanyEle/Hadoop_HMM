@@ -35,7 +35,7 @@ public class HMM
 		private final static ArrayList<String> messagesRemove = new ArrayList<>(Arrays.asList("View.OnChangeCaretLine", "View.OnChangeScrollInfo", "View.File", 
 		"Debug.Debug Break Mode", "Debug.Debug Run Mode","Debug.DebugType", "Debug.Enter Design Mode","Build.BuildDone", "Build.BuildBegin"));
 		
-		private final static int seqIDMultiplier = 10000000;
+		private final static int seqIDMultiplier = 1000000;
 		
 		//these are the IDE debug messages, which act as a starting point for the interaction of a developer with the IDE
 		private final static ArrayList<String> messagesDebug = new ArrayList<>(Arrays.asList(
@@ -192,17 +192,6 @@ public class HMM
 		}
 	}
 	
-	
-	//let's try using our own partitioner
-	
-	   public static class LeadingLetterPartitioner extends Partitioner<IntWritable, Sequence> 
-	   {
-	        @Override
-	        public int getPartition(IntWritable key, Sequence value, int numPartitions) 
-	        {
-	            return 0;
-	        }
-	    }
 
 	//Input: - IntWritable key: the unique sequenceID of the sequence being considered
 	//		 - LogFile value: the input logFile received
@@ -256,8 +245,7 @@ public class HMM
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Sequence.class);
 		
-        //job.setPartitionerClass(LeadingLetterPartitioner.class);
-
+		job.setNumReduceTasks(0);
 
 		//Reduce output values
 		job.setOutputKeyClass(IntWritable.class);

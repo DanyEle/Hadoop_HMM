@@ -1,0 +1,4 @@
+-1569967296	[-1569967296, -1569967296][2725, 2725]hdfs://localhost:9000/user/hadoop/ABB_Logs/BlazeData_Dev_2725.csv2[Tools.BlazeStats, Debug.Start][Wed Nov 05 20:10:27 CET 2014, Wed Nov 05 21:38:54 CET 2014]
+-1569967295	[-1569967295][2725]hdfs://localhost:9000/user/hadoop/ABB_Logs/BlazeData_Dev_2725.csv1[Debug.Start][Wed Nov 05 22:20:15 CET 2014]
+-1569967292	[-1569967292, -1569967292, -1569967292][2725, 2725, 2725]hdfs://localhost:9000/user/hadoop/ABB_Logs/BlazeData_Dev_2725.csv3[Debug.Start, Debug.Restart, View.Call Stack][Thu Nov 06 00:13:32 CET 2014, Thu Nov 06 00:13:32 CET 2014, Thu Nov 06 00:15:32 CET 2014]
+-1569967288	[-1569967288][2725]hdfs://localhost:9000/user/hadoop/ABB_Logs/BlazeData_Dev_2725.csv1[View.VisualStudioBgOrFg][Tue Nov 11 20:35:04 CET 2014]
