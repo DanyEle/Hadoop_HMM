@@ -1,8 +1,8 @@
-it/cnr/isti/pad/LogFile.class
 it/cnr/isti/pad/Utilities.class
 it/cnr/isti/pad/WholeFileInputFormat.class
 it/cnr/isti/pad/HMM$NewReducer.class
 it/cnr/isti/pad/WholeFileRecordReader.class
+it/cnr/isti/pad/Sequence.class
 it/cnr/isti/pad/HMM$NewMapper.class
 it/cnr/isti/pad/NonSplittableTextInputFormat.class
 it/cnr/isti/pad/HMM.class

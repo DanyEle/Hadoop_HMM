@@ -21,6 +21,16 @@ public class LogFile
 	public ArrayList<Integer> sequenceIDs = new ArrayList<Integer>();
 	
 	
+
+	public String toString()
+	{
+		String output ="";
+		output += this.messages.toString();
+		output += this.devIDs.toString();
+		output += this.sequenceIDs.toString();
+		output += this.timestamps.toString();
+		return output;
+	}
 	
 	public LogFile()
 	{

@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -36,17 +37,17 @@ public class Utilities
 		ArrayList<String> messagesRemove = new ArrayList<>(Arrays.asList("View.OnChangeCaretLine", "View.OnChangeScrollInfo", "View.File", 
 				"Debug.Debug Break Mode", "Debug.Debug Run Mode","Debug.DebugType", "Debug.Enter Design Mode","Build.BuildDone", "Build.BuildBegin"));
 		
-		ArrayList<LogFile> loadedLogFiles = new ArrayList<LogFile>();
+		ArrayList<Sequence> loadedLogFiles = new ArrayList<Sequence>();
 
-		LogFile logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_33.csv", messagesRemove, 1);
+		Sequence logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_33.csv", messagesRemove, 1);
 		
-		LogFile logFileFiltered2 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_35.csv", messagesRemove, 10000000);
+		Sequence logFileFiltered2 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_35.csv", messagesRemove, 10000000);
 		
 		loadedLogFiles.add(logFileFiltered1);
 		loadedLogFiles.add(logFileFiltered2);
 		
 		//need to merge the log files by appending the respective array lists' contents one after the other.
-		LogFile reducedLogFile = reduceArrayLists(loadedLogFiles);
+		//Sequence reducedLogFile = reduceArrayLists(loadedLogFiles);
 		
 		return;
 	}
@@ -57,7 +58,7 @@ public class Utilities
 	//		 - ArrayList<String> messagesRemove: a set of messages that ought to be remove from the dataset.
 	//		 - int startIndex: the starting index of the sequenceIrD for the current file. 
 	//Output: the file with three columns and a sequenceID assigned to contiguous sequences.
-	public static LogFile loadFilterSingleDataset(String filePath, ArrayList<String> messagesRemove, int startIndex) throws FileNotFoundException, ParseException, IOException
+	public static Sequence loadFilterSingleDataset(String filePath, ArrayList<String> messagesRemove, int startIndex) throws FileNotFoundException, ParseException, IOException
 	{
 		System.out.println("Loading data from " + filePath);
 		
@@ -65,22 +66,22 @@ public class Utilities
 		
 		//System.out.println(fileContent);
 		//we have successfully loaded the file from the disk into three array lists
-		LogFile logFile = readArraysFromFileContent(fileContent, filePath);
+		Sequence logFile = readArraysFromFileContent(fileContent, filePath);
 		System.out.println("Amount of messages before removing outliers: " + logFile.messages.size());
 		
 		//we have successfully remove all those lines that contain an outlier message.
-		LogFile logFileNoOutliers = removeOutliers(logFile, messagesRemove);
+		Sequence logFileNoOutliers = removeOutliers(logFile, messagesRemove);
 		
 		System.out.println("Amount of messages after removing outliers: " + logFileNoOutliers.messages.size());
 		
 		//we have successfully marked every single message with a sequence ID and remove those messages that do not belong to any sequence. 
-		LogFile logFileSeqID = markSequenceIDs(logFileNoOutliers, startIndex);
+		Sequence logFileSeqID = markSequenceIDs(logFileNoOutliers, startIndex);
 		
 		//let's just try to display all the sequenceIDs assigned and get the amount of messages remaining
 		System.out.println("Amount of messages after marking sequence IDs (and removing the ones not in sequences): " + logFileSeqID.sequenceIDs.size());
 		
 		//now remove all the sequences that are too small (< 2 minutes in length) and large sessions (> 100 minutes in length)
-		LogFile logFileFiltered = removeLongSmallSequences(logFileSeqID);
+		Sequence logFileFiltered = removeLongSmallSequences(logFileSeqID);
 		
 		System.out.println("Amount of messages after after removing long and small sequences:" + logFileFiltered.sequenceIDs.size());
 		
@@ -114,7 +115,7 @@ public class Utilities
 			  {
 				 try 
 				 {
-					throw new ParseException("", 0);
+					throw new ParseException("The filename at [" + filePath + "] does not contain a number!", 0);
 				 } 
 				 catch (ParseException e) 
 				 {
@@ -145,13 +146,21 @@ public class Utilities
 
 	//Input: the path of a file containing three columns: timestamp, dev_id, message
 	//Output: an object storing each one of the three different columns in arraylists for easy access. 
-	public static LogFile readArraysFromFileContent(String fileContent, String filePath) throws FileNotFoundException, IOException
+	public static Sequence readArraysFromFileContent(String fileContent, String filePath) throws FileNotFoundException, IOException
 	{
 		ArrayList<Date> timestamps = new ArrayList<Date>();
 		ArrayList<Integer> devIDs = new ArrayList<Integer>();
 		ArrayList<String> messages = new ArrayList<String>();
 
         String separator = ",";
+        
+        StringTokenizer itr = new StringTokenizer(fileContent, "\n");
+        
+        while(itr.hasMoreTokens())
+        {
+        	
+        }
+
         
         Scanner scanner = new Scanner(fileContent);
         
@@ -188,13 +197,13 @@ public class Utilities
         scanner.close();
         
         //all data columns loaded into respective array lists, fine. Use an object to encapsulate them.
-        LogFile logFileLoaded = new LogFile(timestamps, devIDs, messages, filePath);
+        Sequence logFileLoaded = new Sequence(timestamps, devIDs, messages, filePath);
         return logFileLoaded;
 	}
 	
 	//Input: a LogFile object and a set of messages to be remove from the logFile
 	//Output: a LogFile with the outliers removed. 
-	public static LogFile removeOutliers(LogFile logFile, ArrayList<String> messagesRemove)
+	public static Sequence removeOutliers(Sequence logFile, ArrayList<String> messagesRemove)
 	{
 		
 		ArrayList<Date> timestamps = new ArrayList<Date>();
@@ -225,10 +234,12 @@ public class Utilities
 		return logFile;		
 	}
 	
+
+	
 	//Input: - logFile: a logFile with timestamps, devIDs and messages
 	//		 - startIndex: the starting index of the sequence ID to be assigned to messages. 
 	//Output: a logFile with one sequence ID assigned to every single message, and messages assigned to no sequences removed. 
-	public static LogFile markSequenceIDs(LogFile logFile, int startIndex)
+	public static Sequence markSequenceIDs(Sequence logFile, int startIndex)
 	{
 		
 		//these are the IDE debug messages, which act as a starting point for the interaction of a developer with the IDE
@@ -326,7 +337,7 @@ public class Utilities
 	//Input: a logFile with the sequenceIDs marked
 	//Output: a logFile where the sequences that have too small(< 2 minutes) or too long (> 100 minutes)
 	//have been filtered out
-	public static LogFile removeLongSmallSequences(LogFile logFileSeqID) 
+	public static Sequence removeLongSmallSequences(Sequence logFileSeqID) 
 	{
 		
 		//list of all those sequenceIDs that have been found to be valid (i.e: respect the constraints specified
@@ -386,26 +397,5 @@ public class Utilities
 		return logFileSeqID;
 	}
 	
-	//Input: an arraylist of LogFile objects
-	//Output: a LogFile in which all the input LogFile objects have been merged. 
-	public static LogFile reduceArrayLists(ArrayList<LogFile> logFiles)
-	{
-		ArrayList<Date> timestamps = new ArrayList<Date>();
-		ArrayList<Integer> devIDs = new ArrayList<Integer>();
-		ArrayList<String> messages = new ArrayList<String>();
-		ArrayList<Integer> sequenceIDs = new ArrayList<Integer>();
-		
-		for(int i = 0; i < logFiles.size(); i++)
-		{
-			//vectorial ops, way more efficient than cyling through each element
-			timestamps.addAll(logFiles.get(i).timestamps);
-			devIDs.addAll(logFiles.get(i).devIDs);
-			messages.addAll(logFiles.get(i).messages);
-			sequenceIDs.addAll(logFiles.get(i).sequenceIDs);
-		}
-		LogFile logFileReturn = new LogFile(timestamps, devIDs, messages, sequenceIDs);
-		return logFileReturn; 
-				
-	}
 
 }

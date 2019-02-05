@@ -25,11 +25,13 @@ public class Main {
 		
 		ArrayList<LogFile> loadedLogFiles = new ArrayList<LogFile>();
 
-		LogFile logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_33.csv", messagesRemove, 1);
+		LogFile logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs/BlazeData_Dev_31.csv", messagesRemove, 1);
 		//LogFile logFileFiltered2 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_35.csv", messagesRemove, 10000000);
 		
 		loadedLogFiles.add(logFileFiltered1);
 		//loadedLogFiles.add(logFileFiltered2);
+		
+		//System.out.println(logFileFiltered1.toString());
 		
 		//need to merge the log files by appending the respective array lists' contents one after the other.
 		LogFile reducedLogFile = reduceArrayLists(loadedLogFiles);
@@ -61,11 +63,11 @@ public class Main {
 		System.out.println("Amount of messages after marking sequence IDs (and removing the ones not in sequences): " + logFileSeqID.sequenceIDs.size());
 		
 		//now remove all the sequences that are too small (< 2 minutes in length) and large sessions (> 100 minutes in length)
-		LogFile logFileFiltered = removeLongSmallSequences(logFileSeqID);
+		//LogFile logFileFiltered = removeLongSmallSequences(logFileSeqID);
 		
-		System.out.println("Amount of messages after after removing long and small sequences:" + logFileFiltered.sequenceIDs.size());
+		//System.out.println("Amount of messages after after removing long and small sequences:" + logFileFiltered.sequenceIDs.size());
 		
-		return logFileFiltered;
+		return logFileSeqID;
 	}
 	
 
