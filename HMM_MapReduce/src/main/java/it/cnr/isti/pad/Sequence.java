@@ -37,6 +37,8 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 
 	private static 	SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 
+	private static DateFormat dateFormatParse = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy", Locale.US);			
+
 	
 	
 	public Sequence()
@@ -86,6 +88,7 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	@Override
 	public void write(DataOutput out) throws IOException 
 	{		
+		
 		System.out.println("Writing fields of sequence with ID: " + this.sequenceIDs.get(0));
 		//serialize sequenceID
 		out.writeInt(this.sequenceIDs.get(0));
@@ -109,6 +112,8 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		{
 			out.writeUTF(this.timestamps.get(i).toString());
 		}
+		
+		
 		
 	}	
 	
@@ -152,9 +157,10 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		this.messages.clear();
 		this.timestamps.clear();
 		
+		//let's try cleaning up all the other objects manually
+		
 		//deserialize sequenceID
 		int sequenceID = in.readInt();
-		
 		System.out.println("Read fields of sequence with ID: " + sequenceID);
 		
 		//deserialize devID
@@ -164,6 +170,7 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		String filePath = in.readUTF();	
 		
 		this.filePath = filePath;
+		
 
 		//deserialize messagesArrayList and timestampsArrayList
 		int arrayListLength = in.readInt();
@@ -190,7 +197,6 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		for(int i = 0; i < arrayListLength; i++)
 		{
 			//used for parsing the serialized date.
-			DateFormat dateFormatParse = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy", Locale.US);			
 			try 
 			{
 				dateTimestamp = dateFormatParse.parse(in.readUTF());
@@ -204,17 +210,16 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 				e.printStackTrace();
 			}
 		}
-		
-		
 	}
 	
 	@Override
-	public int compareTo(Sequence logFileComp) {
-		 int cmp = this.filePath.compareTo(logFileComp.filePath);
+	public int compareTo(Sequence sequenceComp) 
+	{
+		 int cmp = this.sequenceIDs.get(0).compareTo(sequenceComp.sequenceIDs.get(0));
 	        if (cmp != 0) {
 	            return cmp;
 	        }
-	        return this.filePath.compareTo(logFileComp.filePath);
+	        return this.sequenceIDs.get(0).compareTo(sequenceComp.sequenceIDs.get(0));
 	}
 
 	

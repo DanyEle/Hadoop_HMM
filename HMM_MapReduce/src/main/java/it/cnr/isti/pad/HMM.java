@@ -2,6 +2,7 @@ package it.cnr.isti.pad;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.instrument.Instrumentation;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -35,7 +36,7 @@ public class HMM
 		private final static ArrayList<String> messagesRemove = new ArrayList<>(Arrays.asList("View.OnChangeCaretLine", "View.OnChangeScrollInfo", "View.File", 
 		"Debug.Debug Break Mode", "Debug.Debug Run Mode","Debug.DebugType", "Debug.Enter Design Mode","Build.BuildDone", "Build.BuildBegin"));
 		
-		private final static int seqIDMultiplier = 1000000;
+		private final static int seqIDMultiplier = 100000;
 		
 		//these are the IDE debug messages, which act as a starting point for the interaction of a developer with the IDE
 		private final static ArrayList<String> messagesDebug = new ArrayList<>(Arrays.asList(
@@ -49,11 +50,13 @@ public class HMM
                 "TestExplorer.DebugAllTestsInContext", "TestExplorer.DebugAllTests", "View.Locals"
 				));
 		
-        final static String separator = ",";
+        private final static String separator = ",";
 		
 		
         private final static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         
+    	
+		
         
 		
         //timestamps, devIDs, messages and sequenceIDs are grouped based on the sequenceID of that sequence
@@ -65,27 +68,34 @@ public class HMM
 		//		 - Sequence value: the Sequence being passed over to the reducer 
 		//Every single map function gets a separate log file as input.
 		public void map(NullWritable key, BytesWritable bytesContent, Context context) throws IOException, InterruptedException
-		{		
-			
-	        IntWritable sequenceID = new IntWritable();
-			
+		{				
 			ArrayList<Date> timestampsSeq = new ArrayList<Date>();
 			ArrayList<Integer> devIDsSeq = new ArrayList<Integer>();
 			ArrayList<String> messagesSeq = new ArrayList<String>();
 			ArrayList<Integer> sequenceIDsSeq = new ArrayList<Integer>();
 			
-			String filePath = ((FileSplit) context.getInputSplit()).getPath().toString();
-			String fileContent = new String(bytesContent.getBytes());
+			Sequence sequence = null;
 			
-			System.out.println("Loading data from " + filePath);
+	        IntWritable sequenceID = new IntWritable();
+	        
+			String filePath = ((FileSplit) context.getInputSplit()).getPath().toString();
+						
+			byte[] bytesRead = bytesContent.getBytes();
+			System.out.println("Loading bytes content from " + filePath);
+			
+			//CharSequence charSequence = new Char
+			//String fileContent = new String(bytesContent.getBytes());
+			StringBuilder strBuilder = new StringBuilder();
+			strBuilder.append(bytesRead);
+			strBuilder.trimToSize();
 	        
 			//process the input text file line by line. 
-	        StringTokenizer itr = new StringTokenizer(fileContent, "\n");
+	        StringTokenizer itr = new StringTokenizer(strBuilder.toString(), "\n");
 	        
 	        //skip the first line, which is the header.
 	        itr.nextToken();
 	        
-	        //the current seqID is initialized based on the filename being laoded
+	        //the current seqID is initialized based on the filename being loadded
 	        int startIndexFile = Utilities.extraSeqIDFromFilePath(filePath);
 	        
 	        int index = startIndexFile * seqIDMultiplier;
@@ -96,11 +106,17 @@ public class HMM
 	        
 			Date lastTimestamp = null;
 			Date curTimestamp = null;
-
+			
+			String line;
+			String[] allColumns;
+			String curMessage;
+			
+			int devID;
+			
 	        while(itr.hasMoreTokens())
 	        {	        	
-	        	String line = itr.nextToken();
-		        String[] allColumns = line.split(separator);
+	        	line = itr.nextToken();
+		        allColumns = line.split(separator);
 		        
 		        //firstly, parse the timestamp, devID, message
 				try {
@@ -109,13 +125,12 @@ public class HMM
 				{
 					break;
 				}    
-				int devID = new Integer(allColumns[1]);   
-				String curMessage = new String(allColumns[2]);
+				devID = new Integer(allColumns[1]);   
+				curMessage = new String(allColumns[2]);
 		        
 		        //if the current message is a messageToRemove, then just skip the current line. 
 		        if(!messagesRemove.contains(curMessage))
 		        {
-		        	
 		        	//first message being parsed, then set the lastTimestamp as well.
 		        	if(messageIndex == 0)
 		        	{
@@ -140,7 +155,7 @@ public class HMM
 							if(timeDiffSeconds >= 120 && timeDiffSeconds <= 6000)
 							{
 								//firstly save the current sequence.
-						        Sequence sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
+						        sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
 						        sequenceID.set(index);
 						        context.write(sequenceID, sequence);
 							}
@@ -174,7 +189,7 @@ public class HMM
 	        //if the end of the file has been reached and some messages have yet to be saved, then save them now.
 	        if(messagesSeq.size() > 0)
 	        {
-	        	 Sequence sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
+	        	 sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
 	        	 sequenceID.set(index);
 	        	 context.write(sequenceID, sequence);
 	        	 //empty the current arraylists
@@ -201,21 +216,16 @@ public class HMM
 	{
 		//Output the total amount of sequences identified. 
 		public void reduce(IntWritable key, Iterable<Sequence> sequences, Context context) throws IOException, InterruptedException
-		{			
-			//only pick those sequences having the key specified. 
-			Sequence outputSequence = null;
+		{		
+			//group all sequences into an arraylist, then use these sequences to train a Hidden Markov Model
+			//ArrayList<Sequence> sequencesStored = new ArrayList<Sequence>();
 			
-			//issue: we read the current along with all the preceding values in readFields. 
+			//issue: we read the current sequence along with all the preceding values in readFields. 
 			for(Sequence sequence : sequences)
 			{
-				//if(sequence.sequenceIDs.get(0) == key.get())
-				//{
-				//	outputSequence = sequence;
-				//}
 				context.write(key, sequence);
+				//sequencesStored.add(sequence);
 			}
-			
-			
 		}
 	}
 
@@ -245,7 +255,8 @@ public class HMM
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Sequence.class);
 		
-		job.setNumReduceTasks(0);
+		job.setNumReduceTasks(1);
+		
 
 		//Reduce output values
 		job.setOutputKeyClass(IntWritable.class);
