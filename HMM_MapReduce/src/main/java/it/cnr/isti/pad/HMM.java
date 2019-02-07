@@ -80,22 +80,16 @@ public class HMM
 	        
 			String filePath = ((FileSplit) context.getInputSplit()).getPath().toString();
 						
-			byte[] bytesRead = bytesContent.getBytes();
-			System.out.println("Loading bytes content from " + filePath);
-			
-			//CharSequence charSequence = new Char
-			//String fileContent = new String(bytesContent.getBytes());
-			StringBuilder strBuilder = new StringBuilder();
-			strBuilder.append(bytesRead);
-			strBuilder.trimToSize();
-	        
+			System.out.println("Loaded string content from " + filePath);
+			String fileContent = new String(bytesContent.getBytes());
+
 			//process the input text file line by line. 
-	        StringTokenizer itr = new StringTokenizer(strBuilder.toString(), "\n");
+	        StringTokenizer itr = new StringTokenizer(fileContent.toString(), "\n");
 	        
 	        //skip the first line, which is the header.
 	        itr.nextToken();
 	        
-	        //the current seqID is initialized based on the filename being loadded
+	        //the current seqID is initialized based on the filename being loaded
 	        int startIndexFile = Utilities.extraSeqIDFromFilePath(filePath);
 	        
 	        int index = startIndexFile * seqIDMultiplier;
