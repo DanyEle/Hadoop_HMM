@@ -1,606 +1,304 @@
-23300001	[23300001, 23300001, 23300001, 23300001, 23300001][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, View.Solution Explorer, Debug.AttachtoProcess][Thu Nov 07 02:57:53 CET 2013, Thu Nov 07 02:57:54 CET 2013, Thu Nov 07 02:58:05 CET 2013, Thu Nov 07 02:58:14 CET 2013, Thu Nov 07 03:05:38 CET 2013]
-23300002	[23300002][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Thu Nov 07 03:07:51 CET 2013]
-23300005	[23300005, 23300005][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Solution Explorer, Debug.AttachtoProcess][Thu Nov 07 03:09:09 CET 2013, Thu Nov 07 03:20:18 CET 2013]
-23300007	[23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007, 23300007][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-15[Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver][Thu Nov 07 03:21:57 CET 2013, Thu Nov 07 03:21:58 CET 2013, Thu Nov 07 03:22:01 CET 2013, Thu Nov 07 03:22:02 CET 2013, Thu Nov 07 03:22:03 CET 2013, Thu Nov 07 03:22:04 CET 2013, Thu Nov 07 03:22:05 CET 2013, Thu Nov 07 03:22:06 CET 2013, Thu Nov 07 03:22:07 CET 2013, Thu Nov 07 03:22:08 CET 2013, Thu Nov 07 03:22:10 CET 2013, Thu Nov 07 03:22:11 CET 2013, Thu Nov 07 03:22:12 CET 2013, Thu Nov 07 03:22:14 CET 2013, Thu Nov 07 03:24:19 CET 2013]
-23300012	[23300012, 23300012, 23300012, 23300012][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.ToggleBreakpoint, Debug.StepOver, View.Call Stack, Debug.Start][Thu Nov 07 03:29:54 CET 2013, Thu Nov 07 03:30:13 CET 2013, Thu Nov 07 03:30:42 CET 2013, Thu Nov 07 03:32:55 CET 2013]
-23300018	[23300018, 23300018][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Call Stack, Debug.Start][Thu Nov 07 03:40:32 CET 2013, Thu Nov 07 03:42:41 CET 2013]
-23300020	[23300020, 23300020, 23300020, 23300020, 23300020, 23300020, 23300020, 23300020, 23300020, 23300020][233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-10[Debug.StepOver, View.Call Stack, View.Call Stack, View.Call Stack, View.Call Stack, View.Call Stack, View.Call Stack, Debug.Start, View.Solution Explorer, View.Call Stack][Thu Nov 07 03:43:41 CET 2013, Thu Nov 07 03:43:49 CET 2013, Thu Nov 07 03:44:06 CET 2013, Thu Nov 07 03:44:31 CET 2013, Thu Nov 07 03:44:38 CET 2013, Thu Nov 07 03:44:41 CET 2013, Thu Nov 07 03:44:43 CET 2013, Thu Nov 07 03:44:49 CET 2013, Thu Nov 07 03:45:01 CET 2013, Thu Nov 07 03:47:12 CET 2013]
-23300021	[23300021][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Thu Nov 07 03:59:17 CET 2013]
-23300022	[23300022][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[View.Call Stack][Thu Nov 07 04:02:23 CET 2013]
-23300031	[23300031][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Thu Nov 07 04:16:02 CET 2013]
-23300033	[23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033, 23300033][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-78[Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Call Stack, View.Call Stack, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll, Edit.BreakLine, Debug.AttachtoProcess][Thu Nov 07 04:16:54 CET 2013, Thu Nov 07 04:16:55 CET 2013, Thu Nov 07 04:16:56 CET 2013, Thu Nov 07 04:17:02 CET 2013, Thu Nov 07 04:17:08 CET 2013, Thu Nov 07 04:17:19 CET 2013, Thu Nov 07 04:17:22 CET 2013, Thu Nov 07 04:17:23 CET 2013, Thu Nov 07 04:17:24 CET 2013, Thu Nov 07 04:17:26 CET 2013, Thu Nov 07 04:17:27 CET 2013, Thu Nov 07 04:17:28 CET 2013, Thu Nov 07 04:17:29 CET 2013, Thu Nov 07 04:17:30 CET 2013, Thu Nov 07 04:17:31 CET 2013, Thu Nov 07 04:17:32 CET 2013, Thu Nov 07 04:17:33 CET 2013, Thu Nov 07 04:17:35 CET 2013, Thu Nov 07 04:17:36 CET 2013, Thu Nov 07 04:17:37 CET 2013, Thu Nov 07 04:17:38 CET 2013, Thu Nov 07 04:17:40 CET 2013, Thu Nov 07 04:17:41 CET 2013, Thu Nov 07 04:17:42 CET 2013, Thu Nov 07 04:17:47 CET 2013, Thu Nov 07 04:17:48 CET 2013, Thu Nov 07 04:17:49 CET 2013, Thu Nov 07 04:17:50 CET 2013, Thu Nov 07 04:17:51 CET 2013, Thu Nov 07 04:17:52 CET 2013, Thu Nov 07 04:17:53 CET 2013, Thu Nov 07 04:17:54 CET 2013, Thu Nov 07 04:17:55 CET 2013, Thu Nov 07 04:17:56 CET 2013, Thu Nov 07 04:17:57 CET 2013, Thu Nov 07 04:17:58 CET 2013, Thu Nov 07 04:17:59 CET 2013, Thu Nov 07 04:18:00 CET 2013, Thu Nov 07 04:18:01 CET 2013, Thu Nov 07 04:18:02 CET 2013, Thu Nov 07 04:18:03 CET 2013, Thu Nov 07 04:18:04 CET 2013, Thu Nov 07 04:18:05 CET 2013, Thu Nov 07 04:18:06 CET 2013, Thu Nov 07 04:18:07 CET 2013, Thu Nov 07 04:18:08 CET 2013, Thu Nov 07 04:18:09 CET 2013, Thu Nov 07 04:18:10 CET 2013, Thu Nov 07 04:18:11 CET 2013, Thu Nov 07 04:18:12 CET 2013, Thu Nov 07 04:18:13 CET 2013, Thu Nov 07 04:18:14 CET 2013, Thu Nov 07 04:18:15 CET 2013, Thu Nov 07 04:18:16 CET 2013, Thu Nov 07 04:18:19 CET 2013, Thu Nov 07 04:18:26 CET 2013, Thu Nov 07 04:18:27 CET 2013, Thu Nov 07 04:18:31 CET 2013, Thu Nov 07 04:18:32 CET 2013, Thu Nov 07 04:18:33 CET 2013, Thu Nov 07 04:18:34 CET 2013, Thu Nov 07 04:18:35 CET 2013, Thu Nov 07 04:18:36 CET 2013, Thu Nov 07 04:18:38 CET 2013, Thu Nov 07 04:18:39 CET 2013, Thu Nov 07 04:18:48 CET 2013, Thu Nov 07 04:18:49 CET 2013, Thu Nov 07 04:18:50 CET 2013, Thu Nov 07 04:18:51 CET 2013, Thu Nov 07 04:18:52 CET 2013, Thu Nov 07 04:18:55 CET 2013, Thu Nov 07 04:18:57 CET 2013, Thu Nov 07 04:18:58 CET 2013, Thu Nov 07 04:19:05 CET 2013, Thu Nov 07 04:19:06 CET 2013, Thu Nov 07 04:19:17 CET 2013, Thu Nov 07 04:19:44 CET 2013, Thu Nov 07 04:33:30 CET 2013]
-23300039	[23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039, 23300039][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-39[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Call Stack, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll][Thu Nov 07 04:43:15 CET 2013, Thu Nov 07 04:43:17 CET 2013, Thu Nov 07 04:43:18 CET 2013, Thu Nov 07 04:43:19 CET 2013, Thu Nov 07 04:43:20 CET 2013, Thu Nov 07 04:43:21 CET 2013, Thu Nov 07 04:43:22 CET 2013, Thu Nov 07 04:43:23 CET 2013, Thu Nov 07 04:43:24 CET 2013, Thu Nov 07 04:43:25 CET 2013, Thu Nov 07 04:43:27 CET 2013, Thu Nov 07 04:43:28 CET 2013, Thu Nov 07 04:43:29 CET 2013, Thu Nov 07 04:43:32 CET 2013, Thu Nov 07 04:43:33 CET 2013, Thu Nov 07 04:43:37 CET 2013, Thu Nov 07 04:43:38 CET 2013, Thu Nov 07 04:43:39 CET 2013, Thu Nov 07 04:43:40 CET 2013, Thu Nov 07 04:43:41 CET 2013, Thu Nov 07 04:43:42 CET 2013, Thu Nov 07 04:43:44 CET 2013, Thu Nov 07 04:43:45 CET 2013, Thu Nov 07 04:43:46 CET 2013, Thu Nov 07 04:43:52 CET 2013, Thu Nov 07 04:44:02 CET 2013, Thu Nov 07 04:44:09 CET 2013, Thu Nov 07 04:44:11 CET 2013, Thu Nov 07 04:44:12 CET 2013, Thu Nov 07 04:44:13 CET 2013, Thu Nov 07 04:44:14 CET 2013, Thu Nov 07 04:44:15 CET 2013, Thu Nov 07 04:44:16 CET 2013, Thu Nov 07 04:44:18 CET 2013, Thu Nov 07 04:44:22 CET 2013, Thu Nov 07 04:44:45 CET 2013, Thu Nov 07 04:44:46 CET 2013, Thu Nov 07 04:44:47 CET 2013, Thu Nov 07 04:47:14 CET 2013]
-23300040	[23300040, 23300040][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Nov 07 04:47:43 CET 2013, Thu Nov 07 05:09:10 CET 2013]
-23300048	[23300048, 23300048, 23300048, 23300048, 23300048][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.Start, Debug.Start, View.Call Stack, Debug.Start, Debug.DetachAll][Fri Nov 08 01:04:06 CET 2013, Fri Nov 08 01:04:11 CET 2013, Fri Nov 08 01:04:22 CET 2013, Fri Nov 08 01:04:38 CET 2013, Fri Nov 08 01:58:22 CET 2013]
-23300049	[23300049, 23300049, 23300049][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Solution Explorer, View.Solution Explorer, Debug.ToggleBreakpoint][Fri Nov 08 01:58:25 CET 2013, Fri Nov 08 01:58:37 CET 2013, Fri Nov 08 02:22:55 CET 2013]
-23300051	[23300051][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Tue Nov 12 05:29:42 CET 2013]
-23300052	[23300052, 23300052, 23300052, 23300052][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, View.Output, Build.BuildSolution, Debug.ToggleBreakpoint][Tue Nov 12 05:29:46 CET 2013, Tue Nov 12 05:29:54 CET 2013, Tue Nov 12 05:29:54 CET 2013, Tue Nov 12 05:42:04 CET 2013]
-23300057	[23300057, 23300057, 23300057, 23300057, 23300057, 23300057][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.DetachAll][Tue Nov 12 05:52:45 CET 2013, Tue Nov 12 05:52:50 CET 2013, Tue Nov 12 05:52:53 CET 2013, Tue Nov 12 05:53:10 CET 2013, Tue Nov 12 05:53:14 CET 2013, Tue Nov 12 06:01:57 CET 2013]
-23300059	[23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059, 23300059][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-42[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepOver][Tue Nov 12 21:42:39 CET 2013, Tue Nov 12 21:42:52 CET 2013, Tue Nov 12 21:42:53 CET 2013, Tue Nov 12 21:42:54 CET 2013, Tue Nov 12 21:42:55 CET 2013, Tue Nov 12 21:42:56 CET 2013, Tue Nov 12 21:42:58 CET 2013, Tue Nov 12 21:42:59 CET 2013, Tue Nov 12 21:43:00 CET 2013, Tue Nov 12 21:43:01 CET 2013, Tue Nov 12 21:43:02 CET 2013, Tue Nov 12 21:43:04 CET 2013, Tue Nov 12 21:43:07 CET 2013, Tue Nov 12 21:43:11 CET 2013, Tue Nov 12 21:43:12 CET 2013, Tue Nov 12 21:43:16 CET 2013, Tue Nov 12 21:43:19 CET 2013, Tue Nov 12 21:43:20 CET 2013, Tue Nov 12 21:43:21 CET 2013, Tue Nov 12 21:43:31 CET 2013, Tue Nov 12 21:43:32 CET 2013, Tue Nov 12 21:43:34 CET 2013, Tue Nov 12 21:43:36 CET 2013, Tue Nov 12 21:43:37 CET 2013, Tue Nov 12 21:43:39 CET 2013, Tue Nov 12 21:43:41 CET 2013, Tue Nov 12 21:43:42 CET 2013, Tue Nov 12 21:43:45 CET 2013, Tue Nov 12 21:43:46 CET 2013, Tue Nov 12 21:43:47 CET 2013, Tue Nov 12 21:43:48 CET 2013, Tue Nov 12 21:43:51 CET 2013, Tue Nov 12 21:43:52 CET 2013, Tue Nov 12 21:43:53 CET 2013, Tue Nov 12 21:43:54 CET 2013, Tue Nov 12 21:43:55 CET 2013, Tue Nov 12 21:43:56 CET 2013, Tue Nov 12 21:43:59 CET 2013, Tue Nov 12 21:44:02 CET 2013, Tue Nov 12 21:44:21 CET 2013, Tue Nov 12 21:44:23 CET 2013, Tue Nov 12 21:46:30 CET 2013]
-23300062	[23300062, 23300062, 23300062, 23300062, 23300062, 23300062, 23300062][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Debug.Start, Debug.Start, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Tue Nov 12 21:51:17 CET 2013, Tue Nov 12 21:51:27 CET 2013, Tue Nov 12 21:51:31 CET 2013, Tue Nov 12 21:51:35 CET 2013, Tue Nov 12 21:51:52 CET 2013, Tue Nov 12 21:51:54 CET 2013, Tue Nov 12 21:57:12 CET 2013]
-23300079	[23300079, 23300079, 23300079, 23300079][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.Start, Debug.DetachAll, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Wed Nov 13 04:32:16 CET 2013, Wed Nov 13 04:32:20 CET 2013, Wed Nov 13 04:32:31 CET 2013, Wed Nov 13 04:35:22 CET 2013]
-23300084	[23300084, 23300084][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.StepInto][Wed Nov 13 21:44:23 CET 2013, Wed Nov 13 21:48:29 CET 2013]
-23300087	[23300087][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Wed Nov 13 22:04:24 CET 2013]
-23300099	[23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099, 23300099][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-43[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.DetachAll][Thu Nov 14 00:29:14 CET 2013, Thu Nov 14 00:29:15 CET 2013, Thu Nov 14 00:29:16 CET 2013, Thu Nov 14 00:29:17 CET 2013, Thu Nov 14 00:29:18 CET 2013, Thu Nov 14 00:29:19 CET 2013, Thu Nov 14 00:29:23 CET 2013, Thu Nov 14 00:29:26 CET 2013, Thu Nov 14 00:29:27 CET 2013, Thu Nov 14 00:29:29 CET 2013, Thu Nov 14 00:29:30 CET 2013, Thu Nov 14 00:29:31 CET 2013, Thu Nov 14 00:29:32 CET 2013, Thu Nov 14 00:29:35 CET 2013, Thu Nov 14 00:29:36 CET 2013, Thu Nov 14 00:29:37 CET 2013, Thu Nov 14 00:29:38 CET 2013, Thu Nov 14 00:29:39 CET 2013, Thu Nov 14 00:29:40 CET 2013, Thu Nov 14 00:29:41 CET 2013, Thu Nov 14 00:29:42 CET 2013, Thu Nov 14 00:29:43 CET 2013, Thu Nov 14 00:29:44 CET 2013, Thu Nov 14 00:29:45 CET 2013, Thu Nov 14 00:29:50 CET 2013, Thu Nov 14 00:29:51 CET 2013, Thu Nov 14 00:29:52 CET 2013, Thu Nov 14 00:29:53 CET 2013, Thu Nov 14 00:30:10 CET 2013, Thu Nov 14 00:30:11 CET 2013, Thu Nov 14 00:30:17 CET 2013, Thu Nov 14 00:30:21 CET 2013, Thu Nov 14 00:30:43 CET 2013, Thu Nov 14 00:30:44 CET 2013, Thu Nov 14 00:30:52 CET 2013, Thu Nov 14 00:30:54 CET 2013, Thu Nov 14 00:30:56 CET 2013, Thu Nov 14 00:30:58 CET 2013, Thu Nov 14 00:31:04 CET 2013, Thu Nov 14 00:31:05 CET 2013, Thu Nov 14 00:31:08 CET 2013, Thu Nov 14 00:31:23 CET 2013, Thu Nov 14 00:35:20 CET 2013]
-23300100	[23300100, 23300100, 23300100, 23300100][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, View.ResourceView, View.Resource View, Debug.ToggleBreakpoint][Thu Nov 14 00:35:23 CET 2013, Thu Nov 14 00:35:28 CET 2013, Thu Nov 14 00:35:28 CET 2013, Thu Nov 14 00:54:51 CET 2013]
-23300107	[23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107, 23300107][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-28[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Solution Explorer, View.Call Stack][Thu Nov 14 01:01:28 CET 2013, Thu Nov 14 01:01:29 CET 2013, Thu Nov 14 01:01:30 CET 2013, Thu Nov 14 01:01:31 CET 2013, Thu Nov 14 01:01:42 CET 2013, Thu Nov 14 01:01:43 CET 2013, Thu Nov 14 01:01:44 CET 2013, Thu Nov 14 01:01:45 CET 2013, Thu Nov 14 01:01:46 CET 2013, Thu Nov 14 01:01:47 CET 2013, Thu Nov 14 01:01:48 CET 2013, Thu Nov 14 01:01:49 CET 2013, Thu Nov 14 01:01:50 CET 2013, Thu Nov 14 01:01:51 CET 2013, Thu Nov 14 01:01:58 CET 2013, Thu Nov 14 01:01:59 CET 2013, Thu Nov 14 01:02:00 CET 2013, Thu Nov 14 01:02:01 CET 2013, Thu Nov 14 01:02:02 CET 2013, Thu Nov 14 01:02:04 CET 2013, Thu Nov 14 01:02:05 CET 2013, Thu Nov 14 01:02:06 CET 2013, Thu Nov 14 01:02:08 CET 2013, Thu Nov 14 01:02:09 CET 2013, Thu Nov 14 01:02:10 CET 2013, Thu Nov 14 01:02:11 CET 2013, Thu Nov 14 01:02:35 CET 2013, Thu Nov 14 01:04:25 CET 2013]
-23300109	[23300109, 23300109, 23300109, 23300109, 23300109, 23300109, 23300109, 23300109, 23300109, 23300109, 23300109][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-11[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.Start][Thu Nov 14 01:05:37 CET 2013, Thu Nov 14 01:05:57 CET 2013, Thu Nov 14 01:05:59 CET 2013, Thu Nov 14 01:06:18 CET 2013, Thu Nov 14 01:06:25 CET 2013, Thu Nov 14 01:06:28 CET 2013, Thu Nov 14 01:06:29 CET 2013, Thu Nov 14 01:06:33 CET 2013, Thu Nov 14 01:06:36 CET 2013, Thu Nov 14 01:06:56 CET 2013, Thu Nov 14 01:10:13 CET 2013]
-23300117	[23300117][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[View.Watch 1][Thu Nov 14 01:26:16 CET 2013]
-23300124	[23300124, 23300124, 23300124, 23300124, 23300124][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.ToggleBreakpoint, View.Solution Explorer, View.Output, Build.BuildSolution, Debug.AttachtoProcess][Thu Nov 14 01:34:26 CET 2013, Thu Nov 14 01:34:29 CET 2013, Thu Nov 14 01:34:34 CET 2013, Thu Nov 14 01:34:34 CET 2013, Thu Nov 14 01:36:46 CET 2013]
-23300130	[23300130, 23300130][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.Start, Debug.DetachAll][Thu Nov 14 01:44:14 CET 2013, Thu Nov 14 02:07:47 CET 2013]
-23300131	[23300131][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Thu Nov 14 02:25:45 CET 2013]
-23300136	[23300136][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.StepOver][Thu Nov 14 02:40:19 CET 2013]
-23300141	[23300141, 23300141, 23300141, 23300141][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.StepOver, Debug.StepOver, Edit.GoToDefinition, Debug.Start][Thu Nov 14 06:07:20 CET 2013, Thu Nov 14 06:07:21 CET 2013, Thu Nov 14 06:07:50 CET 2013, Thu Nov 14 06:14:59 CET 2013]
-23300143	[23300143][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.DetachAll][Thu Nov 14 06:18:38 CET 2013]
-23300148	[23300148, 23300148, 23300148][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Call Stack, Debug.Start, Debug.AttachtoProcess][Thu Nov 14 06:24:02 CET 2013, Thu Nov 14 06:24:09 CET 2013, Thu Nov 14 06:34:36 CET 2013]
-23300159	[23300159, 23300159, 23300159, 23300159, 23300159][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Fri Nov 15 05:47:29 CET 2013, Fri Nov 15 05:47:39 CET 2013, Fri Nov 15 05:47:49 CET 2013, Fri Nov 15 05:47:51 CET 2013, Fri Nov 15 06:03:23 CET 2013]
-23300160	[23300160, 23300160, 23300160, 23300160][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Edit.LineDown, Edit.LineDown, Debug.ToggleBreakpoint, Debug.AttachtoProcess][Fri Nov 15 06:03:24 CET 2013, Fri Nov 15 06:03:25 CET 2013, Fri Nov 15 06:03:26 CET 2013, Fri Nov 15 06:15:10 CET 2013]
-23300161	[23300161][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Fri Nov 15 06:21:16 CET 2013]
-23300166	[23300166, 23300166, 23300166, 23300166][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.Start, View.Output, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Fri Nov 15 06:24:29 CET 2013, Fri Nov 15 06:24:29 CET 2013, Fri Nov 15 06:24:55 CET 2013, Fri Nov 15 06:32:36 CET 2013]
-23300170	[23300170][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Fri Nov 15 07:31:25 CET 2013]
-23300171	[23300171, 23300171][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Solution Explorer, Debug.DetachAll][Fri Nov 15 07:31:42 CET 2013, Fri Nov 15 07:34:33 CET 2013]
-23300175	[23300175][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.DetachAll][Fri Nov 15 07:44:24 CET 2013]
-23300176	[23300176, 23300176][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Fri Nov 15 07:44:30 CET 2013, Fri Nov 15 07:54:45 CET 2013]
-23300179	[23300179][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Fri Nov 15 08:08:23 CET 2013]
-23300181	[23300181, 23300181, 23300181, 23300181, 23300181, 23300181, 23300181][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.StepOver][Fri Nov 15 08:09:01 CET 2013, Fri Nov 15 08:09:04 CET 2013, Fri Nov 15 08:09:05 CET 2013, Fri Nov 15 08:09:07 CET 2013, Fri Nov 15 08:09:08 CET 2013, Fri Nov 15 08:09:33 CET 2013, Fri Nov 15 08:22:06 CET 2013]
-23300182	[23300182, 23300182, 23300182, 23300182, 23300182, 23300182][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.Call Stack][Fri Nov 15 08:22:07 CET 2013, Fri Nov 15 08:22:08 CET 2013, Fri Nov 15 08:22:10 CET 2013, Fri Nov 15 08:22:11 CET 2013, Fri Nov 15 08:22:35 CET 2013, Fri Nov 15 08:24:28 CET 2013]
-23300186	[23300186][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Fri Nov 15 09:39:30 CET 2013]
-23300190	[23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190, 23300190][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-15[Debug.ToggleBreakpoint, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.ToggleBreakpoint, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.Start, View.Call Stack, Debug.ToggleBreakpoint, Debug.Start, Debug.Start, Debug.StepOver][Fri Nov 15 09:44:03 CET 2013, Fri Nov 15 09:44:04 CET 2013, Fri Nov 15 09:44:16 CET 2013, Fri Nov 15 09:44:17 CET 2013, Fri Nov 15 09:44:17 CET 2013, Fri Nov 15 09:44:23 CET 2013, Fri Nov 15 09:44:38 CET 2013, Fri Nov 15 09:44:41 CET 2013, Fri Nov 15 09:44:42 CET 2013, Fri Nov 15 09:44:44 CET 2013, Fri Nov 15 09:44:50 CET 2013, Fri Nov 15 09:44:55 CET 2013, Fri Nov 15 09:44:56 CET 2013, Fri Nov 15 09:44:58 CET 2013, Fri Nov 15 09:53:03 CET 2013]
-23300195	[23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195, 23300195][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-20[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Watch 1, Debug.AddWatch, View.Watch 1, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.DetachAll, Debug.ToggleBreakpoint][Fri Nov 15 09:57:53 CET 2013, Fri Nov 15 09:57:54 CET 2013, Fri Nov 15 09:58:04 CET 2013, Fri Nov 15 09:58:05 CET 2013, Fri Nov 15 09:58:21 CET 2013, Fri Nov 15 09:58:21 CET 2013, Fri Nov 15 09:58:30 CET 2013, Fri Nov 15 09:58:35 CET 2013, Fri Nov 15 09:58:36 CET 2013, Fri Nov 15 09:58:50 CET 2013, Fri Nov 15 09:58:51 CET 2013, Fri Nov 15 09:58:55 CET 2013, Fri Nov 15 09:58:56 CET 2013, Fri Nov 15 09:58:58 CET 2013, Fri Nov 15 09:58:59 CET 2013, Fri Nov 15 09:59:00 CET 2013, Fri Nov 15 09:59:12 CET 2013, Fri Nov 15 09:59:14 CET 2013, Fri Nov 15 09:59:35 CET 2013, Fri Nov 15 10:12:02 CET 2013]
-23300201	[23300201, 23300201, 23300201, 23300201, 23300201][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Edit.BreakLine, Edit.Delete, Edit.CompleteWord, Edit.CompleteWord, Debug.AttachtoProcess][Tue Nov 19 20:37:51 CET 2013, Tue Nov 19 20:38:04 CET 2013, Tue Nov 19 20:38:06 CET 2013, Tue Nov 19 20:38:08 CET 2013, Tue Nov 19 21:08:05 CET 2013]
-23300209	[23300209, 23300209][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Solution Explorer, Debug.ToggleBreakpoint][Fri Nov 22 01:19:58 CET 2013, Fri Nov 22 01:22:04 CET 2013]
-23300210	[23300210, 23300210, 23300210, 23300210][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Breakpoints, View.Breakpoints, Edit.GoToDefinition, Debug.ToggleBreakpoint][Fri Nov 22 01:22:06 CET 2013, Fri Nov 22 01:22:15 CET 2013, Fri Nov 22 01:22:26 CET 2013, Fri Nov 22 01:24:13 CET 2013]
-23300216	[23300216, 23300216, 23300216][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, Debug.Start, View.Call Stack][Fri Nov 22 01:29:01 CET 2013, Fri Nov 22 01:29:03 CET 2013, Fri Nov 22 02:00:15 CET 2013]
-23300217	[23300217, 23300217, 23300217, 23300217, 23300217, 23300217, 23300217, 23300217][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[View.Call Stack, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Debug.StepOver][Fri Nov 22 02:00:22 CET 2013, Fri Nov 22 02:00:47 CET 2013, Fri Nov 22 02:00:48 CET 2013, Fri Nov 22 02:00:49 CET 2013, Fri Nov 22 02:00:50 CET 2013, Fri Nov 22 02:00:51 CET 2013, Fri Nov 22 02:00:52 CET 2013, Fri Nov 22 02:02:41 CET 2013]
-23300221	[23300221, 23300221][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.Start][Fri Nov 22 02:07:41 CET 2013, Fri Nov 22 02:10:06 CET 2013]
-23300222	[23300222, 23300222, 23300222, 23300222][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.Start, Edit.LineDown, Edit.LineDown, Debug.StepInto][Fri Nov 22 02:10:08 CET 2013, Fri Nov 22 02:10:11 CET 2013, Fri Nov 22 02:10:12 CET 2013, Fri Nov 22 02:13:25 CET 2013]
-23300224	[23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224, 23300224][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-23[Debug.StepOver, Debug.StepOver, Edit.LineUp, Edit.LineUp, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Debug.StepOver, Edit.LineDown, Edit.LineDown, Edit.LineDown, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.Start, Debug.Start, View.Solution Explorer, View.Call Stack][Fri Nov 22 02:15:08 CET 2013, Fri Nov 22 02:15:11 CET 2013, Fri Nov 22 02:15:15 CET 2013, Fri Nov 22 02:15:16 CET 2013, Fri Nov 22 02:15:17 CET 2013, Fri Nov 22 02:15:18 CET 2013, Fri Nov 22 02:15:20 CET 2013, Fri Nov 22 02:15:21 CET 2013, Fri Nov 22 02:15:33 CET 2013, Fri Nov 22 02:15:35 CET 2013, Fri Nov 22 02:15:36 CET 2013, Fri Nov 22 02:15:37 CET 2013, Fri Nov 22 02:15:45 CET 2013, Fri Nov 22 02:15:46 CET 2013, Fri Nov 22 02:15:47 CET 2013, Fri Nov 22 02:15:48 CET 2013, Fri Nov 22 02:15:49 CET 2013, Fri Nov 22 02:15:54 CET 2013, Fri Nov 22 02:15:57 CET 2013, Fri Nov 22 02:15:57 CET 2013, Fri Nov 22 02:15:59 CET 2013, Fri Nov 22 02:16:23 CET 2013, Fri Nov 22 02:23:46 CET 2013]
-23300226	[23300226][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.StepOver][Fri Nov 22 02:30:16 CET 2013]
-23300227	[23300227, 23300227][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Call Stack, Debug.StepOver][Fri Nov 22 02:30:21 CET 2013, Fri Nov 22 02:35:29 CET 2013]
-23300231	[23300231, 23300231, 23300231][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.StepOver, View.VisualStudioBgOrFg, Debug.DetachAll][Fri Nov 22 02:39:39 CET 2013, Fri Nov 22 02:39:44 CET 2013, Fri Nov 22 03:34:48 CET 2013]
-23300238	[23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238, 23300238][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-41[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.StepOver, Debug.ToggleBreakpoint, View.Disassembly, Debug.StepOver, Debug.Start, Edit.LineDown, Edit.LineUp, Debug.Start][Mon Nov 25 04:19:38 CET 2013, Mon Nov 25 04:19:39 CET 2013, Mon Nov 25 04:19:40 CET 2013, Mon Nov 25 04:19:43 CET 2013, Mon Nov 25 04:19:44 CET 2013, Mon Nov 25 04:19:45 CET 2013, Mon Nov 25 04:19:46 CET 2013, Mon Nov 25 04:19:47 CET 2013, Mon Nov 25 04:19:48 CET 2013, Mon Nov 25 04:19:53 CET 2013, Mon Nov 25 04:19:57 CET 2013, Mon Nov 25 04:19:59 CET 2013, Mon Nov 25 04:20:00 CET 2013, Mon Nov 25 04:20:01 CET 2013, Mon Nov 25 04:20:02 CET 2013, Mon Nov 25 04:20:03 CET 2013, Mon Nov 25 04:20:05 CET 2013, Mon Nov 25 04:20:07 CET 2013, Mon Nov 25 04:20:08 CET 2013, Mon Nov 25 04:20:13 CET 2013, Mon Nov 25 04:20:14 CET 2013, Mon Nov 25 04:20:16 CET 2013, Mon Nov 25 04:20:17 CET 2013, Mon Nov 25 04:20:18 CET 2013, Mon Nov 25 04:20:21 CET 2013, Mon Nov 25 04:20:22 CET 2013, Mon Nov 25 04:20:33 CET 2013, Mon Nov 25 04:20:53 CET 2013, Mon Nov 25 04:20:56 CET 2013, Mon Nov 25 04:21:09 CET 2013, Mon Nov 25 04:21:16 CET 2013, Mon Nov 25 04:21:17 CET 2013, Mon Nov 25 04:21:19 CET 2013, Mon Nov 25 04:21:35 CET 2013, Mon Nov 25 04:21:35 CET 2013, Mon Nov 25 04:21:36 CET 2013, Mon Nov 25 04:21:37 CET 2013, Mon Nov 25 04:21:38 CET 2013, Mon Nov 25 04:21:57 CET 2013, Mon Nov 25 04:21:59 CET 2013, Mon Nov 25 04:26:52 CET 2013]
-23300240	[23300240][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Mon Nov 25 04:34:55 CET 2013]
-23300242	[23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242, 23300242][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-62[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Debug.ToggleBreakpoint, View.Disassembly, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineUp, Edit.LineUp, Debug.AttachtoProcess][Mon Nov 25 04:36:20 CET 2013, Mon Nov 25 04:36:21 CET 2013, Mon Nov 25 04:36:22 CET 2013, Mon Nov 25 04:36:23 CET 2013, Mon Nov 25 04:36:24 CET 2013, Mon Nov 25 04:36:25 CET 2013, Mon Nov 25 04:36:32 CET 2013, Mon Nov 25 04:36:40 CET 2013, Mon Nov 25 04:36:41 CET 2013, Mon Nov 25 04:36:42 CET 2013, Mon Nov 25 04:36:43 CET 2013, Mon Nov 25 04:36:44 CET 2013, Mon Nov 25 04:36:45 CET 2013, Mon Nov 25 04:36:46 CET 2013, Mon Nov 25 04:36:50 CET 2013, Mon Nov 25 04:36:51 CET 2013, Mon Nov 25 04:36:52 CET 2013, Mon Nov 25 04:36:53 CET 2013, Mon Nov 25 04:36:54 CET 2013, Mon Nov 25 04:37:08 CET 2013, Mon Nov 25 04:37:11 CET 2013, Mon Nov 25 04:37:13 CET 2013, Mon Nov 25 04:37:14 CET 2013, Mon Nov 25 04:37:22 CET 2013, Mon Nov 25 04:37:23 CET 2013, Mon Nov 25 04:37:25 CET 2013, Mon Nov 25 04:37:26 CET 2013, Mon Nov 25 04:37:41 CET 2013, Mon Nov 25 04:37:42 CET 2013, Mon Nov 25 04:37:43 CET 2013, Mon Nov 25 04:37:44 CET 2013, Mon Nov 25 04:37:45 CET 2013, Mon Nov 25 04:37:46 CET 2013, Mon Nov 25 04:37:47 CET 2013, Mon Nov 25 04:37:48 CET 2013, Mon Nov 25 04:37:49 CET 2013, Mon Nov 25 04:37:51 CET 2013, Mon Nov 25 04:37:52 CET 2013, Mon Nov 25 04:37:54 CET 2013, Mon Nov 25 04:38:00 CET 2013, Mon Nov 25 04:38:00 CET 2013, Mon Nov 25 04:38:01 CET 2013, Mon Nov 25 04:38:02 CET 2013, Mon Nov 25 04:38:05 CET 2013, Mon Nov 25 04:38:06 CET 2013, Mon Nov 25 04:38:07 CET 2013, Mon Nov 25 04:38:08 CET 2013, Mon Nov 25 04:38:09 CET 2013, Mon Nov 25 04:38:11 CET 2013, Mon Nov 25 04:38:21 CET 2013, Mon Nov 25 04:38:22 CET 2013, Mon Nov 25 04:38:23 CET 2013, Mon Nov 25 04:38:24 CET 2013, Mon Nov 25 04:38:25 CET 2013, Mon Nov 25 04:38:26 CET 2013, Mon Nov 25 04:38:27 CET 2013, Mon Nov 25 04:38:28 CET 2013, Mon Nov 25 04:38:29 CET 2013, Mon Nov 25 04:38:30 CET 2013, Mon Nov 25 04:38:31 CET 2013, Mon Nov 25 04:38:32 CET 2013, Mon Nov 25 04:43:42 CET 2013]
-23300243	[23300243, 23300243][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.Start][Mon Nov 25 04:44:12 CET 2013, Mon Nov 25 04:47:36 CET 2013]
-23300246	[23300246, 23300246][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Tue Nov 26 00:42:57 CET 2013, Tue Nov 26 00:45:00 CET 2013]
-23300248	[23300248][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Tue Nov 26 06:24:13 CET 2013]
-23300250	[23300250, 23300250, 23300250, 23300250, 23300250][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start][Tue Nov 26 06:25:58 CET 2013, Tue Nov 26 06:26:00 CET 2013, Tue Nov 26 06:26:02 CET 2013, Tue Nov 26 06:26:03 CET 2013, Tue Nov 26 06:28:30 CET 2013]
-23300251	[23300251, 23300251][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.DetachAll][Tue Nov 26 06:28:51 CET 2013, Tue Nov 26 06:31:08 CET 2013]
-23300252	[23300252, 23300252][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Edit.Delete, Debug.ToggleBreakpoint][Tue Nov 26 06:31:16 CET 2013, Tue Nov 26 07:38:06 CET 2013]
-23300255	[23300255, 23300255, 23300255, 23300255][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.Start][Tue Nov 26 07:39:52 CET 2013, Tue Nov 26 07:39:53 CET 2013, Tue Nov 26 07:40:00 CET 2013, Tue Nov 26 07:42:27 CET 2013]
-23300264	[23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264, 23300264][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-20[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll, Edit.LineUp, Edit.LineUp, Edit.Delete, Edit.LineStart, Edit.LineUp, Edit.Delete, Edit.LineDown, Edit.LineDown, Edit.BreakLine, Debug.ToggleBreakpoint][Tue Nov 26 22:11:34 CET 2013, Tue Nov 26 22:11:35 CET 2013, Tue Nov 26 22:11:36 CET 2013, Tue Nov 26 22:11:37 CET 2013, Tue Nov 26 22:11:38 CET 2013, Tue Nov 26 22:11:50 CET 2013, Tue Nov 26 22:11:51 CET 2013, Tue Nov 26 22:11:52 CET 2013, Tue Nov 26 22:11:56 CET 2013, Tue Nov 26 22:12:13 CET 2013, Tue Nov 26 22:12:26 CET 2013, Tue Nov 26 22:12:31 CET 2013, Tue Nov 26 22:12:32 CET 2013, Tue Nov 26 22:12:35 CET 2013, Tue Nov 26 22:12:38 CET 2013, Tue Nov 26 22:12:40 CET 2013, Tue Nov 26 22:12:41 CET 2013, Tue Nov 26 22:12:42 CET 2013, Tue Nov 26 22:12:42 CET 2013, Tue Nov 26 22:20:38 CET 2013]
-23300266	[23300266, 23300266][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.StepOver][Tue Nov 26 22:22:18 CET 2013, Tue Nov 26 22:25:09 CET 2013]
-23300267	[23300267, 23300267, 23300267, 23300267, 23300267, 23300267, 23300267, 23300267, 23300267, 23300267][233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-10[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint][Tue Nov 26 22:25:11 CET 2013, Tue Nov 26 22:25:12 CET 2013, Tue Nov 26 22:25:13 CET 2013, Tue Nov 26 22:25:18 CET 2013, Tue Nov 26 22:25:19 CET 2013, Tue Nov 26 22:25:20 CET 2013, Tue Nov 26 22:25:21 CET 2013, Tue Nov 26 22:25:22 CET 2013, Tue Nov 26 22:25:23 CET 2013, Tue Nov 26 23:59:22 CET 2013]
-23300268	[23300268, 23300268][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint][Tue Nov 26 23:59:24 CET 2013, Wed Nov 27 00:18:46 CET 2013]
-23300272	[23300272, 23300272, 23300272, 23300272, 23300272, 23300272, 23300272][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Debug.ToggleBreakpoint, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start][Wed Nov 27 00:22:53 CET 2013, Wed Nov 27 00:23:00 CET 2013, Wed Nov 27 00:23:02 CET 2013, Wed Nov 27 00:23:08 CET 2013, Wed Nov 27 00:23:12 CET 2013, Wed Nov 27 00:23:22 CET 2013, Wed Nov 27 00:25:25 CET 2013]
-23300273	[23300273, 23300273, 23300273, 23300273, 23300273][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.DetachAll, Edit.Cut, Edit.Delete, Edit.Delete, Debug.AttachtoProcess][Wed Nov 27 00:25:43 CET 2013, Wed Nov 27 00:26:02 CET 2013, Wed Nov 27 00:26:04 CET 2013, Wed Nov 27 00:26:09 CET 2013, Wed Nov 27 00:28:54 CET 2013]
-23300283	[23300283, 23300283, 23300283, 23300283][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.ToggleBreakpoint, File.CloseAllButThis, View.Solution Explorer, Debug.AttachtoProcess][Fri Nov 29 23:01:55 CET 2013, Fri Nov 29 23:02:16 CET 2013, Fri Nov 29 23:02:18 CET 2013, Fri Nov 29 23:25:24 CET 2013]
-23300291	[23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291, 23300291][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-38[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.Start][Fri Nov 29 23:37:04 CET 2013, Fri Nov 29 23:37:05 CET 2013, Fri Nov 29 23:37:06 CET 2013, Fri Nov 29 23:37:07 CET 2013, Fri Nov 29 23:37:08 CET 2013, Fri Nov 29 23:37:09 CET 2013, Fri Nov 29 23:37:10 CET 2013, Fri Nov 29 23:37:11 CET 2013, Fri Nov 29 23:37:12 CET 2013, Fri Nov 29 23:37:13 CET 2013, Fri Nov 29 23:37:14 CET 2013, Fri Nov 29 23:37:26 CET 2013, Fri Nov 29 23:37:29 CET 2013, Fri Nov 29 23:37:41 CET 2013, Fri Nov 29 23:37:45 CET 2013, Fri Nov 29 23:37:46 CET 2013, Fri Nov 29 23:37:48 CET 2013, Fri Nov 29 23:37:49 CET 2013, Fri Nov 29 23:37:50 CET 2013, Fri Nov 29 23:37:51 CET 2013, Fri Nov 29 23:37:56 CET 2013, Fri Nov 29 23:38:00 CET 2013, Fri Nov 29 23:38:01 CET 2013, Fri Nov 29 23:38:05 CET 2013, Fri Nov 29 23:38:07 CET 2013, Fri Nov 29 23:38:08 CET 2013, Fri Nov 29 23:38:10 CET 2013, Fri Nov 29 23:38:13 CET 2013, Fri Nov 29 23:38:16 CET 2013, Fri Nov 29 23:38:17 CET 2013, Fri Nov 29 23:38:18 CET 2013, Fri Nov 29 23:38:19 CET 2013, Fri Nov 29 23:38:20 CET 2013, Fri Nov 29 23:38:22 CET 2013, Fri Nov 29 23:38:24 CET 2013, Fri Nov 29 23:38:28 CET 2013, Fri Nov 29 23:38:46 CET 2013, Fri Nov 29 23:41:12 CET 2013]
-23300293	[23300293, 23300293][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.StepOver, Debug.ToggleBreakpoint][Fri Nov 29 23:42:49 CET 2013, Fri Nov 29 23:45:05 CET 2013]
-23300303	[23300303, 23300303][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.StopDebugging, Debug.AttachtoProcess][Fri Nov 29 23:57:10 CET 2013, Sat Nov 30 00:42:57 CET 2013]
-23300308	[23300308, 23300308, 23300308, 23300308, 23300308, 23300308][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.Start, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Sat Nov 30 00:50:20 CET 2013, Sat Nov 30 00:50:28 CET 2013, Sat Nov 30 00:50:29 CET 2013, Sat Nov 30 00:50:30 CET 2013, Sat Nov 30 00:50:32 CET 2013, Sat Nov 30 00:57:31 CET 2013]
-23300310	[23300310, 23300310, 23300310, 23300310, 23300310, 23300310, 23300310, 23300310][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver][Sat Nov 30 00:59:13 CET 2013, Sat Nov 30 00:59:20 CET 2013, Sat Nov 30 00:59:21 CET 2013, Sat Nov 30 00:59:22 CET 2013, Sat Nov 30 00:59:23 CET 2013, Sat Nov 30 00:59:24 CET 2013, Sat Nov 30 00:59:33 CET 2013, Sat Nov 30 01:03:34 CET 2013]
-23300318	[23300318, 23300318, 23300318, 23300318, 23300318, 23300318][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.StepInto, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, View.Call Stack][Sat Nov 30 01:13:28 CET 2013, Sat Nov 30 01:13:33 CET 2013, Sat Nov 30 01:13:34 CET 2013, Sat Nov 30 01:13:36 CET 2013, Sat Nov 30 01:13:37 CET 2013, Sat Nov 30 01:16:36 CET 2013]
-23300320	[23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320, 23300320][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-69[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.AttachtoProcess][Sat Nov 30 01:17:48 CET 2013, Sat Nov 30 01:17:49 CET 2013, Sat Nov 30 01:17:50 CET 2013, Sat Nov 30 01:17:51 CET 2013, Sat Nov 30 01:17:52 CET 2013, Sat Nov 30 01:17:53 CET 2013, Sat Nov 30 01:17:56 CET 2013, Sat Nov 30 01:17:57 CET 2013, Sat Nov 30 01:17:58 CET 2013, Sat Nov 30 01:17:59 CET 2013, Sat Nov 30 01:18:01 CET 2013, Sat Nov 30 01:18:02 CET 2013, Sat Nov 30 01:18:03 CET 2013, Sat Nov 30 01:18:06 CET 2013, Sat Nov 30 01:18:21 CET 2013, Sat Nov 30 01:18:22 CET 2013, Sat Nov 30 01:18:24 CET 2013, Sat Nov 30 01:18:25 CET 2013, Sat Nov 30 01:18:26 CET 2013, Sat Nov 30 01:18:33 CET 2013, Sat Nov 30 01:18:34 CET 2013, Sat Nov 30 01:18:36 CET 2013, Sat Nov 30 01:18:38 CET 2013, Sat Nov 30 01:18:39 CET 2013, Sat Nov 30 01:18:40 CET 2013, Sat Nov 30 01:18:42 CET 2013, Sat Nov 30 01:18:43 CET 2013, Sat Nov 30 01:18:45 CET 2013, Sat Nov 30 01:18:46 CET 2013, Sat Nov 30 01:18:47 CET 2013, Sat Nov 30 01:18:48 CET 2013, Sat Nov 30 01:18:49 CET 2013, Sat Nov 30 01:18:50 CET 2013, Sat Nov 30 01:18:52 CET 2013, Sat Nov 30 01:18:53 CET 2013, Sat Nov 30 01:18:54 CET 2013, Sat Nov 30 01:18:55 CET 2013, Sat Nov 30 01:18:56 CET 2013, Sat Nov 30 01:18:57 CET 2013, Sat Nov 30 01:18:58 CET 2013, Sat Nov 30 01:18:59 CET 2013, Sat Nov 30 01:19:02 CET 2013, Sat Nov 30 01:19:08 CET 2013, Sat Nov 30 01:19:09 CET 2013, Sat Nov 30 01:19:10 CET 2013, Sat Nov 30 01:19:11 CET 2013, Sat Nov 30 01:19:13 CET 2013, Sat Nov 30 01:19:15 CET 2013, Sat Nov 30 01:19:18 CET 2013, Sat Nov 30 01:19:36 CET 2013, Sat Nov 30 01:19:38 CET 2013, Sat Nov 30 01:19:39 CET 2013, Sat Nov 30 01:19:42 CET 2013, Sat Nov 30 01:19:49 CET 2013, Sat Nov 30 01:19:50 CET 2013, Sat Nov 30 01:19:51 CET 2013, Sat Nov 30 01:19:52 CET 2013, Sat Nov 30 01:19:54 CET 2013, Sat Nov 30 01:19:56 CET 2013, Sat Nov 30 01:19:57 CET 2013, Sat Nov 30 01:19:58 CET 2013, Sat Nov 30 01:19:59 CET 2013, Sat Nov 30 01:20:00 CET 2013, Sat Nov 30 01:20:01 CET 2013, Sat Nov 30 01:20:03 CET 2013, Sat Nov 30 01:20:04 CET 2013, Sat Nov 30 01:20:05 CET 2013, Sat Nov 30 01:20:06 CET 2013, Sat Nov 30 01:31:03 CET 2013]
-23300323	[23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323, 23300323][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-34[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.Start, Debug.Start, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, View.VisualStudioBgOrFg, Debug.StepOver][Sat Nov 30 01:32:38 CET 2013, Sat Nov 30 01:32:41 CET 2013, Sat Nov 30 01:32:42 CET 2013, Sat Nov 30 01:32:48 CET 2013, Sat Nov 30 01:32:49 CET 2013, Sat Nov 30 01:32:50 CET 2013, Sat Nov 30 01:32:51 CET 2013, Sat Nov 30 01:32:53 CET 2013, Sat Nov 30 01:32:54 CET 2013, Sat Nov 30 01:32:55 CET 2013, Sat Nov 30 01:32:56 CET 2013, Sat Nov 30 01:32:57 CET 2013, Sat Nov 30 01:32:58 CET 2013, Sat Nov 30 01:33:00 CET 2013, Sat Nov 30 01:33:01 CET 2013, Sat Nov 30 01:33:03 CET 2013, Sat Nov 30 01:33:04 CET 2013, Sat Nov 30 01:33:11 CET 2013, Sat Nov 30 01:33:13 CET 2013, Sat Nov 30 01:33:32 CET 2013, Sat Nov 30 01:33:41 CET 2013, Sat Nov 30 01:33:44 CET 2013, Sat Nov 30 01:33:45 CET 2013, Sat Nov 30 01:33:48 CET 2013, Sat Nov 30 01:33:50 CET 2013, Sat Nov 30 01:33:56 CET 2013, Sat Nov 30 01:33:59 CET 2013, Sat Nov 30 01:34:06 CET 2013, Sat Nov 30 01:34:07 CET 2013, Sat Nov 30 01:34:08 CET 2013, Sat Nov 30 01:34:09 CET 2013, Sat Nov 30 01:34:17 CET 2013, Sat Nov 30 01:34:40 CET 2013, Sat Nov 30 01:37:44 CET 2013]
-23300327	[23300327][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Sat Nov 30 02:39:04 CET 2013]
-23300329	[23300329, 23300329, 23300329, 23300329, 23300329, 23300329][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.Start, Debug.StepOver, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.DetachAll][Sat Nov 30 02:41:22 CET 2013, Sat Nov 30 02:41:26 CET 2013, Sat Nov 30 02:41:31 CET 2013, Sat Nov 30 02:41:38 CET 2013, Sat Nov 30 02:41:39 CET 2013, Sat Nov 30 03:02:58 CET 2013]
-23300333	[23300333, 23300333, 23300333][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Disassembly, View.VisualStudioBgOrFg, View.Call Stack][Tue Dec 03 01:30:40 CET 2013, Tue Dec 03 01:31:02 CET 2013, Tue Dec 03 01:57:47 CET 2013]
-23300335	[23300335][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Tue Dec 03 02:08:38 CET 2013]
-23300338	[23300338, 23300338, 23300338, 23300338, 23300338, 23300338, 23300338, 23300338, 23300338, 23300338, 23300338][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-11[Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.DetachAll][Tue Dec 03 02:10:38 CET 2013, Tue Dec 03 02:10:44 CET 2013, Tue Dec 03 02:10:46 CET 2013, Tue Dec 03 02:10:47 CET 2013, Tue Dec 03 02:10:49 CET 2013, Tue Dec 03 02:10:51 CET 2013, Tue Dec 03 02:10:54 CET 2013, Tue Dec 03 02:10:55 CET 2013, Tue Dec 03 02:10:57 CET 2013, Tue Dec 03 02:11:05 CET 2013, Tue Dec 03 02:24:56 CET 2013]
-23300339	[23300339][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Tue Dec 03 02:38:43 CET 2013]
-23300346	[23300346][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Wed Dec 04 01:01:51 CET 2013]
-23300349	[23300349, 23300349, 23300349, 23300349, 23300349, 23300349, 23300349, 23300349, 23300349, 23300349][233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-10[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, View.VisualStudioBgOrFg, Debug.Start][Wed Dec 04 01:06:17 CET 2013, Wed Dec 04 01:06:18 CET 2013, Wed Dec 04 01:06:20 CET 2013, Wed Dec 04 01:06:23 CET 2013, Wed Dec 04 01:06:26 CET 2013, Wed Dec 04 01:06:35 CET 2013, Wed Dec 04 01:06:37 CET 2013, Wed Dec 04 01:06:49 CET 2013, Wed Dec 04 01:07:05 CET 2013, Wed Dec 04 01:10:24 CET 2013]
-23300351	[23300351, 23300351, 23300351, 23300351, 23300351, 23300351, 23300351, 23300351, 23300351][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.Start, Debug.Start, Debug.Start, View.VisualStudioBgOrFg, Debug.DetachAll, Debug.AttachtoProcess][Wed Dec 04 01:11:19 CET 2013, Wed Dec 04 01:11:36 CET 2013, Wed Dec 04 01:11:37 CET 2013, Wed Dec 04 01:11:38 CET 2013, Wed Dec 04 01:11:54 CET 2013, Wed Dec 04 01:11:56 CET 2013, Wed Dec 04 01:12:06 CET 2013, Wed Dec 04 01:12:13 CET 2013, Wed Dec 04 01:53:13 CET 2013]
-23300360	[23300360][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[View.Call Stack][Wed Dec 04 02:05:41 CET 2013]
-23300361	[23300361, 23300361][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Call Stack, View.Call Stack][Wed Dec 04 02:05:55 CET 2013, Wed Dec 04 02:08:08 CET 2013]
-23300365	[23300365, 23300365, 23300365, 23300365][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Disassembly, View.Call Stack, Window.Dock, Debug.DetachAll][Wed Dec 04 02:12:04 CET 2013, Wed Dec 04 02:12:04 CET 2013, Wed Dec 04 02:12:04 CET 2013, Wed Dec 04 02:15:14 CET 2013]
-23300366	[23300366][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Wed Dec 04 02:32:25 CET 2013]
-23300367	[23300367][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.DetachAll][Wed Dec 04 02:35:06 CET 2013]
-23300368	[23300368][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Exceptions][Wed Dec 04 02:39:39 CET 2013]
-23300369	[23300369, 23300369, 23300369][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.AttachtoProcess, View.VisualStudioBgOrFg, Debug.Exceptions][Wed Dec 04 02:39:52 CET 2013, Wed Dec 04 02:40:13 CET 2013, Wed Dec 04 02:43:25 CET 2013]
-23300373	[23300373, 23300373, 23300373, 23300373][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Call Stack, View.VisualStudioBgOrFg, Edit.GoToDeclaration, View.Call Stack][Wed Dec 04 02:47:45 CET 2013, Wed Dec 04 02:47:45 CET 2013, Wed Dec 04 02:47:52 CET 2013, Wed Dec 04 02:50:30 CET 2013]
-23300382	[23300382][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Wed Dec 04 22:18:59 CET 2013]
-23300383	[23300383, 23300383][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.DetachAll][Wed Dec 04 22:19:29 CET 2013, Wed Dec 04 22:21:00 CET 2013]
-23300384	[23300384, 23300384, 23300384, 23300384, 23300384][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Edit.BreakLine, Edit.BreakLine, Edit.LineDown, Edit.LineDownExtend, Debug.AttachtoProcess][Wed Dec 04 22:21:04 CET 2013, Wed Dec 04 22:21:17 CET 2013, Wed Dec 04 22:21:17 CET 2013, Wed Dec 04 22:21:30 CET 2013, Wed Dec 04 23:50:38 CET 2013]
-23300385	[23300385][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[View.Call Stack][Wed Dec 04 23:53:03 CET 2013]
-23300388	[23300388, 23300388, 23300388, 23300388, 23300388][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.DetachAll, View.Solution Explorer, ClassViewContextMenus.ClassViewProject.Build, View.Output, Debug.AttachtoProcess][Wed Dec 04 23:54:46 CET 2013, Wed Dec 04 23:54:51 CET 2013, Wed Dec 04 23:54:58 CET 2013, Wed Dec 04 23:54:58 CET 2013, Wed Dec 04 23:57:36 CET 2013]
-23300393	[23300393, 23300393, 23300393, 23300393, 23300393, 23300393, 23300393][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[View.VisualStudioBgOrFg, Debug.StepInto, Debug.StepOut, Debug.StepInto, Debug.StepOver, View.Call Stack, Debug.DetachAll][Thu Dec 05 00:02:40 CET 2013, Thu Dec 05 00:02:48 CET 2013, Thu Dec 05 00:02:54 CET 2013, Thu Dec 05 00:02:57 CET 2013, Thu Dec 05 00:02:59 CET 2013, Thu Dec 05 00:03:13 CET 2013, Thu Dec 05 00:07:03 CET 2013]
-23300394	[23300394, 23300394, 23300394, 23300394][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Edit.LineUp, Edit.Cut, Edit.Delete, Debug.AttachtoProcess][Thu Dec 05 00:07:14 CET 2013, Thu Dec 05 00:07:23 CET 2013, Thu Dec 05 00:07:26 CET 2013, Thu Dec 05 00:11:00 CET 2013]
-23300397	[23300397, 23300397, 23300397, 23300397, 23300397, 23300397, 23300397, 23300397][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Edit.LineUpExtend, Edit.LineUpExtend, Edit.LineDown, Edit.LineUp, Edit.LineUp, Edit.LineUp, Edit.Cut, Debug.AttachtoProcess][Thu Dec 05 00:15:07 CET 2013, Thu Dec 05 00:15:08 CET 2013, Thu Dec 05 00:15:14 CET 2013, Thu Dec 05 00:15:15 CET 2013, Thu Dec 05 00:15:16 CET 2013, Thu Dec 05 00:15:26 CET 2013, Thu Dec 05 00:15:32 CET 2013, Thu Dec 05 00:20:15 CET 2013]
-23300407	[23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407, 23300407][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-13[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.Start, View.VisualStudioBgOrFg, Debug.DetachAll][Thu Dec 05 00:33:02 CET 2013, Thu Dec 05 00:33:03 CET 2013, Thu Dec 05 00:33:06 CET 2013, Thu Dec 05 00:33:07 CET 2013, Thu Dec 05 00:33:08 CET 2013, Thu Dec 05 00:33:11 CET 2013, Thu Dec 05 00:33:29 CET 2013, Thu Dec 05 00:33:30 CET 2013, Thu Dec 05 00:33:32 CET 2013, Thu Dec 05 00:33:37 CET 2013, Thu Dec 05 00:33:39 CET 2013, Thu Dec 05 00:33:45 CET 2013, Thu Dec 05 01:26:33 CET 2013]
-23300408	[23300408, 23300408, 23300408, 23300408][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Edit.BreakLine, View.VisualStudioBgOrFg, Edit.LineUp, Debug.AttachtoProcess][Thu Dec 05 01:26:38 CET 2013, Thu Dec 05 01:26:51 CET 2013, Thu Dec 05 01:26:53 CET 2013, Thu Dec 05 01:34:03 CET 2013]
-23300409	[23300409, 23300409, 23300409, 23300409, 23300409, 23300409, 23300409][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[View.VisualStudioBgOrFg, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.Start][Thu Dec 05 01:34:27 CET 2013, Thu Dec 05 01:34:32 CET 2013, Thu Dec 05 01:34:38 CET 2013, Thu Dec 05 01:34:39 CET 2013, Thu Dec 05 01:34:41 CET 2013, Thu Dec 05 01:34:58 CET 2013, Thu Dec 05 02:49:21 CET 2013]
-23300413	[23300413, 23300413, 23300413, 23300413, 23300413, 23300413][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.Start, Debug.AttachtoProcess][Thu Dec 05 02:55:03 CET 2013, Thu Dec 05 02:55:09 CET 2013, Thu Dec 05 02:55:10 CET 2013, Thu Dec 05 02:55:24 CET 2013, Thu Dec 05 02:55:27 CET 2013, Thu Dec 05 03:40:44 CET 2013]
-23300417	[23300417][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Thu Dec 05 03:45:59 CET 2013]
-23300418	[23300418][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Thu Dec 05 03:53:49 CET 2013]
-23300419	[23300419, 23300419, 23300419, 23300419][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Breakpoints, Debug.ToggleBreakpoint, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Thu Dec 05 03:53:57 CET 2013, Thu Dec 05 03:54:08 CET 2013, Thu Dec 05 03:54:17 CET 2013, Thu Dec 05 04:15:58 CET 2013]
-23300422	[23300422, 23300422][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Dec 05 04:18:50 CET 2013, Thu Dec 05 04:25:21 CET 2013]
-23300423	[23300423, 23300423][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.DetachAll][Thu Dec 05 04:25:50 CET 2013, Thu Dec 05 04:30:17 CET 2013]
-23300424	[23300424][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Thu Dec 05 04:52:14 CET 2013]
-23300434	[23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434, 23300434][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-17[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint, View.Call Stack][Thu Dec 05 05:03:17 CET 2013, Thu Dec 05 05:03:19 CET 2013, Thu Dec 05 05:03:20 CET 2013, Thu Dec 05 05:03:21 CET 2013, Thu Dec 05 05:03:23 CET 2013, Thu Dec 05 05:03:26 CET 2013, Thu Dec 05 05:03:27 CET 2013, Thu Dec 05 05:03:28 CET 2013, Thu Dec 05 05:03:31 CET 2013, Thu Dec 05 05:03:32 CET 2013, Thu Dec 05 05:03:33 CET 2013, Thu Dec 05 05:03:34 CET 2013, Thu Dec 05 05:03:35 CET 2013, Thu Dec 05 05:03:37 CET 2013, Thu Dec 05 05:03:55 CET 2013, Thu Dec 05 05:04:06 CET 2013, Thu Dec 05 05:06:55 CET 2013]
-23300435	[23300435, 23300435, 23300435, 23300435][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.Start, Debug.Start, View.VisualStudioBgOrFg, Debug.Exceptions][Thu Dec 05 05:07:13 CET 2013, Thu Dec 05 05:07:18 CET 2013, Thu Dec 05 05:07:25 CET 2013, Thu Dec 05 05:11:19 CET 2013]
-23300436	[23300436][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Thu Dec 05 05:21:41 CET 2013]
-23300446	[23300446][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Thu Dec 05 05:47:33 CET 2013]
-23300453	[23300453][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[View.Call Stack][Thu Dec 05 05:58:19 CET 2013]
-23300460	[23300460, 23300460][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.StepOver, Debug.Start][Thu Dec 05 22:26:49 CET 2013, Thu Dec 05 22:29:00 CET 2013]
-23300461	[23300461, 23300461, 23300461][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, Debug.Start, Debug.DetachAll][Thu Dec 05 22:29:15 CET 2013, Thu Dec 05 22:29:19 CET 2013, Thu Dec 05 22:31:23 CET 2013]
-23300462	[23300462, 23300462][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Dec 05 22:31:28 CET 2013, Thu Dec 05 23:52:44 CET 2013]
-23300465	[23300465][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.DetachAll][Thu Dec 05 23:56:57 CET 2013]
-23300466	[23300466, 23300466][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Dec 05 23:57:09 CET 2013, Fri Dec 06 00:40:32 CET 2013]
-23300468	[23300468, 23300468, 23300468, 23300468, 23300468, 23300468, 23300468, 23300468][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.AttachtoProcess][Fri Dec 06 00:41:03 CET 2013, Fri Dec 06 00:41:05 CET 2013, Fri Dec 06 00:41:06 CET 2013, Fri Dec 06 00:41:08 CET 2013, Fri Dec 06 00:41:10 CET 2013, Fri Dec 06 00:41:11 CET 2013, Fri Dec 06 00:41:20 CET 2013, Fri Dec 06 00:57:09 CET 2013]
-23300472	[23300472][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Fri Dec 13 03:04:17 CET 2013]
-23300473	[23300473, 23300473, 23300473, 23300473, 23300473, 23300473][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[View.Solution Explorer, View.Solution Explorer, View.Output, Debug.Start, View.VisualStudioBgOrFg, Debug.StepInto][Fri Dec 13 03:04:25 CET 2013, Fri Dec 13 03:04:35 CET 2013, Fri Dec 13 03:04:41 CET 2013, Fri Dec 13 03:04:41 CET 2013, Fri Dec 13 03:05:00 CET 2013, Fri Dec 13 03:14:15 CET 2013]
-23300474	[23300474, 23300474, 23300474, 23300474][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Edit.GoToDefinition, Window.NextDocumentWindowNav, Edit.GoToDefinition, Debug.ToggleBreakpoint][Fri Dec 13 03:14:22 CET 2013, Fri Dec 13 03:14:34 CET 2013, Fri Dec 13 03:14:45 CET 2013, Fri Dec 13 03:23:21 CET 2013]
-23300475	[23300475, 23300475, 23300475, 23300475][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, ClassViewContextMenus.ClassViewProject.Build, View.Output, Debug.AttachtoProcess][Fri Dec 13 03:23:25 CET 2013, Fri Dec 13 03:23:33 CET 2013, Fri Dec 13 03:23:33 CET 2013, Fri Dec 13 03:31:19 CET 2013]
-23300478	[23300478, 23300478, 23300478, 23300478, 23300478, 23300478, 23300478][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Debug.ToggleBreakpoint, Debug.Start, Edit.Delete, View.Solution Explorer, View.Output, ClassViewContextMenus.ClassViewProject.Build, Debug.AttachtoProcess][Fri Dec 13 03:34:25 CET 2013, Fri Dec 13 03:34:26 CET 2013, Fri Dec 13 03:34:41 CET 2013, Fri Dec 13 03:34:47 CET 2013, Fri Dec 13 03:34:51 CET 2013, Fri Dec 13 03:34:51 CET 2013, Fri Dec 13 03:51:47 CET 2013]
-23300479	[23300479, 23300479, 23300479, 23300479, 23300479][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[File.CloseAllButThis, Debug.ToggleBreakpoint, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepOver][Fri Dec 13 03:51:58 CET 2013, Fri Dec 13 03:52:06 CET 2013, Fri Dec 13 03:52:19 CET 2013, Fri Dec 13 03:52:35 CET 2013, Fri Dec 13 03:55:32 CET 2013]
-23300480	[23300480, 23300480, 23300480, 23300480, 23300480, 23300480, 23300480, 23300480, 23300480][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver][Fri Dec 13 03:55:33 CET 2013, Fri Dec 13 03:55:37 CET 2013, Fri Dec 13 03:55:38 CET 2013, Fri Dec 13 03:55:39 CET 2013, Fri Dec 13 03:55:40 CET 2013, Fri Dec 13 03:55:41 CET 2013, Fri Dec 13 03:55:43 CET 2013, Fri Dec 13 03:55:44 CET 2013, Fri Dec 13 03:58:10 CET 2013]
-23300483	[23300483, 23300483, 23300483][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Edit.GoToDefinition, View.VisualStudioBgOrFg, Debug.StepOver][Fri Dec 13 04:00:44 CET 2013, Fri Dec 13 04:01:05 CET 2013, Fri Dec 13 04:02:45 CET 2013]
-23300484	[23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484, 23300484][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-43[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Fri Dec 13 04:02:50 CET 2013, Fri Dec 13 04:02:59 CET 2013, Fri Dec 13 04:03:00 CET 2013, Fri Dec 13 04:03:01 CET 2013, Fri Dec 13 04:03:02 CET 2013, Fri Dec 13 04:03:03 CET 2013, Fri Dec 13 04:03:04 CET 2013, Fri Dec 13 04:03:04 CET 2013, Fri Dec 13 04:03:06 CET 2013, Fri Dec 13 04:03:07 CET 2013, Fri Dec 13 04:03:17 CET 2013, Fri Dec 13 04:03:22 CET 2013, Fri Dec 13 04:03:23 CET 2013, Fri Dec 13 04:03:24 CET 2013, Fri Dec 13 04:03:25 CET 2013, Fri Dec 13 04:03:27 CET 2013, Fri Dec 13 04:03:28 CET 2013, Fri Dec 13 04:03:29 CET 2013, Fri Dec 13 04:03:30 CET 2013, Fri Dec 13 04:03:31 CET 2013, Fri Dec 13 04:03:32 CET 2013, Fri Dec 13 04:03:33 CET 2013, Fri Dec 13 04:03:34 CET 2013, Fri Dec 13 04:03:35 CET 2013, Fri Dec 13 04:03:36 CET 2013, Fri Dec 13 04:03:37 CET 2013, Fri Dec 13 04:03:38 CET 2013, Fri Dec 13 04:03:39 CET 2013, Fri Dec 13 04:03:42 CET 2013, Fri Dec 13 04:03:43 CET 2013, Fri Dec 13 04:03:45 CET 2013, Fri Dec 13 04:03:46 CET 2013, Fri Dec 13 04:03:47 CET 2013, Fri Dec 13 04:03:48 CET 2013, Fri Dec 13 04:03:49 CET 2013, Fri Dec 13 04:03:50 CET 2013, Fri Dec 13 04:03:51 CET 2013, Fri Dec 13 04:03:59 CET 2013, Fri Dec 13 04:04:00 CET 2013, Fri Dec 13 04:04:01 CET 2013, Fri Dec 13 04:04:03 CET 2013, Fri Dec 13 04:04:23 CET 2013, Fri Dec 13 04:08:47 CET 2013]
-23300486	[23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486, 23300486][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-26[Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.AddWatch, View.Watch 1, Debug.StepOver, View.Watch 1, Debug.StepOver, Debug.StepOver, View.Watch 1, Debug.QuickWatch, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepInto][Fri Dec 13 04:09:35 CET 2013, Fri Dec 13 04:09:42 CET 2013, Fri Dec 13 04:09:44 CET 2013, Fri Dec 13 04:09:46 CET 2013, Fri Dec 13 04:09:47 CET 2013, Fri Dec 13 04:09:48 CET 2013, Fri Dec 13 04:09:49 CET 2013, Fri Dec 13 04:09:52 CET 2013, Fri Dec 13 04:09:53 CET 2013, Fri Dec 13 04:09:58 CET 2013, Fri Dec 13 04:09:58 CET 2013, Fri Dec 13 04:10:00 CET 2013, Fri Dec 13 04:10:02 CET 2013, Fri Dec 13 04:10:06 CET 2013, Fri Dec 13 04:10:09 CET 2013, Fri Dec 13 04:10:16 CET 2013, Fri Dec 13 04:10:36 CET 2013, Fri Dec 13 04:10:39 CET 2013, Fri Dec 13 04:10:40 CET 2013, Fri Dec 13 04:10:41 CET 2013, Fri Dec 13 04:10:42 CET 2013, Fri Dec 13 04:10:43 CET 2013, Fri Dec 13 04:10:48 CET 2013, Fri Dec 13 04:10:54 CET 2013, Fri Dec 13 04:11:06 CET 2013, Fri Dec 13 04:16:10 CET 2013]
-23300487	[23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487, 23300487][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-16[Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepOver][Fri Dec 13 04:16:13 CET 2013, Fri Dec 13 04:16:14 CET 2013, Fri Dec 13 04:16:16 CET 2013, Fri Dec 13 04:16:17 CET 2013, Fri Dec 13 04:16:18 CET 2013, Fri Dec 13 04:16:19 CET 2013, Fri Dec 13 04:16:20 CET 2013, Fri Dec 13 04:16:22 CET 2013, Fri Dec 13 04:16:23 CET 2013, Fri Dec 13 04:16:24 CET 2013, Fri Dec 13 04:16:26 CET 2013, Fri Dec 13 04:16:44 CET 2013, Fri Dec 13 04:16:45 CET 2013, Fri Dec 13 04:16:55 CET 2013, Fri Dec 13 04:17:06 CET 2013, Fri Dec 13 04:22:51 CET 2013]
-23300488	[23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488, 23300488][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-22[Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.StepOver][Fri Dec 13 04:22:52 CET 2013, Fri Dec 13 04:22:53 CET 2013, Fri Dec 13 04:22:54 CET 2013, Fri Dec 13 04:22:55 CET 2013, Fri Dec 13 04:22:58 CET 2013, Fri Dec 13 04:23:00 CET 2013, Fri Dec 13 04:23:02 CET 2013, Fri Dec 13 04:23:03 CET 2013, Fri Dec 13 04:23:04 CET 2013, Fri Dec 13 04:23:11 CET 2013, Fri Dec 13 04:23:12 CET 2013, Fri Dec 13 04:23:13 CET 2013, Fri Dec 13 04:23:14 CET 2013, Fri Dec 13 04:23:15 CET 2013, Fri Dec 13 04:23:16 CET 2013, Fri Dec 13 04:23:17 CET 2013, Fri Dec 13 04:23:18 CET 2013, Fri Dec 13 04:23:19 CET 2013, Fri Dec 13 04:23:20 CET 2013, Fri Dec 13 04:23:22 CET 2013, Fri Dec 13 04:23:25 CET 2013, Fri Dec 13 04:27:21 CET 2013]
-23300489	[23300489, 23300489, 23300489, 23300489, 23300489, 23300489, 23300489, 23300489, 23300489, 23300489, 23300489, 23300489][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-12[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver, Debug.StepOver, Debug.Start][Fri Dec 13 04:27:22 CET 2013, Fri Dec 13 04:27:25 CET 2013, Fri Dec 13 04:27:26 CET 2013, Fri Dec 13 04:27:27 CET 2013, Fri Dec 13 04:27:28 CET 2013, Fri Dec 13 04:27:29 CET 2013, Fri Dec 13 04:27:31 CET 2013, Fri Dec 13 04:27:32 CET 2013, Fri Dec 13 04:27:37 CET 2013, Fri Dec 13 04:27:43 CET 2013, Fri Dec 13 04:27:45 CET 2013, Fri Dec 13 04:34:40 CET 2013]
-23300490	[23300490][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Fri Dec 13 04:39:50 CET 2013]
-23300492	[23300492][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Fri Dec 13 21:42:19 CET 2013]
-23300496	[23300496, 23300496, 23300496, 23300496, 23300496, 23300496, 23300496, 23300496, 23300496][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[View.Call Stack, View.Call Stack, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, Debug.Start][Fri Dec 13 21:47:19 CET 2013, Fri Dec 13 21:47:27 CET 2013, Fri Dec 13 21:47:44 CET 2013, Fri Dec 13 21:47:45 CET 2013, Fri Dec 13 21:47:46 CET 2013, Fri Dec 13 21:47:49 CET 2013, Fri Dec 13 21:47:52 CET 2013, Fri Dec 13 21:48:15 CET 2013, Fri Dec 13 21:49:56 CET 2013]
-23300498	[23300498, 23300498, 23300498, 23300498, 23300498, 23300498, 23300498][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.Call Stack][Fri Dec 13 21:50:42 CET 2013, Fri Dec 13 21:50:44 CET 2013, Fri Dec 13 21:51:01 CET 2013, Fri Dec 13 21:51:02 CET 2013, Fri Dec 13 21:51:31 CET 2013, Fri Dec 13 21:51:45 CET 2013, Fri Dec 13 21:57:26 CET 2013]
-23300502	[23300502, 23300502][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.StepOver, Debug.ToggleBreakpoint][Fri Dec 13 22:02:21 CET 2013, Fri Dec 13 22:12:03 CET 2013]
-23300518	[23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518, 23300518][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-48[Debug.Start, Debug.StepInto, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepInto, View.VisualStudioBgOrFg, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll, Debug.AttachtoProcess][Tue Dec 17 19:23:21 CET 2013, Tue Dec 17 19:23:30 CET 2013, Tue Dec 17 19:23:35 CET 2013, Tue Dec 17 19:23:37 CET 2013, Tue Dec 17 19:23:43 CET 2013, Tue Dec 17 19:23:44 CET 2013, Tue Dec 17 19:23:47 CET 2013, Tue Dec 17 19:23:59 CET 2013, Tue Dec 17 19:24:12 CET 2013, Tue Dec 17 19:24:13 CET 2013, Tue Dec 17 19:24:32 CET 2013, Tue Dec 17 19:24:33 CET 2013, Tue Dec 17 19:24:36 CET 2013, Tue Dec 17 19:24:39 CET 2013, Tue Dec 17 19:24:40 CET 2013, Tue Dec 17 19:24:42 CET 2013, Tue Dec 17 19:24:43 CET 2013, Tue Dec 17 19:24:48 CET 2013, Tue Dec 17 19:24:50 CET 2013, Tue Dec 17 19:24:53 CET 2013, Tue Dec 17 19:24:56 CET 2013, Tue Dec 17 19:24:57 CET 2013, Tue Dec 17 19:25:04 CET 2013, Tue Dec 17 19:25:05 CET 2013, Tue Dec 17 19:25:08 CET 2013, Tue Dec 17 19:25:09 CET 2013, Tue Dec 17 19:25:10 CET 2013, Tue Dec 17 19:25:12 CET 2013, Tue Dec 17 19:25:13 CET 2013, Tue Dec 17 19:25:15 CET 2013, Tue Dec 17 19:25:21 CET 2013, Tue Dec 17 19:25:21 CET 2013, Tue Dec 17 19:25:28 CET 2013, Tue Dec 17 19:25:30 CET 2013, Tue Dec 17 19:25:31 CET 2013, Tue Dec 17 19:25:32 CET 2013, Tue Dec 17 19:25:33 CET 2013, Tue Dec 17 19:25:34 CET 2013, Tue Dec 17 19:25:35 CET 2013, Tue Dec 17 19:25:37 CET 2013, Tue Dec 17 19:25:38 CET 2013, Tue Dec 17 19:25:39 CET 2013, Tue Dec 17 19:25:40 CET 2013, Tue Dec 17 19:25:41 CET 2013, Tue Dec 17 19:25:42 CET 2013, Tue Dec 17 19:25:44 CET 2013, Tue Dec 17 19:25:56 CET 2013, Tue Dec 17 20:05:58 CET 2013]
-23300519	[23300519][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.StepInto][Tue Dec 17 20:09:49 CET 2013]
-23300526	[23300526][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Wed Dec 18 02:05:12 CET 2013]
-23300527	[23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527, 23300527][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-35[Debug.ToggleBreakpoint, Debug.AttachtoProcess, Debug.StepOver, Debug.StepOver, Debug.StepInto, View.Disassembly, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOut, Debug.StepOut, Debug.StepOut, View.Output, Debug.StepOver, Debug.StepOver, Edit.GoToDefinition, View.Find Symbol Results, File.OpenContainingFolder, Debug.ToggleBreakpoint][Wed Dec 18 02:05:15 CET 2013, Wed Dec 18 02:05:37 CET 2013, Wed Dec 18 02:06:00 CET 2013, Wed Dec 18 02:06:01 CET 2013, Wed Dec 18 02:06:02 CET 2013, Wed Dec 18 02:06:03 CET 2013, Wed Dec 18 02:06:05 CET 2013, Wed Dec 18 02:06:06 CET 2013, Wed Dec 18 02:06:07 CET 2013, Wed Dec 18 02:06:08 CET 2013, Wed Dec 18 02:06:09 CET 2013, Wed Dec 18 02:06:10 CET 2013, Wed Dec 18 02:06:11 CET 2013, Wed Dec 18 02:06:12 CET 2013, Wed Dec 18 02:06:13 CET 2013, Wed Dec 18 02:06:16 CET 2013, Wed Dec 18 02:06:18 CET 2013, Wed Dec 18 02:06:19 CET 2013, Wed Dec 18 02:06:20 CET 2013, Wed Dec 18 02:06:21 CET 2013, Wed Dec 18 02:06:22 CET 2013, Wed Dec 18 02:06:23 CET 2013, Wed Dec 18 02:06:24 CET 2013, Wed Dec 18 02:06:25 CET 2013, Wed Dec 18 02:06:26 CET 2013, Wed Dec 18 02:06:31 CET 2013, Wed Dec 18 02:06:44 CET 2013, Wed Dec 18 02:06:49 CET 2013, Wed Dec 18 02:07:07 CET 2013, Wed Dec 18 02:07:12 CET 2013, Wed Dec 18 02:07:14 CET 2013, Wed Dec 18 02:07:20 CET 2013, Wed Dec 18 02:07:20 CET 2013, Wed Dec 18 02:07:38 CET 2013, Wed Dec 18 02:10:49 CET 2013]
-23300529	[23300529, 23300529, 23300529, 23300529][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Edit.GoToDefinition, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint][Wed Dec 18 02:13:00 CET 2013, Wed Dec 18 02:13:17 CET 2013, Wed Dec 18 02:13:19 CET 2013, Wed Dec 18 02:36:01 CET 2013]
-23300530	[23300530, 23300530, 23300530][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Wed Dec 18 02:36:25 CET 2013, Wed Dec 18 02:36:30 CET 2013, Wed Dec 18 02:38:02 CET 2013]
-23300537	[23300537, 23300537, 23300537][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Disassembly, Debug.StepOver, Debug.Start][Wed Dec 18 02:45:35 CET 2013, Wed Dec 18 02:45:41 CET 2013, Wed Dec 18 02:49:12 CET 2013]
-23300538	[23300538, 23300538, 23300538][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, Debug.Start, Debug.StopDebugging][Wed Dec 18 02:49:19 CET 2013, Wed Dec 18 02:49:47 CET 2013, Wed Dec 18 03:26:36 CET 2013]
-23300544	[23300544, 23300544][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.Start, Debug.StopDebugging][Wed Dec 18 20:17:42 CET 2013, Wed Dec 18 20:21:56 CET 2013]
-23300548	[23300548, 23300548, 23300548, 23300548, 23300548, 23300548][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Wed Dec 18 22:28:21 CET 2013, Wed Dec 18 22:28:23 CET 2013, Wed Dec 18 22:28:29 CET 2013, Wed Dec 18 22:28:34 CET 2013, Wed Dec 18 22:29:03 CET 2013, Wed Dec 18 22:30:47 CET 2013]
-23300551	[23300551][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Wed Dec 18 22:34:48 CET 2013]
-23300559	[23300559][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Wed Jan 08 20:48:30 CET 2014]
-23300562	[23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562, 23300562][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-19[Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepInto, Debug.StepInto, Debug.StepInto, Debug.StepInto, Debug.StepInto, Debug.StepInto, View.Disassembly, Debug.StepOver, Debug.Start, View.Output, View.Disassembly, Debug.ToggleBreakpoint][Wed Jan 08 20:51:24 CET 2014, Wed Jan 08 20:51:37 CET 2014, Wed Jan 08 20:51:38 CET 2014, Wed Jan 08 20:51:45 CET 2014, Wed Jan 08 20:51:47 CET 2014, Wed Jan 08 20:51:48 CET 2014, Wed Jan 08 20:51:49 CET 2014, Wed Jan 08 20:51:50 CET 2014, Wed Jan 08 20:51:51 CET 2014, Wed Jan 08 20:51:53 CET 2014, Wed Jan 08 20:51:54 CET 2014, Wed Jan 08 20:51:58 CET 2014, Wed Jan 08 20:51:59 CET 2014, Wed Jan 08 20:52:10 CET 2014, Wed Jan 08 20:52:10 CET 2014, Wed Jan 08 20:52:19 CET 2014, Wed Jan 08 20:52:23 CET 2014, Wed Jan 08 20:52:47 CET 2014, Wed Jan 08 20:55:43 CET 2014]
-23300571	[23300571, 23300571, 23300571, 23300571, 23300571, 23300571, 23300571, 23300571][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Edit.GoToDefinition, Edit.GoToDefinition, Edit.GoToDefinition, Debug.StepOver][Thu Jan 09 01:52:39 CET 2014, Thu Jan 09 01:52:40 CET 2014, Thu Jan 09 01:52:41 CET 2014, Thu Jan 09 01:52:42 CET 2014, Thu Jan 09 01:52:53 CET 2014, Thu Jan 09 01:53:04 CET 2014, Thu Jan 09 01:53:11 CET 2014, Thu Jan 09 01:55:17 CET 2014]
-23300572	[23300572, 23300572, 23300572, 23300572, 23300572, 23300572][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.StepOver, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, View.VisualStudioBgOrFg, View.Call Stack][Thu Jan 09 01:55:19 CET 2014, Thu Jan 09 01:55:20 CET 2014, Thu Jan 09 01:55:24 CET 2014, Thu Jan 09 01:55:25 CET 2014, Thu Jan 09 01:55:27 CET 2014, Thu Jan 09 02:18:14 CET 2014]
-23300573	[23300573, 23300573][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, Debug.Start][Thu Jan 09 02:18:16 CET 2014, Thu Jan 09 02:42:16 CET 2014]
-23300574	[23300574, 23300574, 23300574][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Thu Jan 09 02:42:35 CET 2014, Thu Jan 09 02:42:37 CET 2014, Thu Jan 09 02:44:28 CET 2014]
-23300577	[23300577, 23300577, 23300577, 23300577][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Edit.UncommentSelection, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Thu Jan 09 02:46:49 CET 2014, Thu Jan 09 02:47:05 CET 2014, Thu Jan 09 02:47:07 CET 2014, Thu Jan 09 03:07:22 CET 2014]
-23300579	[23300579][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.StepOver][Thu Jan 09 03:34:04 CET 2014]
-23300580	[23300580, 23300580, 23300580, 23300580, 23300580, 23300580, 23300580, 23300580, 23300580][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Thu Jan 09 03:34:13 CET 2014, Thu Jan 09 03:34:28 CET 2014, Thu Jan 09 03:34:29 CET 2014, Thu Jan 09 03:34:43 CET 2014, Thu Jan 09 03:34:45 CET 2014, Thu Jan 09 03:35:06 CET 2014, Thu Jan 09 03:35:13 CET 2014, Thu Jan 09 03:35:36 CET 2014, Thu Jan 09 03:56:59 CET 2014]
-23300582	[23300582, 23300582, 23300582][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.ToggleBreakpoint, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Jan 09 21:17:41 CET 2014, Thu Jan 09 21:18:02 CET 2014, Thu Jan 09 21:28:17 CET 2014]
-23300584	[23300584, 23300584, 23300584, 23300584, 23300584, 23300584, 23300584, 23300584, 23300584, 23300584, 23300584][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-11[Debug.ToggleBreakpoint, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Jan 09 21:29:43 CET 2014, Thu Jan 09 21:29:44 CET 2014, Thu Jan 09 21:29:46 CET 2014, Thu Jan 09 21:29:49 CET 2014, Thu Jan 09 21:29:52 CET 2014, Thu Jan 09 21:29:54 CET 2014, Thu Jan 09 21:29:57 CET 2014, Thu Jan 09 21:29:59 CET 2014, Thu Jan 09 21:30:18 CET 2014, Thu Jan 09 21:30:32 CET 2014, Thu Jan 09 21:33:27 CET 2014]
-23300585	[23300585][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Thu Jan 09 21:41:14 CET 2014]
-23300589	[23300589][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Thu Jan 09 21:49:59 CET 2014]
-23300590	[23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590, 23300590][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-17[Debug.Start, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Solution Explorer, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll][Thu Jan 09 21:50:02 CET 2014, Thu Jan 09 21:50:16 CET 2014, Thu Jan 09 21:50:18 CET 2014, Thu Jan 09 21:50:19 CET 2014, Thu Jan 09 21:50:22 CET 2014, Thu Jan 09 21:50:24 CET 2014, Thu Jan 09 21:50:37 CET 2014, Thu Jan 09 21:50:38 CET 2014, Thu Jan 09 21:50:39 CET 2014, Thu Jan 09 21:50:49 CET 2014, Thu Jan 09 21:50:50 CET 2014, Thu Jan 09 21:50:52 CET 2014, Thu Jan 09 21:51:03 CET 2014, Thu Jan 09 21:51:14 CET 2014, Thu Jan 09 21:51:17 CET 2014, Thu Jan 09 21:51:19 CET 2014, Thu Jan 09 21:59:25 CET 2014]
-23300594	[23300594, 23300594, 23300594, 23300594][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, View.Output, ClassViewContextMenus.ClassViewProject.Rebuild, Debug.AttachtoProcess][Thu Jan 09 22:03:05 CET 2014, Thu Jan 09 22:03:18 CET 2014, Thu Jan 09 22:03:18 CET 2014, Thu Jan 09 22:05:03 CET 2014]
-23300595	[23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595, 23300595][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-55[View.Call Stack, Debug.Start, Debug.Start, View.VisualStudioBgOrFg, View.Call Stack, View.Call Stack, Debug.Start, View.Call Stack, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.Call Stack, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint, View.Call Stack, Debug.Start, Debug.Start, Debug.ToggleBreakpoint, View.Call Stack, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Call Stack, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint, Debug.Start, Window.NextDocumentWindowNav, Edit.GoToDeclaration, Debug.Start][Thu Jan 09 22:05:16 CET 2014, Thu Jan 09 22:05:39 CET 2014, Thu Jan 09 22:05:59 CET 2014, Thu Jan 09 22:06:07 CET 2014, Thu Jan 09 22:06:18 CET 2014, Thu Jan 09 22:06:20 CET 2014, Thu Jan 09 22:06:27 CET 2014, Thu Jan 09 22:06:30 CET 2014, Thu Jan 09 22:06:40 CET 2014, Thu Jan 09 22:06:49 CET 2014, Thu Jan 09 22:06:52 CET 2014, Thu Jan 09 22:06:56 CET 2014, Thu Jan 09 22:07:00 CET 2014, Thu Jan 09 22:07:13 CET 2014, Thu Jan 09 22:07:15 CET 2014, Thu Jan 09 22:07:16 CET 2014, Thu Jan 09 22:07:38 CET 2014, Thu Jan 09 22:08:06 CET 2014, Thu Jan 09 22:08:08 CET 2014, Thu Jan 09 22:08:13 CET 2014, Thu Jan 09 22:08:36 CET 2014, Thu Jan 09 22:08:37 CET 2014, Thu Jan 09 22:08:56 CET 2014, Thu Jan 09 22:08:59 CET 2014, Thu Jan 09 22:09:04 CET 2014, Thu Jan 09 22:09:18 CET 2014, Thu Jan 09 22:09:27 CET 2014, Thu Jan 09 22:09:31 CET 2014, Thu Jan 09 22:09:56 CET 2014, Thu Jan 09 22:09:57 CET 2014, Thu Jan 09 22:10:17 CET 2014, Thu Jan 09 22:10:18 CET 2014, Thu Jan 09 22:10:19 CET 2014, Thu Jan 09 22:10:23 CET 2014, Thu Jan 09 22:10:25 CET 2014, Thu Jan 09 22:10:26 CET 2014, Thu Jan 09 22:10:31 CET 2014, Thu Jan 09 22:10:32 CET 2014, Thu Jan 09 22:10:36 CET 2014, Thu Jan 09 22:10:38 CET 2014, Thu Jan 09 22:10:42 CET 2014, Thu Jan 09 22:10:46 CET 2014, Thu Jan 09 22:10:48 CET 2014, Thu Jan 09 22:10:49 CET 2014, Thu Jan 09 22:10:53 CET 2014, Thu Jan 09 22:10:55 CET 2014, Thu Jan 09 22:10:57 CET 2014, Thu Jan 09 22:11:16 CET 2014, Thu Jan 09 22:11:31 CET 2014, Thu Jan 09 22:11:38 CET 2014, Thu Jan 09 22:11:55 CET 2014, Thu Jan 09 22:11:56 CET 2014, Thu Jan 09 22:12:00 CET 2014, Thu Jan 09 22:12:18 CET 2014, Thu Jan 09 22:18:11 CET 2014]
-23300599	[23300599, 23300599][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.Start, Debug.Start][Thu Jan 09 22:22:11 CET 2014, Thu Jan 09 22:24:20 CET 2014]
-23300601	[23300601, 23300601, 23300601, 23300601, 23300601, 23300601][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.Start, Debug.Start, View.Call Stack, Debug.Start, Debug.Start, View.Call Stack][Thu Jan 09 22:25:51 CET 2014, Thu Jan 09 22:25:54 CET 2014, Thu Jan 09 22:26:05 CET 2014, Thu Jan 09 22:26:34 CET 2014, Thu Jan 09 22:26:38 CET 2014, Thu Jan 09 22:28:59 CET 2014]
-23300603	[23300603][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.DetachAll][Thu Jan 09 23:49:33 CET 2014]
-23300604	[23300604, 23300604, 23300604, 23300604, 23300604][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Edit.BreakLine, Edit.BreakLine, Edit.LineUp, Edit.LineUp, Debug.AttachtoProcess][Thu Jan 09 23:49:53 CET 2014, Thu Jan 09 23:49:55 CET 2014, Thu Jan 09 23:49:56 CET 2014, Thu Jan 09 23:50:02 CET 2014, Fri Jan 10 00:26:26 CET 2014]
-23300610	[23300610, 23300610, 23300610, 23300610][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, View.Output, ClassViewContextMenus.ClassViewProject.Build, Debug.AttachtoProcess][Sat Jan 11 02:18:07 CET 2014, Sat Jan 11 02:18:13 CET 2014, Sat Jan 11 02:18:13 CET 2014, Sat Jan 11 02:28:04 CET 2014]
-23300620	[23300620][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Sat Jan 11 02:58:21 CET 2014]
-23300632	[23300632, 23300632, 23300632, 23300632][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.DetachAll, View.VisualStudioBgOrFg, Window.NextDocumentWindowNav, Debug.AttachtoProcess][Mon Jan 13 23:58:35 CET 2014, Mon Jan 13 23:58:49 CET 2014, Mon Jan 13 23:59:04 CET 2014, Tue Jan 14 00:39:18 CET 2014]
-23300636	[23300636, 23300636, 23300636, 23300636, 23300636, 23300636, 23300636, 23300636, 23300636, 23300636, 23300636, 23300636][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-12[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver][Tue Jan 14 00:43:20 CET 2014, Tue Jan 14 00:43:25 CET 2014, Tue Jan 14 00:43:27 CET 2014, Tue Jan 14 00:43:29 CET 2014, Tue Jan 14 00:43:30 CET 2014, Tue Jan 14 00:43:33 CET 2014, Tue Jan 14 00:43:34 CET 2014, Tue Jan 14 00:43:36 CET 2014, Tue Jan 14 00:43:37 CET 2014, Tue Jan 14 00:43:40 CET 2014, Tue Jan 14 00:43:42 CET 2014, Tue Jan 14 00:48:45 CET 2014]
-23300637	[23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637, 23300637][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-34[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.Call Stack, Debug.Start, Debug.DetachAll][Tue Jan 14 00:48:46 CET 2014, Tue Jan 14 00:48:47 CET 2014, Tue Jan 14 00:48:48 CET 2014, Tue Jan 14 00:48:49 CET 2014, Tue Jan 14 00:48:50 CET 2014, Tue Jan 14 00:48:51 CET 2014, Tue Jan 14 00:48:52 CET 2014, Tue Jan 14 00:48:55 CET 2014, Tue Jan 14 00:48:58 CET 2014, Tue Jan 14 00:49:00 CET 2014, Tue Jan 14 00:49:02 CET 2014, Tue Jan 14 00:49:21 CET 2014, Tue Jan 14 00:49:22 CET 2014, Tue Jan 14 00:49:24 CET 2014, Tue Jan 14 00:49:26 CET 2014, Tue Jan 14 00:49:28 CET 2014, Tue Jan 14 00:49:30 CET 2014, Tue Jan 14 00:49:35 CET 2014, Tue Jan 14 00:49:36 CET 2014, Tue Jan 14 00:49:37 CET 2014, Tue Jan 14 00:49:39 CET 2014, Tue Jan 14 00:49:49 CET 2014, Tue Jan 14 00:49:50 CET 2014, Tue Jan 14 00:49:55 CET 2014, Tue Jan 14 00:50:05 CET 2014, Tue Jan 14 00:50:07 CET 2014, Tue Jan 14 00:50:08 CET 2014, Tue Jan 14 00:50:10 CET 2014, Tue Jan 14 00:50:11 CET 2014, Tue Jan 14 00:50:12 CET 2014, Tue Jan 14 00:50:14 CET 2014, Tue Jan 14 00:50:23 CET 2014, Tue Jan 14 00:50:37 CET 2014, Tue Jan 14 00:56:59 CET 2014]
-23300638	[23300638][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Tue Jan 14 01:01:11 CET 2014]
-23300642	[23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642, 23300642][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-18[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll][Tue Jan 14 01:04:51 CET 2014, Tue Jan 14 01:04:52 CET 2014, Tue Jan 14 01:04:53 CET 2014, Tue Jan 14 01:04:54 CET 2014, Tue Jan 14 01:04:55 CET 2014, Tue Jan 14 01:04:56 CET 2014, Tue Jan 14 01:04:57 CET 2014, Tue Jan 14 01:04:58 CET 2014, Tue Jan 14 01:04:59 CET 2014, Tue Jan 14 01:05:00 CET 2014, Tue Jan 14 01:05:02 CET 2014, Tue Jan 14 01:05:10 CET 2014, Tue Jan 14 01:05:28 CET 2014, Tue Jan 14 01:05:34 CET 2014, Tue Jan 14 01:05:35 CET 2014, Tue Jan 14 01:05:39 CET 2014, Tue Jan 14 01:05:41 CET 2014, Tue Jan 14 01:17:02 CET 2014]
-23300643	[23300643][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Tue Jan 14 01:53:17 CET 2014]
-23300644	[23300644, 23300644, 23300644][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Output, View.Solution Explorer, Debug.ToggleBreakpoint][Tue Jan 14 01:53:17 CET 2014, Tue Jan 14 01:53:37 CET 2014, Tue Jan 14 02:28:08 CET 2014]
-23300646	[23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646, 23300646][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-17[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start][Tue Jan 14 02:28:57 CET 2014, Tue Jan 14 02:28:58 CET 2014, Tue Jan 14 02:28:59 CET 2014, Tue Jan 14 02:29:03 CET 2014, Tue Jan 14 02:29:04 CET 2014, Tue Jan 14 02:29:06 CET 2014, Tue Jan 14 02:29:07 CET 2014, Tue Jan 14 02:29:09 CET 2014, Tue Jan 14 02:29:10 CET 2014, Tue Jan 14 02:29:18 CET 2014, Tue Jan 14 02:29:21 CET 2014, Tue Jan 14 02:29:22 CET 2014, Tue Jan 14 02:29:23 CET 2014, Tue Jan 14 02:29:44 CET 2014, Tue Jan 14 02:29:45 CET 2014, Tue Jan 14 02:29:48 CET 2014, Tue Jan 14 02:35:33 CET 2014]
-23300647	[23300647, 23300647, 23300647, 23300647, 23300647][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.ToggleBreakpoint, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.DetachAll][Tue Jan 14 02:35:37 CET 2014, Tue Jan 14 02:35:38 CET 2014, Tue Jan 14 02:35:42 CET 2014, Tue Jan 14 02:35:56 CET 2014, Tue Jan 14 03:33:14 CET 2014]
-23300648	[23300648, 23300648][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Edit.DocumentStart, Debug.ToggleBreakpoint][Tue Jan 14 03:33:24 CET 2014, Tue Jan 14 04:52:10 CET 2014]
-23300650	[23300650, 23300650, 23300650][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.ToggleBreakpoint, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Tue Jan 14 04:53:04 CET 2014, Tue Jan 14 04:53:26 CET 2014, Tue Jan 14 04:56:35 CET 2014]
-23300656	[23300656, 23300656][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.ToggleBreakpoint, Debug.AttachtoProcess][Thu Jan 16 22:14:28 CET 2014, Thu Jan 16 22:21:20 CET 2014]
-23300659	[23300659, 23300659, 23300659, 23300659, 23300659, 23300659, 23300659, 23300659, 23300659, 23300659, 23300659][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-11[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.Start, View.VisualStudioBgOrFg, Debug.DetachAll][Thu Jan 16 22:25:48 CET 2014, Thu Jan 16 22:25:49 CET 2014, Thu Jan 16 22:25:50 CET 2014, Thu Jan 16 22:25:52 CET 2014, Thu Jan 16 22:25:54 CET 2014, Thu Jan 16 22:26:13 CET 2014, Thu Jan 16 22:26:17 CET 2014, Thu Jan 16 22:26:26 CET 2014, Thu Jan 16 22:26:35 CET 2014, Thu Jan 16 22:26:40 CET 2014, Thu Jan 16 22:51:49 CET 2014]
-23300661	[23300661, 23300661, 23300661, 23300661][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.AttachtoProcess, Debug.AttachtoProcess, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Fri Jan 17 04:15:44 CET 2014, Fri Jan 17 04:16:02 CET 2014, Fri Jan 17 04:16:27 CET 2014, Fri Jan 17 04:18:38 CET 2014]
-23300665	[23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665, 23300665][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-16[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.Start, Debug.Start, Debug.Start, Debug.StopDebugging, Debug.ToggleBreakpoint][Fri Jan 17 04:25:13 CET 2014, Fri Jan 17 04:25:14 CET 2014, Fri Jan 17 04:25:15 CET 2014, Fri Jan 17 04:25:16 CET 2014, Fri Jan 17 04:25:17 CET 2014, Fri Jan 17 04:25:18 CET 2014, Fri Jan 17 04:25:21 CET 2014, Fri Jan 17 04:25:22 CET 2014, Fri Jan 17 04:25:24 CET 2014, Fri Jan 17 04:25:25 CET 2014, Fri Jan 17 04:25:36 CET 2014, Fri Jan 17 04:25:39 CET 2014, Fri Jan 17 04:25:48 CET 2014, Fri Jan 17 04:26:04 CET 2014, Fri Jan 17 04:26:22 CET 2014, Fri Jan 17 04:38:44 CET 2014]
-23300666	[23300666, 23300666, 23300666][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Fri Jan 17 04:38:58 CET 2014, Fri Jan 17 04:39:09 CET 2014, Fri Jan 17 04:41:18 CET 2014]
-23300668	[23300668, 23300668, 23300668, 23300668, 23300668, 23300668][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.StepOver, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepOver][Fri Jan 17 04:43:12 CET 2014, Fri Jan 17 04:43:18 CET 2014, Fri Jan 17 04:43:30 CET 2014, Fri Jan 17 04:43:40 CET 2014, Fri Jan 17 04:43:58 CET 2014, Fri Jan 17 04:46:40 CET 2014]
-23300671	[23300671, 23300671, 23300671, 23300671, 23300671, 23300671, 23300671, 23300671, 23300671, 23300671, 23300671, 23300671][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-12[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.Output, Debug.DetachAll][Fri Jan 17 04:50:02 CET 2014, Fri Jan 17 04:50:03 CET 2014, Fri Jan 17 04:50:12 CET 2014, Fri Jan 17 04:50:13 CET 2014, Fri Jan 17 04:50:14 CET 2014, Fri Jan 17 04:50:15 CET 2014, Fri Jan 17 04:50:18 CET 2014, Fri Jan 17 04:50:19 CET 2014, Fri Jan 17 04:50:22 CET 2014, Fri Jan 17 04:50:29 CET 2014, Fri Jan 17 04:50:41 CET 2014, Fri Jan 17 04:57:09 CET 2014]
-23300676	[23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676, 23300676][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-52[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Output, Debug.StepOver, View.Output, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.Solution Explorer, Debug.Start][Sat Jan 18 00:46:47 CET 2014, Sat Jan 18 00:46:49 CET 2014, Sat Jan 18 00:46:50 CET 2014, Sat Jan 18 00:46:51 CET 2014, Sat Jan 18 00:46:56 CET 2014, Sat Jan 18 00:46:58 CET 2014, Sat Jan 18 00:46:59 CET 2014, Sat Jan 18 00:47:05 CET 2014, Sat Jan 18 00:47:06 CET 2014, Sat Jan 18 00:47:11 CET 2014, Sat Jan 18 00:47:17 CET 2014, Sat Jan 18 00:47:21 CET 2014, Sat Jan 18 00:47:22 CET 2014, Sat Jan 18 00:47:23 CET 2014, Sat Jan 18 00:47:25 CET 2014, Sat Jan 18 00:47:28 CET 2014, Sat Jan 18 00:47:29 CET 2014, Sat Jan 18 00:47:33 CET 2014, Sat Jan 18 00:47:35 CET 2014, Sat Jan 18 00:47:38 CET 2014, Sat Jan 18 00:47:42 CET 2014, Sat Jan 18 00:47:44 CET 2014, Sat Jan 18 00:47:45 CET 2014, Sat Jan 18 00:47:47 CET 2014, Sat Jan 18 00:47:48 CET 2014, Sat Jan 18 00:47:49 CET 2014, Sat Jan 18 00:47:50 CET 2014, Sat Jan 18 00:47:51 CET 2014, Sat Jan 18 00:47:52 CET 2014, Sat Jan 18 00:47:53 CET 2014, Sat Jan 18 00:47:54 CET 2014, Sat Jan 18 00:47:55 CET 2014, Sat Jan 18 00:47:56 CET 2014, Sat Jan 18 00:47:58 CET 2014, Sat Jan 18 00:48:05 CET 2014, Sat Jan 18 00:48:13 CET 2014, Sat Jan 18 00:48:20 CET 2014, Sat Jan 18 00:48:22 CET 2014, Sat Jan 18 00:48:25 CET 2014, Sat Jan 18 00:48:26 CET 2014, Sat Jan 18 00:48:27 CET 2014, Sat Jan 18 00:48:28 CET 2014, Sat Jan 18 00:48:34 CET 2014, Sat Jan 18 00:48:36 CET 2014, Sat Jan 18 00:48:37 CET 2014, Sat Jan 18 00:48:42 CET 2014, Sat Jan 18 00:48:44 CET 2014, Sat Jan 18 00:48:46 CET 2014, Sat Jan 18 00:48:47 CET 2014, Sat Jan 18 00:48:49 CET 2014, Sat Jan 18 00:48:57 CET 2014, Sat Jan 18 01:17:54 CET 2014]
-23300680	[23300680, 23300680, 23300680, 23300680][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, ClassViewContextMenus.ClassViewProject.Build, View.Output, Debug.ToggleBreakpoint][Sat Jan 18 03:06:24 CET 2014, Sat Jan 18 03:06:35 CET 2014, Sat Jan 18 03:06:35 CET 2014, Sat Jan 18 03:28:44 CET 2014]
-23300682	[23300682, 23300682][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.ToggleBreakpoint, Debug.AttachtoProcess][Sat Jan 18 03:29:48 CET 2014, Sat Jan 18 03:31:56 CET 2014]
-23300688	[23300688, 23300688, 23300688, 23300688][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.ToggleBreakpoint, Debug.AttachtoProcess, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Tue Jan 21 03:19:01 CET 2014, Tue Jan 21 03:19:29 CET 2014, Tue Jan 21 03:19:39 CET 2014, Tue Jan 21 03:22:15 CET 2014]
-23300690	[23300690, 23300690, 23300690, 23300690, 23300690, 23300690][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.StepOver, Debug.StepOver, Debug.StepOver, File.Exit, Debug.StepOver, Debug.StepOver][Tue Jan 21 03:23:50 CET 2014, Tue Jan 21 03:23:58 CET 2014, Tue Jan 21 03:23:59 CET 2014, Tue Jan 21 03:24:14 CET 2014, Tue Jan 21 03:24:21 CET 2014, Tue Jan 21 03:32:51 CET 2014]
-23300694	[23300694, 23300694, 23300694, 23300694, 23300694, 23300694, 23300694, 23300694, 23300694][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start][Tue Jan 21 03:39:19 CET 2014, Tue Jan 21 03:39:20 CET 2014, Tue Jan 21 03:39:21 CET 2014, Tue Jan 21 03:39:28 CET 2014, Tue Jan 21 03:39:57 CET 2014, Tue Jan 21 03:40:17 CET 2014, Tue Jan 21 03:40:18 CET 2014, Tue Jan 21 03:40:21 CET 2014, Tue Jan 21 03:52:04 CET 2014]
-23300695	[23300695, 23300695, 23300695, 23300695][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Disassembly, Debug.StopDebugging, Edit.Copy, Debug.AttachtoProcess][Tue Jan 21 03:52:10 CET 2014, Tue Jan 21 03:52:13 CET 2014, Tue Jan 21 03:52:40 CET 2014, Tue Jan 21 03:55:09 CET 2014]
-23300698	[23300698, 23300698, 23300698][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Edit.Copy, Edit.Paste, Debug.StepOver][Tue Jan 21 04:00:50 CET 2014, Tue Jan 21 04:00:55 CET 2014, Tue Jan 21 04:04:02 CET 2014]
-23300700	[23300700, 23300700, 23300700, 23300700, 23300700, 23300700, 23300700, 23300700, 23300700][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.StepOver, Debug.StepOver, Edit.Copy, Debug.StopDebugging, View.VisualStudioBgOrFg, Edit.BreakLine, Edit.Paste, Edit.Copy, Debug.StepOver][Tue Jan 21 04:04:47 CET 2014, Tue Jan 21 04:04:51 CET 2014, Tue Jan 21 04:05:12 CET 2014, Tue Jan 21 04:05:17 CET 2014, Tue Jan 21 04:05:20 CET 2014, Tue Jan 21 04:05:36 CET 2014, Tue Jan 21 04:05:36 CET 2014, Tue Jan 21 04:05:47 CET 2014, Tue Jan 21 04:07:39 CET 2014]
-23300701	[23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701, 23300701][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-17[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StopDebugging, Edit.Delete, Edit.SelectionCancel, Edit.SelectionCancel, Edit.BreakLine, Debug.ToggleBreakpoint][Tue Jan 21 04:07:40 CET 2014, Tue Jan 21 04:07:43 CET 2014, Tue Jan 21 04:07:48 CET 2014, Tue Jan 21 04:07:55 CET 2014, Tue Jan 21 04:07:56 CET 2014, Tue Jan 21 04:07:58 CET 2014, Tue Jan 21 04:08:26 CET 2014, Tue Jan 21 04:08:27 CET 2014, Tue Jan 21 04:08:41 CET 2014, Tue Jan 21 04:08:47 CET 2014, Tue Jan 21 04:08:48 CET 2014, Tue Jan 21 04:09:03 CET 2014, Tue Jan 21 04:09:08 CET 2014, Tue Jan 21 04:09:13 CET 2014, Tue Jan 21 04:09:14 CET 2014, Tue Jan 21 04:09:32 CET 2014, Tue Jan 21 04:20:24 CET 2014]
-23300709	[23300709, 23300709, 23300709, 23300709][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.StepOver, Debug.StepOver, Debug.Start, Debug.ToggleBreakpoint][Tue Jan 21 04:27:16 CET 2014, Tue Jan 21 04:27:18 CET 2014, Tue Jan 21 04:27:19 CET 2014, Tue Jan 21 04:29:20 CET 2014]
-23300710	[23300710, 23300710, 23300710][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, Edit.GoToDefinition, Debug.ToggleBreakpoint][Tue Jan 21 04:29:21 CET 2014, Tue Jan 21 04:29:37 CET 2014, Tue Jan 21 04:48:53 CET 2014]
-23300719	[23300719][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Wed Jan 29 23:46:35 CET 2014]
-23300721	[23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721, 23300721][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-15[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver][Wed Jan 29 23:49:06 CET 2014, Wed Jan 29 23:49:16 CET 2014, Wed Jan 29 23:49:18 CET 2014, Wed Jan 29 23:49:19 CET 2014, Wed Jan 29 23:49:28 CET 2014, Wed Jan 29 23:49:31 CET 2014, Wed Jan 29 23:49:46 CET 2014, Wed Jan 29 23:49:47 CET 2014, Wed Jan 29 23:49:48 CET 2014, Wed Jan 29 23:49:49 CET 2014, Wed Jan 29 23:49:50 CET 2014, Wed Jan 29 23:49:51 CET 2014, Wed Jan 29 23:49:53 CET 2014, Wed Jan 29 23:49:54 CET 2014, Wed Jan 29 23:56:11 CET 2014]
-23300724	[23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724, 23300724][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-19[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.DetachAll][Wed Jan 29 23:58:30 CET 2014, Wed Jan 29 23:58:31 CET 2014, Wed Jan 29 23:58:32 CET 2014, Wed Jan 29 23:58:35 CET 2014, Wed Jan 29 23:58:38 CET 2014, Wed Jan 29 23:58:40 CET 2014, Wed Jan 29 23:58:42 CET 2014, Wed Jan 29 23:58:43 CET 2014, Wed Jan 29 23:58:44 CET 2014, Wed Jan 29 23:58:47 CET 2014, Wed Jan 29 23:58:49 CET 2014, Wed Jan 29 23:58:50 CET 2014, Wed Jan 29 23:58:51 CET 2014, Wed Jan 29 23:58:52 CET 2014, Wed Jan 29 23:58:56 CET 2014, Wed Jan 29 23:58:57 CET 2014, Wed Jan 29 23:58:58 CET 2014, Wed Jan 29 23:59:01 CET 2014, Thu Jan 30 00:10:01 CET 2014]
-23300728	[23300728, 23300728][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, View.Call Stack][Tue Feb 11 00:00:35 CET 2014, Tue Feb 11 00:03:30 CET 2014]
-23300730	[23300730, 23300730][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Debug.Start, Debug.AttachtoProcess][Tue Feb 11 00:05:19 CET 2014, Tue Feb 11 00:33:44 CET 2014]
-23300731	[23300731, 23300731][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, View.Call Stack][Tue Feb 11 00:34:05 CET 2014, Tue Feb 11 00:57:47 CET 2014]
-23300733	[23300733][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Tue Feb 11 01:03:30 CET 2014]
-23300734	[23300734][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Tue Feb 11 01:09:24 CET 2014]
-23300741	[23300741][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Thu Feb 13 01:25:04 CET 2014]
-23300744	[23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744, 23300744][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-41[Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.StepOver, Debug.Start, Debug.StepOver][Thu Feb 13 01:27:52 CET 2014, Thu Feb 13 01:28:05 CET 2014, Thu Feb 13 01:28:07 CET 2014, Thu Feb 13 01:28:08 CET 2014, Thu Feb 13 01:28:10 CET 2014, Thu Feb 13 01:28:11 CET 2014, Thu Feb 13 01:28:12 CET 2014, Thu Feb 13 01:28:13 CET 2014, Thu Feb 13 01:28:14 CET 2014, Thu Feb 13 01:28:15 CET 2014, Thu Feb 13 01:28:17 CET 2014, Thu Feb 13 01:28:18 CET 2014, Thu Feb 13 01:28:19 CET 2014, Thu Feb 13 01:28:20 CET 2014, Thu Feb 13 01:28:21 CET 2014, Thu Feb 13 01:28:22 CET 2014, Thu Feb 13 01:28:24 CET 2014, Thu Feb 13 01:28:41 CET 2014, Thu Feb 13 01:28:42 CET 2014, Thu Feb 13 01:28:44 CET 2014, Thu Feb 13 01:28:46 CET 2014, Thu Feb 13 01:28:47 CET 2014, Thu Feb 13 01:28:48 CET 2014, Thu Feb 13 01:28:49 CET 2014, Thu Feb 13 01:28:50 CET 2014, Thu Feb 13 01:28:51 CET 2014, Thu Feb 13 01:28:52 CET 2014, Thu Feb 13 01:28:53 CET 2014, Thu Feb 13 01:28:54 CET 2014, Thu Feb 13 01:28:55 CET 2014, Thu Feb 13 01:28:56 CET 2014, Thu Feb 13 01:28:58 CET 2014, Thu Feb 13 01:28:59 CET 2014, Thu Feb 13 01:29:00 CET 2014, Thu Feb 13 01:29:01 CET 2014, Thu Feb 13 01:29:02 CET 2014, Thu Feb 13 01:29:03 CET 2014, Thu Feb 13 01:29:04 CET 2014, Thu Feb 13 01:29:04 CET 2014, Thu Feb 13 01:29:06 CET 2014, Thu Feb 13 01:31:55 CET 2014]
-23300745	[23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745, 23300745][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-20[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver][Thu Feb 13 01:31:56 CET 2014, Thu Feb 13 01:31:58 CET 2014, Thu Feb 13 01:32:09 CET 2014, Thu Feb 13 01:32:17 CET 2014, Thu Feb 13 01:32:20 CET 2014, Thu Feb 13 01:32:21 CET 2014, Thu Feb 13 01:32:27 CET 2014, Thu Feb 13 01:32:29 CET 2014, Thu Feb 13 01:32:30 CET 2014, Thu Feb 13 01:32:31 CET 2014, Thu Feb 13 01:32:32 CET 2014, Thu Feb 13 01:32:43 CET 2014, Thu Feb 13 01:32:44 CET 2014, Thu Feb 13 01:32:56 CET 2014, Thu Feb 13 01:32:58 CET 2014, Thu Feb 13 01:33:00 CET 2014, Thu Feb 13 01:33:09 CET 2014, Thu Feb 13 01:33:26 CET 2014, Thu Feb 13 01:33:37 CET 2014, Thu Feb 13 01:39:16 CET 2014]
-23300747	[23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747, 23300747][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-16[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.StepOver, Debug.Start, View.Call Stack][Thu Feb 13 01:40:27 CET 2014, Thu Feb 13 01:40:28 CET 2014, Thu Feb 13 01:40:29 CET 2014, Thu Feb 13 01:40:31 CET 2014, Thu Feb 13 01:40:33 CET 2014, Thu Feb 13 01:40:34 CET 2014, Thu Feb 13 01:40:35 CET 2014, Thu Feb 13 01:40:37 CET 2014, Thu Feb 13 01:40:39 CET 2014, Thu Feb 13 01:40:40 CET 2014, Thu Feb 13 01:40:41 CET 2014, Thu Feb 13 01:40:43 CET 2014, Thu Feb 13 01:40:54 CET 2014, Thu Feb 13 01:40:54 CET 2014, Thu Feb 13 01:40:56 CET 2014, Thu Feb 13 01:45:28 CET 2014]
-23300749	[23300749, 23300749][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Feb 13 01:46:42 CET 2014, Thu Feb 13 02:08:13 CET 2014]
-23300752	[23300752, 23300752][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.DetachAll][Thu Feb 13 02:12:44 CET 2014, Thu Feb 13 02:30:05 CET 2014]
-23300756	[23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756, 23300756][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-32[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start, Debug.DetachAll][Thu Feb 13 02:36:45 CET 2014, Thu Feb 13 02:36:46 CET 2014, Thu Feb 13 02:36:47 CET 2014, Thu Feb 13 02:36:48 CET 2014, Thu Feb 13 02:36:49 CET 2014, Thu Feb 13 02:36:51 CET 2014, Thu Feb 13 02:36:52 CET 2014, Thu Feb 13 02:36:53 CET 2014, Thu Feb 13 02:36:55 CET 2014, Thu Feb 13 02:36:58 CET 2014, Thu Feb 13 02:37:00 CET 2014, Thu Feb 13 02:37:01 CET 2014, Thu Feb 13 02:37:03 CET 2014, Thu Feb 13 02:37:04 CET 2014, Thu Feb 13 02:37:12 CET 2014, Thu Feb 13 02:37:14 CET 2014, Thu Feb 13 02:37:15 CET 2014, Thu Feb 13 02:37:16 CET 2014, Thu Feb 13 02:37:20 CET 2014, Thu Feb 13 02:37:23 CET 2014, Thu Feb 13 02:37:24 CET 2014, Thu Feb 13 02:37:26 CET 2014, Thu Feb 13 02:37:27 CET 2014, Thu Feb 13 02:37:28 CET 2014, Thu Feb 13 02:37:30 CET 2014, Thu Feb 13 02:37:32 CET 2014, Thu Feb 13 02:37:33 CET 2014, Thu Feb 13 02:37:34 CET 2014, Thu Feb 13 02:37:36 CET 2014, Thu Feb 13 02:37:38 CET 2014, Thu Feb 13 02:37:40 CET 2014, Thu Feb 13 03:10:41 CET 2014]
-23300759	[23300759][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.Start][Thu Feb 20 08:59:20 CET 2014]
-23300764	[23300764, 23300764, 23300764][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Output, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Tue Mar 11 17:53:12 CET 2014, Tue Mar 11 17:53:34 CET 2014, Tue Mar 11 18:27:05 CET 2014]
-23300765	[23300765, 23300765, 23300765][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Output, Debug.Start, Debug.Start][Tue Mar 11 18:27:08 CET 2014, Tue Mar 11 18:27:08 CET 2014, Tue Mar 11 18:29:09 CET 2014]
-23300766	[23300766, 23300766, 23300766, 23300766, 23300766, 23300766, 23300766, 23300766, 23300766, 23300766][233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-10[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.Output, Debug.Start][Tue Mar 11 18:29:20 CET 2014, Tue Mar 11 18:29:26 CET 2014, Tue Mar 11 18:29:29 CET 2014, Tue Mar 11 18:29:31 CET 2014, Tue Mar 11 18:29:32 CET 2014, Tue Mar 11 18:29:34 CET 2014, Tue Mar 11 18:29:52 CET 2014, Tue Mar 11 18:29:55 CET 2014, Tue Mar 11 18:30:00 CET 2014, Tue Mar 11 18:33:01 CET 2014]
-23300768	[23300768, 23300768, 23300768, 23300768][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.Start, View.Output, View.Error List, Debug.Start][Wed Mar 12 03:43:41 CET 2014, Wed Mar 12 03:43:41 CET 2014, Wed Mar 12 03:44:02 CET 2014, Wed Mar 12 03:49:07 CET 2014]
-23300771	[23300771, 23300771, 23300771, 23300771, 23300771, 23300771, 23300771, 23300771, 23300771, 23300771, 23300771, 23300771][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-12[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start][Wed Mar 12 03:50:52 CET 2014, Wed Mar 12 03:50:53 CET 2014, Wed Mar 12 03:50:57 CET 2014, Wed Mar 12 03:50:58 CET 2014, Wed Mar 12 03:50:59 CET 2014, Wed Mar 12 03:51:01 CET 2014, Wed Mar 12 03:51:03 CET 2014, Wed Mar 12 03:51:08 CET 2014, Wed Mar 12 03:51:17 CET 2014, Wed Mar 12 03:51:18 CET 2014, Wed Mar 12 03:51:24 CET 2014, Wed Mar 12 03:57:32 CET 2014]
-23300772	[23300772, 23300772, 23300772][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint][Wed Mar 12 03:57:42 CET 2014, Wed Mar 12 03:57:42 CET 2014, Wed Mar 12 04:18:34 CET 2014]
-23300774	[23300774, 23300774, 23300774, 23300774, 23300774][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.StopDebugging, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Edit.Delete, Debug.Start][Wed Mar 12 04:20:34 CET 2014, Wed Mar 12 04:20:37 CET 2014, Wed Mar 12 04:20:39 CET 2014, Wed Mar 12 04:20:43 CET 2014, Wed Mar 12 04:23:22 CET 2014]
-23300775	[23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775, 23300775][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-16[View.Output, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start][Wed Mar 12 04:23:22 CET 2014, Wed Mar 12 04:23:31 CET 2014, Wed Mar 12 04:23:32 CET 2014, Wed Mar 12 04:23:33 CET 2014, Wed Mar 12 04:23:34 CET 2014, Wed Mar 12 04:23:46 CET 2014, Wed Mar 12 04:23:47 CET 2014, Wed Mar 12 04:23:49 CET 2014, Wed Mar 12 04:23:50 CET 2014, Wed Mar 12 04:23:53 CET 2014, Wed Mar 12 04:23:57 CET 2014, Wed Mar 12 04:23:58 CET 2014, Wed Mar 12 04:23:59 CET 2014, Wed Mar 12 04:24:01 CET 2014, Wed Mar 12 04:24:02 CET 2014, Wed Mar 12 04:26:26 CET 2014]
-23300777	[23300777, 23300777, 23300777, 23300777, 23300777][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[View.Output, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.Start][Wed Mar 12 04:28:16 CET 2014, Wed Mar 12 04:28:24 CET 2014, Wed Mar 12 04:28:26 CET 2014, Wed Mar 12 04:28:27 CET 2014, Wed Mar 12 04:36:56 CET 2014]
-23300780	[23300780, 23300780, 23300780][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StopDebugging][Wed Mar 12 04:39:25 CET 2014, Wed Mar 12 04:39:40 CET 2014, Wed Mar 12 04:45:31 CET 2014]
-23300781	[23300781, 23300781, 23300781, 23300781, 23300781, 23300781][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[Debug.Start, View.Output, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Wed Mar 12 04:45:40 CET 2014, Wed Mar 12 04:45:40 CET 2014, Wed Mar 12 04:45:53 CET 2014, Wed Mar 12 04:45:55 CET 2014, Wed Mar 12 04:46:10 CET 2014, Wed Mar 12 04:52:58 CET 2014]
-23300782	[23300782, 23300782, 23300782][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StopDebugging][Wed Mar 12 04:53:23 CET 2014, Wed Mar 12 04:53:25 CET 2014, Wed Mar 12 05:02:51 CET 2014]
-23300785	[23300785, 23300785][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Wed Apr 02 19:42:06 CEST 2014, Wed Apr 02 19:47:30 CEST 2014]
-23300786	[23300786, 23300786, 23300786, 23300786][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Solution Explorer, ClassViewContextMenus.ClassViewProject.Build, View.Output, Debug.AttachtoProcess][Wed Apr 02 19:47:32 CEST 2014, Wed Apr 02 19:47:39 CEST 2014, Wed Apr 02 19:47:39 CEST 2014, Wed Apr 02 20:02:24 CEST 2014]
-23300791	[23300791, 23300791, 23300791, 23300791][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Call Stack, Debug.Start, View.Output, View.Call Stack][Wed Apr 02 20:07:57 CEST 2014, Wed Apr 02 20:08:05 CEST 2014, Wed Apr 02 20:08:19 CEST 2014, Wed Apr 02 20:10:43 CEST 2014]
-23300793	[23300793, 23300793, 23300793, 23300793, 23300793][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Debug.QuickWatch, Debug.Start, View.Find Results 1, View.Output, Debug.AttachtoProcess][Wed Apr 02 20:12:13 CEST 2014, Wed Apr 02 20:12:31 CEST 2014, Wed Apr 02 20:12:37 CEST 2014, Wed Apr 02 20:12:53 CEST 2014, Wed Apr 02 20:48:53 CEST 2014]
-23300797	[23300797, 23300797, 23300797, 23300797][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.ToggleBreakpoint, Debug.EnableBreakpoint, Debug.Start, Debug.Start][Wed Apr 02 20:53:11 CEST 2014, Wed Apr 02 20:53:15 CEST 2014, Wed Apr 02 20:53:16 CEST 2014, Wed Apr 02 20:58:23 CEST 2014]
-23300798	[23300798, 23300798][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, Debug.AttachtoProcess][Wed Apr 02 20:58:26 CEST 2014, Wed Apr 02 21:05:11 CEST 2014]
-23300799	[23300799][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.AttachtoProcess][Wed Apr 02 21:12:38 CEST 2014]
-23300800	[23300800][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[View.Call Stack][Wed Apr 02 21:15:07 CEST 2014]
-23300801	[23300801, 23300801][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, View.Call Stack][Wed Apr 02 21:15:13 CEST 2014, Wed Apr 02 21:42:50 CEST 2014]
-23300804	[23300804, 23300804, 23300804][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Output, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Wed Apr 02 21:44:57 CEST 2014, Wed Apr 02 21:45:14 CEST 2014, Wed Apr 02 21:56:09 CEST 2014]
-23300807	[23300807, 23300807][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, Debug.AttachtoProcess][Wed Apr 02 21:59:32 CEST 2014, Wed Apr 02 23:03:19 CEST 2014]
-23300808	[23300808, 23300808][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.Start][Wed Apr 02 23:03:48 CEST 2014, Wed Apr 02 23:26:33 CEST 2014]
-23300809	[23300809, 23300809][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Wed Apr 02 23:26:48 CEST 2014, Wed Apr 02 23:44:54 CEST 2014]
-23300810	[23300810, 23300810][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.VisualStudioBgOrFg, Debug.AttachtoProcess][Wed Apr 02 23:44:57 CEST 2014, Thu Apr 03 00:49:29 CEST 2014]
-23300811	[23300811, 23300811, 23300811, 23300811][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Output, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.AttachtoProcess][Thu Apr 03 00:49:40 CEST 2014, Thu Apr 03 00:49:52 CEST 2014, Thu Apr 03 00:49:59 CEST 2014, Thu Apr 03 00:54:59 CEST 2014]
-23300813	[23300813, 23300813][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Edit.DocumentStart, Debug.AttachtoProcess][Thu Apr 03 00:56:02 CEST 2014, Thu Apr 03 01:56:04 CEST 2014]
-23300814	[23300814, 23300814][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, View.Call Stack][Thu Apr 03 01:56:28 CEST 2014, Thu Apr 03 02:07:30 CEST 2014]
-23300815	[23300815, 23300815][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Call Stack, Debug.StopDebugging][Thu Apr 03 02:07:39 CEST 2014, Thu Apr 03 02:23:15 CEST 2014]
-23300816	[23300816, 23300816, 23300816][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Edit.CommentSelection, Edit.GoToDefinition, Debug.AttachtoProcess][Thu Apr 03 02:23:21 CEST 2014, Thu Apr 03 02:23:32 CEST 2014, Thu Apr 03 02:50:29 CEST 2014]
-23300817	[23300817, 23300817][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[View.Output, Debug.AttachtoProcess][Thu Apr 03 02:50:40 CEST 2014, Thu Apr 03 03:28:26 CEST 2014]
-23300820	[23300820, 23300820, 23300820, 23300820, 23300820, 23300820, 23300820, 23300820][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.StepOver, Debug.Start, View.Call Stack, Debug.Start, Debug.Start, Debug.StopDebugging, View.Team Explorer, Debug.ToggleBreakpoint][Fri Apr 04 21:35:31 CEST 2014, Fri Apr 04 21:35:33 CEST 2014, Fri Apr 04 21:35:45 CEST 2014, Fri Apr 04 21:36:03 CEST 2014, Fri Apr 04 21:36:11 CEST 2014, Fri Apr 04 21:36:16 CEST 2014, Fri Apr 04 21:36:44 CEST 2014, Fri Apr 04 21:44:55 CEST 2014]
-23300821	[23300821, 23300821][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Edit.Delete, Debug.ToggleBreakpoint][Fri Apr 04 21:45:04 CEST 2014, Fri Apr 04 21:48:39 CEST 2014]
-23300825	[23300825, 23300825, 23300825][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver][Fri Apr 04 21:53:06 CEST 2014, Fri Apr 04 21:53:20 CEST 2014, Fri Apr 04 22:24:43 CEST 2014]
-23300826	[23300826, 23300826, 23300826, 23300826, 23300826, 23300826, 23300826, 23300826, 23300826][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Disassembly, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start, Debug.Start][Fri Apr 04 22:24:53 CEST 2014, Fri Apr 04 22:24:54 CEST 2014, Fri Apr 04 22:24:55 CEST 2014, Fri Apr 04 22:24:56 CEST 2014, Fri Apr 04 22:24:56 CEST 2014, Fri Apr 04 22:24:57 CEST 2014, Fri Apr 04 22:24:58 CEST 2014, Fri Apr 04 22:25:00 CEST 2014, Fri Apr 04 22:43:30 CEST 2014]
-23300827	[23300827, 23300827, 23300827, 23300827][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Output, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Fri Apr 04 22:43:30 CEST 2014, Fri Apr 04 22:43:43 CEST 2014, Fri Apr 04 22:43:53 CEST 2014, Fri Apr 04 22:50:20 CEST 2014]
-23300828	[23300828, 23300828, 23300828, 23300828][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Output, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Fri Apr 04 22:50:20 CEST 2014, Fri Apr 04 22:50:34 CEST 2014, Fri Apr 04 22:50:43 CEST 2014, Fri Apr 04 22:55:04 CEST 2014]
-23300829	[23300829, 23300829, 23300829, 23300829, 23300829][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[View.Output, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Fri Apr 04 22:55:04 CEST 2014, Fri Apr 04 22:55:13 CEST 2014, Fri Apr 04 22:55:23 CEST 2014, Fri Apr 04 22:55:34 CEST 2014, Fri Apr 04 23:02:46 CEST 2014]
-23300832	[23300832][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Fri May 02 23:20:39 CEST 2014]
-23300833	[23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833, 23300833][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-13[Debug.StepOver, Debug.StepInto, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.StepOver][Fri May 02 23:20:46 CEST 2014, Fri May 02 23:20:58 CEST 2014, Fri May 02 23:21:01 CEST 2014, Fri May 02 23:21:02 CEST 2014, Fri May 02 23:21:03 CEST 2014, Fri May 02 23:21:18 CEST 2014, Fri May 02 23:21:33 CEST 2014, Fri May 02 23:21:35 CEST 2014, Fri May 02 23:21:37 CEST 2014, Fri May 02 23:21:38 CEST 2014, Fri May 02 23:21:49 CEST 2014, Fri May 02 23:22:19 CEST 2014, Fri May 02 23:24:03 CEST 2014]
-23300834	[23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834, 23300834][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-15[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Fri May 02 23:24:04 CEST 2014, Fri May 02 23:24:05 CEST 2014, Fri May 02 23:24:06 CEST 2014, Fri May 02 23:24:07 CEST 2014, Fri May 02 23:24:08 CEST 2014, Fri May 02 23:24:26 CEST 2014, Fri May 02 23:24:32 CEST 2014, Fri May 02 23:24:33 CEST 2014, Fri May 02 23:24:35 CEST 2014, Fri May 02 23:24:36 CEST 2014, Fri May 02 23:24:49 CEST 2014, Fri May 02 23:24:51 CEST 2014, Fri May 02 23:24:59 CEST 2014, Fri May 02 23:25:02 CEST 2014, Fri May 02 23:28:37 CEST 2014]
-23300838	[23300838, 23300838, 23300838][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.StepOver, Debug.Start, Debug.StopDebugging][Fri May 02 23:32:43 CEST 2014, Fri May 02 23:32:44 CEST 2014, Fri May 02 23:35:09 CEST 2014]
-23300839	[23300839, 23300839, 23300839, 23300839, 23300839, 23300839][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[View.Solution Explorer, View.Application, ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties, View.Build, View.Application, Debug.Start][Fri May 02 23:35:14 CEST 2014, Fri May 02 23:35:19 CEST 2014, Fri May 02 23:35:20 CEST 2014, Fri May 02 23:35:25 CEST 2014, Fri May 02 23:35:38 CEST 2014, Fri May 02 23:39:27 CEST 2014]
-23300842	[23300842, 23300842, 23300842, 23300842, 23300842, 23300842][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Fri May 02 23:41:50 CEST 2014, Fri May 02 23:41:53 CEST 2014, Fri May 02 23:41:58 CEST 2014, Fri May 02 23:42:01 CEST 2014, Fri May 02 23:42:03 CEST 2014, Sat May 03 00:09:44 CEST 2014]
-23300846	[23300846][233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-1[Debug.ToggleBreakpoint][Sat May 03 00:38:07 CEST 2014]
-23300848	[23300848, 23300848, 23300848][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, View.VisualStudioBgOrFg, Debug.StepOver][Sat May 03 00:38:57 CEST 2014, Sat May 03 00:39:25 CEST 2014, Sat May 03 00:42:49 CEST 2014]
-23300851	[23300851, 23300851, 23300851, 23300851, 23300851, 23300851, 23300851, 23300851][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.ToggleBreakpoint, Debug.Start, View.NavigateBackward, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint][Sat May 03 00:48:01 CEST 2014, Sat May 03 00:48:05 CEST 2014, Sat May 03 00:48:15 CEST 2014, Sat May 03 00:48:17 CEST 2014, Sat May 03 00:48:18 CEST 2014, Sat May 03 00:48:19 CEST 2014, Sat May 03 00:48:29 CEST 2014, Sat May 03 00:51:38 CEST 2014]
-23300853	[23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853, 23300853][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-14[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start][Sat May 03 00:52:51 CEST 2014, Sat May 03 00:52:59 CEST 2014, Sat May 03 00:53:04 CEST 2014, Sat May 03 00:53:12 CEST 2014, Sat May 03 00:53:17 CEST 2014, Sat May 03 00:53:24 CEST 2014, Sat May 03 00:53:25 CEST 2014, Sat May 03 00:53:31 CEST 2014, Sat May 03 00:53:32 CEST 2014, Sat May 03 00:53:33 CEST 2014, Sat May 03 00:53:38 CEST 2014, Sat May 03 00:53:39 CEST 2014, Sat May 03 00:53:44 CEST 2014, Sat May 03 00:57:12 CEST 2014]
-23300854	[23300854, 23300854, 23300854, 23300854, 23300854, 23300854, 23300854, 23300854, 23300854][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Edit.FindinFiles, View.Find and Replace, View.Find Results 2, Debug.Start][Sat May 03 00:57:14 CEST 2014, Sat May 03 00:57:17 CEST 2014, Sat May 03 00:57:23 CEST 2014, Sat May 03 00:57:26 CEST 2014, Sat May 03 00:57:28 CEST 2014, Sat May 03 00:57:36 CEST 2014, Sat May 03 00:57:36 CEST 2014, Sat May 03 00:57:41 CEST 2014, Sat May 03 00:59:37 CEST 2014]
-23300855	[23300855, 23300855, 23300855, 23300855, 23300855, 23300855, 23300855, 23300855, 23300855][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.Start, Debug.Start, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.StopDebugging, Debug.ToggleBreakpoint][Sat May 03 00:59:42 CEST 2014, Sat May 03 00:59:44 CEST 2014, Sat May 03 00:59:51 CEST 2014, Sat May 03 00:59:53 CEST 2014, Sat May 03 00:59:55 CEST 2014, Sat May 03 00:59:57 CEST 2014, Sat May 03 00:59:58 CEST 2014, Sat May 03 01:00:19 CEST 2014, Sat May 03 01:52:33 CEST 2014]
-23300856	[23300856, 23300856, 23300856, 23300856][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[Debug.Start, View.Output, View.Error List, Debug.Start][Sat May 03 01:52:39 CEST 2014, Sat May 03 01:52:39 CEST 2014, Sat May 03 01:52:51 CEST 2014, Sat May 03 01:55:10 CEST 2014]
-23300859	[23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859, 23300859][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-16[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Edit.GoToDefinition, Debug.ToggleBreakpoint, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.Breakpoints, Debug.Start][Sat May 03 01:58:56 CEST 2014, Sat May 03 01:58:58 CEST 2014, Sat May 03 01:58:59 CEST 2014, Sat May 03 01:59:00 CEST 2014, Sat May 03 01:59:01 CEST 2014, Sat May 03 01:59:02 CEST 2014, Sat May 03 01:59:09 CEST 2014, Sat May 03 01:59:13 CEST 2014, Sat May 03 01:59:14 CEST 2014, Sat May 03 01:59:17 CEST 2014, Sat May 03 01:59:20 CEST 2014, Sat May 03 01:59:25 CEST 2014, Sat May 03 01:59:41 CEST 2014, Sat May 03 01:59:43 CEST 2014, Sat May 03 01:59:55 CEST 2014, Sat May 03 02:02:50 CEST 2014]
-23300861	[23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861, 23300861][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-26[Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Threads, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.Threads, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Sat May 03 02:03:47 CEST 2014, Sat May 03 02:03:48 CEST 2014, Sat May 03 02:03:49 CEST 2014, Sat May 03 02:03:51 CEST 2014, Sat May 03 02:03:53 CEST 2014, Sat May 03 02:03:54 CEST 2014, Sat May 03 02:03:56 CEST 2014, Sat May 03 02:03:57 CEST 2014, Sat May 03 02:04:02 CEST 2014, Sat May 03 02:04:08 CEST 2014, Sat May 03 02:04:10 CEST 2014, Sat May 03 02:04:11 CEST 2014, Sat May 03 02:04:13 CEST 2014, Sat May 03 02:04:16 CEST 2014, Sat May 03 02:04:17 CEST 2014, Sat May 03 02:04:18 CEST 2014, Sat May 03 02:04:19 CEST 2014, Sat May 03 02:04:21 CEST 2014, Sat May 03 02:04:24 CEST 2014, Sat May 03 02:04:28 CEST 2014, Sat May 03 02:04:30 CEST 2014, Sat May 03 02:04:41 CEST 2014, Sat May 03 02:04:44 CEST 2014, Sat May 03 02:05:01 CEST 2014, Sat May 03 02:05:13 CEST 2014, Sat May 03 02:35:39 CEST 2014]
-23300868	[23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868, 23300868][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-22[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.Start, Debug.StopDebugging, Debug.ToggleBreakpoint][Mon May 05 21:43:21 CEST 2014, Mon May 05 21:43:23 CEST 2014, Mon May 05 21:43:25 CEST 2014, Mon May 05 21:43:41 CEST 2014, Mon May 05 21:43:41 CEST 2014, Mon May 05 21:43:44 CEST 2014, Mon May 05 21:43:45 CEST 2014, Mon May 05 21:43:56 CEST 2014, Mon May 05 21:43:57 CEST 2014, Mon May 05 21:43:58 CEST 2014, Mon May 05 21:43:59 CEST 2014, Mon May 05 21:44:00 CEST 2014, Mon May 05 21:44:01 CEST 2014, Mon May 05 21:44:02 CEST 2014, Mon May 05 21:44:03 CEST 2014, Mon May 05 21:44:04 CEST 2014, Mon May 05 21:44:06 CEST 2014, Mon May 05 21:44:07 CEST 2014, Mon May 05 21:44:09 CEST 2014, Mon May 05 21:44:10 CEST 2014, Mon May 05 21:44:28 CEST 2014, Mon May 05 22:25:01 CEST 2014]
-23300871	[23300871, 23300871, 23300871, 23300871, 23300871, 23300871, 23300871, 23300871, 23300871][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, View.VisualStudioBgOrFg, Debug.Start][Mon May 05 22:28:11 CEST 2014, Mon May 05 22:28:16 CEST 2014, Mon May 05 22:28:17 CEST 2014, Mon May 05 22:28:24 CEST 2014, Mon May 05 22:28:32 CEST 2014, Mon May 05 22:28:36 CEST 2014, Mon May 05 22:28:55 CEST 2014, Mon May 05 22:29:18 CEST 2014, Mon May 05 22:32:10 CEST 2014]
-23300875	[23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875, 23300875][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-14[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, Debug.Start][Mon May 05 22:35:59 CEST 2014, Mon May 05 22:36:01 CEST 2014, Mon May 05 22:36:02 CEST 2014, Mon May 05 22:36:03 CEST 2014, Mon May 05 22:36:04 CEST 2014, Mon May 05 22:36:08 CEST 2014, Mon May 05 22:36:09 CEST 2014, Mon May 05 22:36:12 CEST 2014, Mon May 05 22:36:30 CEST 2014, Mon May 05 22:36:31 CEST 2014, Mon May 05 22:36:34 CEST 2014, Mon May 05 22:36:35 CEST 2014, Mon May 05 22:36:44 CEST 2014, Mon May 05 22:39:33 CEST 2014]
-23300879	[23300879, 23300879, 23300879, 23300879, 23300879, 23300879, 23300879, 23300879, 23300879][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Edit.Copy, View.Immediate Window, Edit.Paste, Edit.BreakLine, Debug.EvaluateStatement, Edit.FindinFiles, View.Find and Replace, View.Find Results 2, Debug.StepOver][Mon May 05 22:44:35 CEST 2014, Mon May 05 22:44:37 CEST 2014, Mon May 05 22:44:40 CEST 2014, Mon May 05 22:44:41 CEST 2014, Mon May 05 22:44:41 CEST 2014, Mon May 05 22:44:52 CEST 2014, Mon May 05 22:44:52 CEST 2014, Mon May 05 22:44:58 CEST 2014, Mon May 05 22:47:05 CEST 2014]
-23300882	[23300882, 23300882, 23300882, 23300882, 23300882, 23300882, 23300882][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[View.Breakpoints, Debug.ToggleBreakpoint, View.Breakpoints, View.Breakpoints, View.Breakpoints, View.Breakpoints, Debug.Start][Mon May 05 22:50:36 CEST 2014, Mon May 05 22:50:48 CEST 2014, Mon May 05 22:50:50 CEST 2014, Mon May 05 22:50:53 CEST 2014, Mon May 05 22:50:54 CEST 2014, Mon May 05 22:50:58 CEST 2014, Mon May 05 22:53:40 CEST 2014]
-23300889	[23300889, 23300889, 23300889, 23300889, 23300889, 23300889][233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-6[View.Output, View.Error List, View.Find and Replace, Edit.FindinFiles, View.Find Results 2, Debug.Start][Mon May 05 23:02:06 CEST 2014, Mon May 05 23:02:13 CEST 2014, Mon May 05 23:02:22 CEST 2014, Mon May 05 23:02:22 CEST 2014, Mon May 05 23:02:25 CEST 2014, Mon May 05 23:04:14 CEST 2014]
-23300890	[23300890, 23300890][233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-2[Edit.UncommentSelection, Debug.Start][Mon May 05 23:04:36 CEST 2014, Mon May 05 23:11:09 CEST 2014]
-23300897	[23300897, 23300897, 23300897, 23300897, 23300897, 23300897, 23300897, 23300897, 23300897][233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-9[Debug.StepOver, Debug.StepOver, Debug.StepOver, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.BreakAll][Tue May 06 03:28:11 CEST 2014, Tue May 06 03:28:12 CEST 2014, Tue May 06 03:28:14 CEST 2014, Tue May 06 03:28:15 CEST 2014, Tue May 06 03:28:17 CEST 2014, Tue May 06 03:28:27 CEST 2014, Tue May 06 03:28:29 CEST 2014, Tue May 06 03:28:44 CEST 2014, Tue May 06 03:59:30 CEST 2014]
-23300899	[23300899, 23300899, 23300899, 23300899, 23300899, 23300899, 23300899][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Edit.BreakLine, Edit.Paste, Edit.BreakLine, View.Solution Explorer, ClassViewContextMenus.ClassViewProject.Build, View.Output, Debug.Start][Tue May 06 04:01:23 CEST 2014, Tue May 06 04:01:24 CEST 2014, Tue May 06 04:01:25 CEST 2014, Tue May 06 04:01:33 CEST 2014, Tue May 06 04:01:38 CEST 2014, Tue May 06 04:01:38 CEST 2014, Tue May 06 04:04:13 CEST 2014]
-23300905	[23300905, 23300905, 23300905, 23300905, 23300905][233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-5[Build.BuildSolution, View.Output, Debug.Start, View.VisualStudioBgOrFg, Debug.StepOver][Tue May 06 21:24:49 CEST 2014, Tue May 06 21:24:49 CEST 2014, Tue May 06 21:25:02 CEST 2014, Tue May 06 21:25:27 CEST 2014, Tue May 06 21:27:18 CEST 2014]
-23300910	[23300910, 23300910, 23300910, 23300910, 23300910, 23300910, 23300910][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineDown, Edit.LineUp, Edit.LineUp, Debug.ToggleBreakpoint][Tue May 06 21:31:48 CEST 2014, Tue May 06 21:31:49 CEST 2014, Tue May 06 21:31:50 CEST 2014, Tue May 06 21:31:51 CEST 2014, Tue May 06 21:31:52 CEST 2014, Tue May 06 21:31:54 CEST 2014, Tue May 06 21:34:05 CEST 2014]
-23300912	[23300912, 23300912, 23300912, 23300912, 23300912, 23300912, 23300912, 23300912][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.StepOver, Debug.Start, Debug.StepOver, Debug.StepOver, Debug.StopDebugging, Edit.Copy, Edit.Paste, Debug.ToggleBreakpoint][Tue May 06 21:35:42 CEST 2014, Tue May 06 21:36:00 CEST 2014, Tue May 06 21:36:13 CEST 2014, Tue May 06 21:36:20 CEST 2014, Tue May 06 21:36:42 CEST 2014, Tue May 06 21:36:47 CEST 2014, Tue May 06 21:36:49 CEST 2014, Tue May 06 21:39:14 CEST 2014]
-23300917	[23300917, 23300917, 23300917, 23300917, 23300917, 23300917, 23300917, 23300917][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.StepOver, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Tue May 06 21:45:26 CEST 2014, Tue May 06 21:45:31 CEST 2014, Tue May 06 21:45:34 CEST 2014, Tue May 06 21:46:00 CEST 2014, Tue May 06 21:46:05 CEST 2014, Tue May 06 21:46:11 CEST 2014, Tue May 06 21:46:28 CEST 2014, Tue May 06 21:57:47 CEST 2014]
-23300918	[23300918, 23300918, 23300918, 23300918][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Output, Edit.LineDown, Edit.LineDown, Debug.Start][Tue May 06 21:57:47 CEST 2014, Tue May 06 21:58:07 CEST 2014, Tue May 06 21:58:08 CEST 2014, Tue May 06 22:13:40 CEST 2014]
-23300919	[23300919, 23300919, 23300919][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.Output, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Tue May 06 22:13:40 CEST 2014, Tue May 06 22:14:03 CEST 2014, Tue May 06 22:15:45 CEST 2014]
-23300920	[23300920, 23300920, 23300920][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.StepOver][Tue May 06 22:16:03 CEST 2014, Tue May 06 22:16:14 CEST 2014, Tue May 06 22:18:05 CEST 2014]
-23300921	[23300921, 23300921, 23300921, 23300921, 23300921, 23300921, 23300921][233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-7[Debug.Start, Debug.StepOver, Debug.ToggleBreakpoint, Debug.Start, Debug.ToggleBreakpoint, View.VisualStudioBgOrFg, Debug.QuickWatch][Tue May 06 22:18:14 CEST 2014, Tue May 06 22:18:18 CEST 2014, Tue May 06 22:18:20 CEST 2014, Tue May 06 22:18:24 CEST 2014, Tue May 06 22:18:28 CEST 2014, Tue May 06 22:18:33 CEST 2014, Tue May 06 22:21:13 CEST 2014]
-23300925	[23300925, 23300925, 23300925, 23300925, 23300925, 23300925, 23300925, 23300925][233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-8[Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, Debug.ToggleBreakpoint, View.Output, Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.Start][Tue May 06 22:25:13 CEST 2014, Tue May 06 22:25:21 CEST 2014, Tue May 06 22:25:44 CEST 2014, Tue May 06 22:25:46 CEST 2014, Tue May 06 22:25:46 CEST 2014, Tue May 06 22:26:03 CEST 2014, Tue May 06 22:26:14 CEST 2014, Tue May 06 22:27:46 CEST 2014]
-23300926	[23300926, 23300926, 23300926, 23300926, 23300926, 23300926, 23300926, 23300926, 23300926, 23300926, 23300926, 23300926][233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-12[Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.Start, Debug.ToggleBreakpoint, Debug.Start, Debug.Start][Tue May 06 22:27:58 CEST 2014, Tue May 06 22:28:01 CEST 2014, Tue May 06 22:28:05 CEST 2014, Tue May 06 22:28:07 CEST 2014, Tue May 06 22:28:15 CEST 2014, Tue May 06 22:28:17 CEST 2014, Tue May 06 22:28:20 CEST 2014, Tue May 06 22:28:23 CEST 2014, Tue May 06 22:28:29 CEST 2014, Tue May 06 22:28:34 CEST 2014, Tue May 06 22:28:35 CEST 2014, Tue May 06 22:31:03 CEST 2014]
-23300930	[23300930, 23300930, 23300930, 23300930][233, 233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-4[View.Output, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg, Debug.ToggleBreakpoint][Wed Jun 04 02:58:33 CEST 2014, Wed Jun 04 02:58:59 CEST 2014, Wed Jun 04 02:59:01 CEST 2014, Wed Jun 04 03:02:32 CEST 2014]
-23300931	[23300931, 23300931, 23300931][233, 233, 233]file:/home/hadoop/eclipse-workspace/HMM_MapReduce/input/BlazeData_Dev_233.csv
-3[Debug.Start, View.VisualStudioBgOrFg, View.VisualStudioBgOrFg][Wed Jun 04 03:02:33 CEST 2014, Wed Jun 04 03:02:59 CEST 2014, Wed Jun 04 03:03:01 CEST 2014]
+23300001	[][]0[][]
+23300002	[][]0[][]
+23300005	[][]0[][]
+23300007	[][]0[][]
+23300012	[][]0[][]
+23300018	[][]0[][]
+23300020	[][]0[][]
+23300021	[][]0[][]
+23300022	[][]0[][]
+23300031	[][]0[][]
+23300033	[][]0[][]
+23300039	[][]0[][]
+23300040	[][]0[][]
+23300048	[][]0[][]
+23300049	[][]0[][]
+23300051	[][]0[][]
+23300052	[][]0[][]
+23300057	[][]0[][]
+23300059	[][]0[][]
+23300062	[][]0[][]
+23300079	[][]0[][]
+23300084	[][]0[][]
+23300087	[][]0[][]
+23300099	[][]0[][]
+23300100	[][]0[][]
+23300107	[][]0[][]
+23300109	[][]0[][]
+23300117	[][]0[][]
+23300124	[][]0[][]
+23300130	[][]0[][]
+23300131	[][]0[][]
+23300136	[][]0[][]
+23300141	[][]0[][]
+23300143	[][]0[][]
+23300148	[][]0[][]
+23300159	[][]0[][]
+23300160	[][]0[][]
+23300161	[][]0[][]
+23300166	[][]0[][]
+23300170	[][]0[][]
+23300171	[][]0[][]
+23300175	[][]0[][]
+23300176	[][]0[][]
+23300179	[][]0[][]
+23300181	[][]0[][]
+23300182	[][]0[][]
+23300186	[][]0[][]
+23300190	[][]0[][]
+23300195	[][]0[][]
+23300201	[][]0[][]
+23300209	[][]0[][]
+23300210	[][]0[][]
+23300216	[][]0[][]
+23300217	[][]0[][]
+23300221	[][]0[][]
+23300222	[][]0[][]
+23300224	[][]0[][]
+23300226	[][]0[][]
+23300227	[][]0[][]
+23300231	[][]0[][]
+23300238	[][]0[][]
+23300240	[][]0[][]
+23300242	[][]0[][]
+23300243	[][]0[][]
+23300246	[][]0[][]
+23300248	[][]0[][]
+23300250	[][]0[][]
+23300251	[][]0[][]
+23300252	[][]0[][]
+23300255	[][]0[][]
+23300264	[][]0[][]
+23300266	[][]0[][]
+23300267	[][]0[][]
+23300268	[][]0[][]
+23300272	[][]0[][]
+23300273	[][]0[][]
+23300283	[][]0[][]
+23300291	[][]0[][]
+23300293	[][]0[][]
+23300303	[][]0[][]
+23300308	[][]0[][]
+23300310	[][]0[][]
+23300318	[][]0[][]
+23300320	[][]0[][]
+23300323	[][]0[][]
+23300327	[][]0[][]
+23300329	[][]0[][]
+23300333	[][]0[][]
+23300335	[][]0[][]
+23300338	[][]0[][]
+23300339	[][]0[][]
+23300346	[][]0[][]
+23300349	[][]0[][]
+23300351	[][]0[][]
+23300360	[][]0[][]
+23300361	[][]0[][]
+23300365	[][]0[][]
+23300366	[][]0[][]
+23300367	[][]0[][]
+23300368	[][]0[][]
+23300369	[][]0[][]
+23300373	[][]0[][]
+23300382	[][]0[][]
+23300383	[][]0[][]
+23300384	[][]0[][]
+23300385	[][]0[][]
+23300388	[][]0[][]
+23300393	[][]0[][]
+23300394	[][]0[][]
+23300397	[][]0[][]
+23300407	[][]0[][]
+23300408	[][]0[][]
+23300409	[][]0[][]
+23300413	[][]0[][]
+23300417	[][]0[][]
+23300418	[][]0[][]
+23300419	[][]0[][]
+23300422	[][]0[][]
+23300423	[][]0[][]
+23300424	[][]0[][]
+23300434	[][]0[][]
+23300435	[][]0[][]
+23300436	[][]0[][]
+23300446	[][]0[][]
+23300453	[][]0[][]
+23300460	[][]0[][]
+23300461	[][]0[][]
+23300462	[][]0[][]
+23300465	[][]0[][]
+23300466	[][]0[][]
+23300468	[][]0[][]
+23300472	[][]0[][]
+23300473	[][]0[][]
+23300474	[][]0[][]
+23300475	[][]0[][]
+23300478	[][]0[][]
+23300479	[][]0[][]
+23300480	[][]0[][]
+23300483	[][]0[][]
+23300484	[][]0[][]
+23300486	[][]0[][]
+23300487	[][]0[][]
+23300488	[][]0[][]
+23300489	[][]0[][]
+23300490	[][]0[][]
+23300492	[][]0[][]
+23300496	[][]0[][]
+23300498	[][]0[][]
+23300502	[][]0[][]
+23300518	[][]0[][]
+23300519	[][]0[][]
+23300526	[][]0[][]
+23300527	[][]0[][]
+23300529	[][]0[][]
+23300530	[][]0[][]
+23300537	[][]0[][]
+23300538	[][]0[][]
+23300544	[][]0[][]
+23300548	[][]0[][]
+23300551	[][]0[][]
+23300559	[][]0[][]
+23300562	[][]0[][]
+23300571	[][]0[][]
+23300572	[][]0[][]
+23300573	[][]0[][]
+23300574	[][]0[][]
+23300577	[][]0[][]
+23300579	[][]0[][]
+23300580	[][]0[][]
+23300582	[][]0[][]
+23300584	[][]0[][]
+23300585	[][]0[][]
+23300589	[][]0[][]
+23300590	[][]0[][]
+23300594	[][]0[][]
+23300595	[][]0[][]
+23300599	[][]0[][]
+23300601	[][]0[][]
+23300603	[][]0[][]
+23300604	[][]0[][]
+23300610	[][]0[][]
+23300620	[][]0[][]
+23300632	[][]0[][]
+23300636	[][]0[][]
+23300637	[][]0[][]
+23300638	[][]0[][]
+23300642	[][]0[][]
+23300643	[][]0[][]
+23300644	[][]0[][]
+23300646	[][]0[][]
+23300647	[][]0[][]
+23300648	[][]0[][]
+23300650	[][]0[][]
+23300656	[][]0[][]
+23300659	[][]0[][]
+23300661	[][]0[][]
+23300665	[][]0[][]
+23300666	[][]0[][]
+23300668	[][]0[][]
+23300671	[][]0[][]
+23300676	[][]0[][]
+23300680	[][]0[][]
+23300682	[][]0[][]
+23300688	[][]0[][]
+23300690	[][]0[][]
+23300694	[][]0[][]
+23300695	[][]0[][]
+23300698	[][]0[][]
+23300700	[][]0[][]
+23300701	[][]0[][]
+23300709	[][]0[][]
+23300710	[][]0[][]
+23300719	[][]0[][]
+23300721	[][]0[][]
+23300724	[][]0[][]
+23300728	[][]0[][]
+23300730	[][]0[][]
+23300731	[][]0[][]
+23300733	[][]0[][]
+23300734	[][]0[][]
+23300741	[][]0[][]
+23300744	[][]0[][]
+23300745	[][]0[][]
+23300747	[][]0[][]
+23300749	[][]0[][]
+23300752	[][]0[][]
+23300756	[][]0[][]
+23300759	[][]0[][]
+23300764	[][]0[][]
+23300765	[][]0[][]
+23300766	[][]0[][]
+23300768	[][]0[][]
+23300771	[][]0[][]
+23300772	[][]0[][]
+23300774	[][]0[][]
+23300775	[][]0[][]
+23300777	[][]0[][]
+23300780	[][]0[][]
+23300781	[][]0[][]
+23300782	[][]0[][]
+23300785	[][]0[][]
+23300786	[][]0[][]
+23300791	[][]0[][]
+23300793	[][]0[][]
+23300797	[][]0[][]
+23300798	[][]0[][]
+23300799	[][]0[][]
+23300800	[][]0[][]
+23300801	[][]0[][]
+23300804	[][]0[][]
+23300807	[][]0[][]
+23300808	[][]0[][]
+23300809	[][]0[][]
+23300810	[][]0[][]
+23300811	[][]0[][]
+23300813	[][]0[][]
+23300814	[][]0[][]
+23300815	[][]0[][]
+23300816	[][]0[][]
+23300817	[][]0[][]
+23300820	[][]0[][]
+23300821	[][]0[][]
+23300825	[][]0[][]
+23300826	[][]0[][]
+23300827	[][]0[][]
+23300828	[][]0[][]
+23300829	[][]0[][]
+23300832	[][]0[][]
+23300833	[][]0[][]
+23300834	[][]0[][]
+23300838	[][]0[][]
+23300839	[][]0[][]
+23300842	[][]0[][]
+23300846	[][]0[][]
+23300848	[][]0[][]
+23300851	[][]0[][]
+23300853	[][]0[][]
+23300854	[][]0[][]
+23300855	[][]0[][]
+23300856	[][]0[][]
+23300859	[][]0[][]
+23300861	[][]0[][]
+23300868	[][]0[][]
+23300871	[][]0[][]
+23300875	[][]0[][]
+23300879	[][]0[][]
+23300882	[][]0[][]
+23300889	[][]0[][]
+23300890	[][]0[][]
+23300897	[][]0[][]
+23300899	[][]0[][]
+23300905	[][]0[][]
+23300910	[][]0[][]
+23300912	[][]0[][]
+23300917	[][]0[][]
+23300918	[][]0[][]
+23300919	[][]0[][]
+23300920	[][]0[][]
+23300921	[][]0[][]
+23300925	[][]0[][]
+23300926	[][]0[][]
+23300930	[][]0[][]
+23300931	[][]0[][]
+23300931	[][]0[][]

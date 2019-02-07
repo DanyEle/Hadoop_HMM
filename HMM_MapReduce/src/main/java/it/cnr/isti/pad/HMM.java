@@ -3,6 +3,8 @@ package it.cnr.isti.pad;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.instrument.Instrumentation;
+import java.nio.BufferOverflowException;
+import java.nio.CharBuffer;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -81,17 +83,20 @@ public class HMM
 			String filePath = ((FileSplit) context.getInputSplit()).getPath().toString();
 						
 			System.out.println("Loaded string content from " + filePath);
-			String fileContent = new String(bytesContent.getBytes());
+			byte[] bytesRead = bytesContent.getBytes();
+			System.out.println("Loaded bytes into byte array ");			
+		    
+		    //ArrayList<Character> charArrayList = new ArrayList<Character>();
+		    
+		    //used to keep track of a single line. 
+		    int j = 0; 
+		    
+		    StringBuilder line = new StringBuilder();
 
-			//process the input text file line by line. 
-	        StringTokenizer itr = new StringTokenizer(fileContent.toString(), "\n");
-	        
-	        //skip the first line, which is the header.
-	        itr.nextToken();
-	        
-	        //the current seqID is initialized based on the filename being loaded
-	        int startIndexFile = Utilities.extraSeqIDFromFilePath(filePath);
-	        
+			char charCur;
+			
+			int startIndexFile = Utilities.extraSeqIDFromFilePath(filePath);
+		        
 	        int index = startIndexFile * seqIDMultiplier;
 	        
 	        //used to keep track of how many valid messages are present
@@ -101,88 +106,105 @@ public class HMM
 			Date lastTimestamp = null;
 			Date curTimestamp = null;
 			
-			String line;
 			String[] allColumns;
 			String curMessage;
 			
 			int devID;
 			
-	        while(itr.hasMoreTokens())
-	        {	        	
-	        	line = itr.nextToken();
-		        allColumns = line.split(separator);
-		        
-		        //firstly, parse the timestamp, devID, message
-				try {
-					curTimestamp = dateFormat.parse(allColumns[0]);
-				} catch (ParseException e) 
+			//process the input text file character-by-character
+			for(int i = 0; i < bytesRead.length; i++)
+			{
+				charCur = (char) bytesRead[i];
+				
+				//reached the end of a line, meaning we are able to process the line.
+			    if(charCur == '\n')
 				{
-					break;
-				}    
-				devID = new Integer(allColumns[1]);   
-				curMessage = new String(allColumns[2]);
-		        
-		        //if the current message is a messageToRemove, then just skip the current line. 
-		        if(!messagesRemove.contains(curMessage))
-		        {
-		        	//first message being parsed, then set the lastTimestamp as well.
-		        	if(messageIndex == 0)
-		        	{
-		        		lastTimestamp = curTimestamp;
-		        	}
-		        			        	
-					long timeDiff = curTimestamp.getTime() - lastTimestamp.getTime();
-					long timeDiffSeconds = TimeUnit.MILLISECONDS.toSeconds(timeDiff);	
-					
-					if(messagesDebug.contains(curMessage))
-					{				
-						//add the current line to the current sequence.
-						messagesSeq.add(curMessage);
-						devIDsSeq.add(devID);
-						timestampsSeq.add(curTimestamp);	
-						sequenceIDsSeq.add(index);
-						
-						//if more than 30 seconds have elapsed, then need to create a new sequence. 
-						if(timeDiffSeconds >= 30)
-						{
-							//if the time sequence is too small or too long, then we do not output it. 
-							if(timeDiffSeconds >= 120 && timeDiffSeconds <= 6000)
-							{
-								//firstly save the current sequence.
-						        sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
-						        sequenceID.set(index);
-						        context.write(sequenceID, sequence);
-							}
-							//empty the current arraylists
-					        timestampsSeq.clear();
-				        	devIDsSeq.clear();
-				        	messagesSeq.clear();
-				        	sequenceIDsSeq.clear();
-				        	
-					        //anyway, need to create a new sequence with a brand new index
-							index = index + 1;	
-						}
-						messagesInSequences++;
-						lastTimestamp = curTimestamp;
-					}
-					else
+					//avoid the first line, which is the header.
+					if(j != 0)
 					{
-						//within 30 seconds, then add the current devID, msg and timestamp to the current sequence.
-						if(timeDiffSeconds <= 30)
+						allColumns = line.toString().split(separator);
+				        
+				        //firstly, parse the timestamp, devID, message
+						try {
+							curTimestamp = dateFormat.parse(allColumns[0]);
+						} catch (ParseException e) 
 						{
-							messagesSeq.add(curMessage);
-							devIDsSeq.add(devID);
-							timestampsSeq.add(curTimestamp);
-							sequenceIDsSeq.add(index);
-							messagesInSequences++;
-						}
-					}			
-			        messageIndex++;
-		        }
-	        } 
-	        //if the end of the file has been reached and some messages have yet to be saved, then save them now.
-	        if(messagesSeq.size() > 0)
-	        {
+							break;
+						}    
+						devID = new Integer(allColumns[1]);   
+						curMessage = new String(allColumns[2]);
+						
+				        //if the current message is a messageToRemove, then just skip the current line. 
+				        if(!messagesRemove.contains(curMessage))
+				        {
+				        	//first message being parsed, then set the lastTimestamp as well.
+				        	if(messageIndex == 0)
+				        	{
+				        		lastTimestamp = curTimestamp;
+				        	}
+				        			        	
+							long timeDiff = curTimestamp.getTime() - lastTimestamp.getTime();
+							long timeDiffSeconds = TimeUnit.MILLISECONDS.toSeconds(timeDiff);	
+							
+							if(messagesDebug.contains(curMessage))
+							{				
+								//add the current line to the current sequence.
+								messagesSeq.add(curMessage);
+								devIDsSeq.add(devID);
+								timestampsSeq.add(curTimestamp);	
+								sequenceIDsSeq.add(index);
+								
+								//if more than 30 seconds have elapsed, then need to create a new sequence. 
+								if(timeDiffSeconds >= 30)
+								{
+									//if the time sequence is too small or too long, then we do not output it. 
+									if(timeDiffSeconds >= 120 && timeDiffSeconds <= 6000)
+									{
+										//firstly save the current sequence.
+								        sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
+								        sequenceID.set(index);
+								        context.write(sequenceID, sequence);
+									}
+									//empty the current arraylists
+							        timestampsSeq.clear();
+						        	devIDsSeq.clear();
+						        	messagesSeq.clear();
+						        	sequenceIDsSeq.clear();
+						        	
+							        //anyway, need to create a new sequence with a brand new index
+									index = index + 1;	
+								}
+								messagesInSequences++;
+								lastTimestamp = curTimestamp;
+							}
+							else
+							{
+								//within 30 seconds, then add the current devID, msg and timestamp to the current sequence.
+								if(timeDiffSeconds <= 30)
+								{
+									messagesSeq.add(curMessage);
+									devIDsSeq.add(devID);
+									timestampsSeq.add(curTimestamp);
+									sequenceIDsSeq.add(index);
+									messagesInSequences++;
+								}
+							}			
+					        messageIndex++;
+				        }
+						
+					}
+					line = new StringBuilder();
+					j++;
+				}
+			    //add every single character to the current line
+			    else
+			    {
+			    	line.append(charCur);
+			    }
+			}
+			
+			 if(messagesSeq.size() > 0)
+		     {
 	        	 sequence = new Sequence(timestampsSeq, devIDsSeq, messagesSeq, sequenceIDsSeq, filePath);
 	        	 sequenceID.set(index);
 	        	 context.write(sequenceID, sequence);
@@ -193,12 +215,18 @@ public class HMM
 		         sequenceIDsSeq.clear();
 		         //and finally increase the sequence index
 			     index = index + 1;	
-
-	        }
+		    }
 	        System.out.println("Amount of messages identified after removing outliers: " + messageIndex);
 	        System.out.println("Amount of sequences identified after removing outliers:  " + (index - (startIndexFile * seqIDMultiplier)));
 	        System.out.println("Amount of messages after marking sequence IDs and removing those not in sequences " + messagesInSequences);
+		
+			System.out.println("Successfully read all bytes as characters");
+			
+			Sequence sequenceOut = new Sequence();
+			context.write(sequenceID, sequenceOut);
 		}
+		
+		
 	}
 	
 
@@ -249,8 +277,7 @@ public class HMM
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Sequence.class);
 		
-		job.setNumReduceTasks(1);
-		
+		//job.setNumReduceTasks(0);
 
 		//Reduce output values
 		job.setOutputKeyClass(IntWritable.class);

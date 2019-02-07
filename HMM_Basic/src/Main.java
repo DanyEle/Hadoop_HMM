@@ -25,7 +25,7 @@ public class Main {
 		
 		ArrayList<LogFile> loadedLogFiles = new ArrayList<LogFile>();
 
-		LogFile logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs/BlazeData_Dev_31.csv", messagesRemove, 1);
+		LogFile logFileFiltered1 = loadFilterSingleDataset("/home/hadoop/ABB_Logs/BlazeData_Dev_233.csv", messagesRemove, 1);
 		//LogFile logFileFiltered2 = loadFilterSingleDataset("/home/hadoop/ABB_Logs_Small/BlazeData_Dev_35.csv", messagesRemove, 10000000);
 		
 		loadedLogFiles.add(logFileFiltered1);
