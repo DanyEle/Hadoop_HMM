@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
@@ -75,10 +76,10 @@ public class HMM
 		//Every single map function gets a separate log file as input.
 		public void map(NullWritable key, BytesWritable bytesContent, Context context) throws IOException, InterruptedException
 		{				
-			ArrayList<Date> timestampsSeq = new ArrayList<Date>();
-			ArrayList<Integer> devIDsSeq = new ArrayList<Integer>();
-			ArrayList<String> messagesSeq = new ArrayList<String>();
-			ArrayList<Integer> sequenceIDsSeq = new ArrayList<Integer>();
+			List<Date> timestampsSeq = new ArrayList<Date>();
+			List<Integer> devIDsSeq = new ArrayList<Integer>();
+			List<String> messagesSeq = new ArrayList<String>();
+			List<Integer> sequenceIDsSeq = new ArrayList<Integer>();
 			
 			Sequence sequence = null;
 			
@@ -225,10 +226,7 @@ public class HMM
 	        System.out.println("Amount of messages after marking sequence IDs and removing those not in sequences " + messagesInSequences);
 		
 			System.out.println("Successfully read all bytes as characters");
-			
 		}
-		
-		
 	}
 	
 
@@ -242,7 +240,7 @@ public class HMM
 		public void reduce(IntWritable key, Iterable<Sequence> sequences, Context context) throws IOException, InterruptedException
 		{		
 			//group all sequences into an arraylist, then use these sequences to train a Hidden Markov Model
-			//ArrayList<Sequence> sequencesStored = new ArrayList<Sequence>();
+			List<Sequence> sequencesStored = new ArrayList<Sequence>();
 			
 			//System.out.println(key);
 			//issue: we read the current sequence along with all the preceding values in readFields. 
@@ -250,7 +248,7 @@ public class HMM
 			{
 				//System.out.println(sequence);
 				context.write(key, sequence);
-				//sequencesStored.add(sequence);
+				sequencesStored.add(sequence);
 			}
 		}
 	}
@@ -281,7 +279,8 @@ public class HMM
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Sequence.class);
 		
-		//job.setNumReduceTasks(1);
+		//need to create the HMM based on all the sequences 
+		job.setNumReduceTasks(1);
 
 		//Reduce output values
 		job.setOutputKeyClass(IntWritable.class);

@@ -14,6 +14,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 
 import org.apache.hadoop.io.ArrayWritable;
@@ -30,10 +31,10 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 
 	public String filePath;
 	
-	public ArrayList<Date> timestamps = new ArrayList<Date>();
-	public ArrayList<Integer> devIDs = new ArrayList<Integer>();
-	public ArrayList<String> messages = new ArrayList<String>();
-	public ArrayList<Integer> sequenceIDs = new ArrayList<Integer>();
+	public List<Date> timestamps = new ArrayList<Date>();
+	public List<Integer> devIDs = new ArrayList<Integer>();
+	public List<String> messages = new ArrayList<String>();
+	public List<Integer> sequenceIDs = new ArrayList<Integer>();
 	
 	private static Date dateTimestamp = null;
 
@@ -47,17 +48,9 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	{
 		
 	}
-	
-	public Sequence(ArrayList<Date> timestampsIn, ArrayList<Integer> devIdsIn, ArrayList<String>  messagesIn, String filePathIn)
-	{
-		this.timestamps = timestampsIn;
-		this.devIDs = devIdsIn;
-		this.messages = messagesIn;
-		this.filePath = filePathIn;
-	}
-	
-	public Sequence(ArrayList<Date> timestampsIn, ArrayList<Integer> devIdsIn, ArrayList<String>  messagesIn, 
-			ArrayList<Integer> sequenceIDsIn, String filePathIn)
+		
+	public Sequence(List<Date> timestampsIn, List<Integer> devIdsIn, List<String>  messagesIn, 
+			List<Integer> sequenceIDsIn, String filePathIn)
 	{
 		this.timestamps = timestampsIn;
 		this.devIDs = devIdsIn;
@@ -91,7 +84,7 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	public void write(DataOutput out) throws IOException 
 	{				
 	
-		System.out.println("Writing fields of sequence with ID: " + this.sequenceIDs.get(0));
+		//System.out.println("Writing fields of sequence with ID: " + this.sequenceIDs.get(0));
 		
 		//serialize sequenceID
 		out.writeInt(this.sequenceIDs.get(0));
@@ -163,7 +156,7 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		
 		//deserialize sequenceID
 		int sequenceID = in.readInt();
-		System.out.println("Read fields of sequence with ID: " + sequenceID);
+		//System.out.println("Read fields of sequence with ID: " + sequenceID);
 		
 		//deserialize devID
 		int devID = in.readInt();
