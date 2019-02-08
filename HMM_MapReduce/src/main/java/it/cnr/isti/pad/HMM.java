@@ -1,3 +1,7 @@
+//PAD - Distributed Enabling Platforms
+//University of Pisa 2019
+//Author: Daniele Gadler
+
 package it.cnr.isti.pad;
 
 import java.io.FileNotFoundException;
@@ -240,7 +244,7 @@ public class HMM
 			//group all sequences into an arraylist, then use these sequences to train a Hidden Markov Model
 			//ArrayList<Sequence> sequencesStored = new ArrayList<Sequence>();
 			
-			System.out.println(key);
+			//System.out.println(key);
 			//issue: we read the current sequence along with all the preceding values in readFields. 
 			for(Sequence sequence : sequences)
 			{
@@ -277,7 +281,7 @@ public class HMM
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Sequence.class);
 		
-		job.setNumReduceTasks(1);
+		//job.setNumReduceTasks(1);
 
 		//Reduce output values
 		job.setOutputKeyClass(IntWritable.class);
