@@ -222,8 +222,6 @@ public class HMM
 		
 			System.out.println("Successfully read all bytes as characters");
 			
-			Sequence sequenceOut = new Sequence();
-			context.write(sequenceID, sequenceOut);
 		}
 		
 		
@@ -242,9 +240,11 @@ public class HMM
 			//group all sequences into an arraylist, then use these sequences to train a Hidden Markov Model
 			//ArrayList<Sequence> sequencesStored = new ArrayList<Sequence>();
 			
+			System.out.println(key);
 			//issue: we read the current sequence along with all the preceding values in readFields. 
 			for(Sequence sequence : sequences)
 			{
+				//System.out.println(sequence);
 				context.write(key, sequence);
 				//sequencesStored.add(sequence);
 			}
@@ -277,7 +277,7 @@ public class HMM
 		job.setMapOutputKeyClass(IntWritable.class);
 		job.setMapOutputValueClass(Sequence.class);
 		
-		//job.setNumReduceTasks(0);
+		job.setNumReduceTasks(1);
 
 		//Reduce output values
 		job.setOutputKeyClass(IntWritable.class);

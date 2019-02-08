@@ -87,38 +87,34 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	
 	@Override
 	public void write(DataOutput out) throws IOException 
-	{		
+	{				
+	
+		System.out.println("Writing fields of sequence with ID: " + this.sequenceIDs.get(0));
 		
-		if(this.sequenceIDs.size() > 0)
+		//serialize sequenceID
+		out.writeInt(this.sequenceIDs.get(0));
+		
+		//serialize the devID
+		out.writeInt(this.devIDs.get(0));
+		
+		//serialize filePath
+		out.writeUTF(this.filePath + "\n");
+		
+		//serialize size of messagesArraylist and timestampsArraylist. 
+		out.writeInt(this.messages.size());		
+		
+		//Serialize messages
+		for(int i = 0; i < this.messages.size(); i++)
 		{
-			System.out.println("Writing fields of sequence with ID: " + this.sequenceIDs.get(0));
-			//serialize sequenceID
-			out.writeInt(this.sequenceIDs.get(0));
-			
-			//serialize the devID
-			out.writeInt(this.devIDs.get(0));
-			
-			//serialize filePath
-			out.writeUTF(this.filePath + "\n");
-			
-			//serialize size of messagesArraylist and timestampsArraylist. 
-			out.writeInt(this.messages.size());		
-			
-			//Serialize messages
-			for(int i = 0; i < this.messages.size(); i++)
-			{
-				out.writeUTF(this.messages.get(i));
-			}		
-			//serialize timestamps as strings
-			for(int i = 0; i < this.timestamps.size(); i++)
-			{
-				out.writeUTF(this.timestamps.get(i).toString());
-			}
-		
+			out.writeUTF(this.messages.get(i));
+		}		
+		//serialize timestamps as strings
+		for(int i = 0; i < this.timestamps.size(); i++)
+		{
+			out.writeUTF(this.timestamps.get(i).toString());
 		}
 		
-		
-		
+	
 	}	
 	
 	
@@ -164,60 +160,58 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		//let's try cleaning up all the other objects manually
 		
 		//deserialize sequenceID
+		int sequenceID = in.readInt();
+		System.out.println("Read fields of sequence with ID: " + sequenceID);
 		
-/*			
-			int sequenceID = in.readInt();
-			System.out.println("Read fields of sequence with ID: " + sequenceID);
-			
-			//deserialize devID
-			int devID = in.readInt();
-			
-			//deserialize filePath
-			String filePath = in.readUTF();	
-			
-			this.filePath = filePath;
-			
-	
-			//deserialize messagesArrayList and timestampsArrayList
-			int arrayListLength = in.readInt();
-			
-			//populate sequenceIDs
-			for(int i = 0; i < arrayListLength; i++)
+		//deserialize devID
+		int devID = in.readInt();
+		
+		//deserialize filePath
+		String filePath = in.readUTF();	
+		
+		this.filePath = filePath;
+		
+
+		//deserialize messagesArrayList and timestampsArrayList
+		int arrayListLength = in.readInt();
+		
+		//populate sequenceIDs
+		for(int i = 0; i < arrayListLength; i++)
+		{
+			this.sequenceIDs.add(sequenceID);
+		}	
+		
+		//populate devIDs
+		for(int i = 0; i < arrayListLength; i++)
+		{
+			this.devIDs.add(devID);
+		}			
+		
+		//de-serialize messages
+		for(int i = 0; i < arrayListLength; i++)
+		{
+			this.messages.add(in.readUTF());
+		}
+		
+		//de-serialize timestamps
+		for(int i = 0; i < arrayListLength; i++)
+		{
+			//used for parsing the serialized date.
+			try 
 			{
-				this.sequenceIDs.add(sequenceID);
-			}	
-			
-			//populate devIDs
-			for(int i = 0; i < arrayListLength; i++)
+				dateTimestamp = dateFormatParse.parse(in.readUTF());
+				//get back to the original formatting of the date
+				dateFormat.format(dateTimestamp);
+				this.timestamps.add(dateTimestamp);
+			} 
+			catch (ParseException e) 
 			{
-				this.devIDs.add(devID);
-			}			
-			
-			//de-serialize messages
-			for(int i = 0; i < arrayListLength; i++)
-			{
-				this.messages.add(in.readUTF());
-			}
-			
-			//de-serialize timestamps
-			for(int i = 0; i < arrayListLength; i++)
-			{
-				//used for parsing the serialized date.
-				try 
-				{
-					dateTimestamp = dateFormatParse.parse(in.readUTF());
-					//get back to the original formatting of the date
-					dateFormat.format(dateTimestamp);
-					this.timestamps.add(dateTimestamp);
-				} 
-				catch (ParseException e) 
-				{
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
-		*/
+	
+		
 	}
 	
 	@Override
