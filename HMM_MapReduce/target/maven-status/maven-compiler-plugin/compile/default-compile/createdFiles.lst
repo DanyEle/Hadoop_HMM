@@ -1,8 +1,11 @@
 it/cnr/isti/pad/Utilities.class
 it/cnr/isti/pad/WholeFileInputFormat.class
-it/cnr/isti/pad/HMM$NewReducer.class
+it/cnr/isti/pad/Math.class
 it/cnr/isti/pad/WholeFileRecordReader.class
 it/cnr/isti/pad/Sequence.class
-it/cnr/isti/pad/HMM$NewMapper.class
+it/cnr/isti/pad/HMMHadoop.class
+it/cnr/isti/pad/SequenceLabeler.class
 it/cnr/isti/pad/NonSplittableTextInputFormat.class
+it/cnr/isti/pad/HMMHadoop$NewReducer.class
 it/cnr/isti/pad/HMM.class
+it/cnr/isti/pad/HMMHadoop$NewMapper.class

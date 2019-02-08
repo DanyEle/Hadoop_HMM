@@ -22,8 +22,8 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableUtils;
 
-//Class used to store one single log file loaded from the disk and the three different columns it contains along with the
-//sequence ID corresponding to each one of the messages loaded. 
+//Class used to store one single log file loaded from the disk and the three different columns it contains 
+//along with the sequence ID corresponding to each one of the messages loaded. 
 
 @SuppressWarnings("serial")
 public class Sequence implements WritableComparable<Sequence>, Serializable
@@ -41,8 +41,6 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	private static 	SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 
 	private static DateFormat dateFormatParse = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy", Locale.US);			
-
-	
 	
 	public Sequence()
 	{
@@ -83,9 +81,7 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	@Override
 	public void write(DataOutput out) throws IOException 
 	{				
-	
 		//System.out.println("Writing fields of sequence with ID: " + this.sequenceIDs.get(0));
-		
 		//serialize sequenceID
 		out.writeInt(this.sequenceIDs.get(0));
 		
@@ -108,10 +104,7 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		{
 			out.writeUTF(this.timestamps.get(i).toString());
 		}
-		
-	
 	}	
-	
 	
 	public String toString()
 	{
@@ -140,7 +133,6 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	}
 	
 	//big issue in readFields: at every step, we read the current sequences along with all the preceding ones. 
-	
 
 	@Override
 	public void readFields(DataInput in) throws IOException 
@@ -165,7 +157,6 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 		String filePath = in.readUTF();	
 		
 		this.filePath = filePath;
-		
 
 		//deserialize messagesArrayList and timestampsArrayList
 		int arrayListLength = in.readInt();
@@ -205,8 +196,6 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 				e.printStackTrace();
 			}
 		}
-	
-		
 	}
 	
 	@Override
@@ -218,9 +207,4 @@ public class Sequence implements WritableComparable<Sequence>, Serializable
 	        }
 	        return this.sequenceIDs.get(0).compareTo(sequenceComp.sequenceIDs.get(0));
 	}
-
-	
-	
-	
-
 }
