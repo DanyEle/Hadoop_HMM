@@ -10,7 +10,6 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.List;
@@ -25,6 +24,29 @@ public class Utilities
 	
 	public Utilities()
 	{
+		
+	}
+	
+	public static String[][] populateObservationsMatrix(int maxSizeSequence, List<Sequence> sequencesStored)
+	{
+		 String[][] observationsMatrix = new String[sequencesStored.size()][maxSizeSequence];
+
+		 for(int i = 0; i < sequencesStored.size(); i++)
+		   {
+			   //j --> loop over all messages in a sequence
+			   for(int j = 0; j < sequencesStored.get(i).messages.size(); j++)
+			   {
+				   //get the j-th message of the i-th sequence. 
+				   observationsMatrix[i][j] = sequencesStored.get(i).messages.get(j);
+			   }
+			   //all those not part of a 
+			   for(int j = sequencesStored.get(i).messages.size(); j < maxSizeSequence; j++)
+			   {
+				   observationsMatrix[i][j] = null;
+			   }
+		   }
+		 
+		 return  observationsMatrix;
 		
 	}
 
@@ -113,34 +135,26 @@ public class Utilities
 	
 	public static HMM<String> createTrainHMM(String[] symbols, String[][] observationsMatrix)
 	{
-		//set the initial state probabilities
-		
-		//set the transition probabilities
-		
-		//set the emission probabilities
-		double[][] emissProbs = initializeEmissProbs(symbols);
-		
 		System.out.println("HMM Initialized");
 		
 		//initial-state probabilities
 		double[] pi = new double[1];
 		pi[0]= 1;
 		
+		//set the transition probabilities
 		double[][] transProbs = new double[1][1];
 		transProbs[0][0] = 1;
 		
-		String[] states = new String[1];
-		states[0] = "state 0";	
-		
+		//set the emission probabilities
+		double[][] emissProbs = initializeEmissProbs(symbols);
 		
 		HMM<String> hmmInit = new HMM<String>(pi, transProbs, emissProbs, symbols);
-		System.out.println(hmmInit.toString());
+		System.out.println("Initialized HMM" + hmmInit.toString());
 
 		
 		HMM<String> hmmTrained = hmmInit.learn(observationsMatrix, 100);
-		System.out.println(hmmTrained);
 		
-		return hmmInit;
+		return hmmTrained;
 
 	}
 	

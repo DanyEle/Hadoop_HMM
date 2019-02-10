@@ -4,22 +4,17 @@
 
 package it.cnr.isti.pad;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.instrument.Instrumentation;
-import java.nio.BufferOverflowException;
-import java.nio.CharBuffer;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Scanner;
-import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.conf.Configuration;
@@ -138,7 +133,7 @@ public class HMMHadoop
 						devID = new Integer(allColumns[1]);   
 						curMessage = new String(allColumns[2]);
 						
-				        //if the current message is a messageToRemove, then just skip the current line. 
+				        //if the current message is a messageToRemove, then just skip the current line (i.e: outlier symbols are removed)
 				        if(!messagesRemove.contains(curMessage))
 				        {
 				        	//first message being parsed, then set the lastTimestamp as well.
@@ -221,7 +216,6 @@ public class HMMHadoop
 		         sequenceIDsSeq.clear();
 		         //and finally increase the sequence index
 			     index = index + 1;	
-			     
 		    }
 	        System.out.println("Amount of messages identified after removing outliers: " + messageIndex);
 	        System.out.println("Amount of sequences identified after removing outliers:  " + (index - (startIndexFile * seqIDMultiplier)));
@@ -281,33 +275,16 @@ public class HMMHadoop
 		   //need to convert the observations into an array of integers
 		   //int[] observationsInt = Utilities.convertObsIntoIntArray(symbols, observationsStr);
 		   
-		   String[][] observationsMatrix = new String[sequencesStored.size()][maxSizeSequence];
+		   String[][] observationsMatrix = Utilities.populateObservationsMatrix(maxSizeSequence, sequencesStored);
 		   
-		   for(int i = 0; i < sequencesStored.size(); i++)
-		   {
-			   //j --> loop over all messages in a sequence
-			   for(int j = 0; j < sequencesStored.get(i).messages.size(); j++)
-			   {
-				   //get the j-th message of the i-th sequence. 
-				   observationsMatrix[i][j] = sequencesStored.get(i).messages.get(j);
-			   }
-			   //all those not part of a 
-			   for(int j = sequencesStored.get(i).messages.size(); j < maxSizeSequence; j++)
-			   {
-				   observationsMatrix[i][j] = null;
-			   }
-		   }
+		   HMM<String> hmmTrained = Utilities.createTrainHMM(symbols, observationsMatrix);
 		   
-		   HMM hmmTrained = Utilities.createTrainHMM(symbols, observationsMatrix);
-		   
-		   IntWritable dummyKey = new IntWritable();
-		   dummyKey.set(0);
-		   
+			System.out.println("Trained HMM" + hmmTrained);
+
 		   System.out.println("Amount of sequences to process " + sequencesStored.size());
 		   System.out.println("Amount of messages to process " + messagesStored.size());
 		   System.out.println("Maximum amount of messages in a sequence " + maxSizeSequence);
 		   
-		  // System.out.println("Symbols in the messages:" + symbolsDistinct);
 		   
        }
 	}

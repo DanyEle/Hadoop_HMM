@@ -17,10 +17,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import org.apache.hadoop.io.ArrayWritable;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.WritableComparable;
-import org.apache.hadoop.io.WritableUtils;
 
 //Class used to store one single log file loaded from the disk and the three different columns it contains 
 //along with the sequence ID corresponding to each one of the messages loaded. 

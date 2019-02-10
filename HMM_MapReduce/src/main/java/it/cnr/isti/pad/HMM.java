@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2010 Haifeng Li
+ * Copyright (c) 2010 Haifeng Li - with modifications and fixes by Daniele Gadler
  *   
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -536,15 +536,12 @@ public class HMM<O> implements SequenceLabeler<O> {
      * algorithm.
      *
      * @param observations the observation sequences on which the learning is
-     * based. Each sequence must have a length higher or equal to 2.
+     * based. Each sequence must have a length higher or equal to 2 (Daniele Gadler - there was a contradiction. Now fixed!). 
      * @param iterations the number of iterations to execute.
      * @return the updated HMM.
      */
     public HMM<O> learn(O[][] observations, int iterations) 
-    {        
-        System.out.println("In this piece of code");
-        
-        
+    {                
         ArrayList<int[]> validObservations = new ArrayList<int[]>();
 
         for (int i = 0; i < observations.length; i++) 
@@ -571,8 +568,9 @@ public class HMM<O> implements SequenceLabeler<O> {
     }
     
     /**
-     * 
-     * @param observation
+     * Daniele Gadler
+     * @param observation: a set of input observations
+     * This script takes the input observations array and removes null values from it. 
      * @return the input observation with no null values in it.
      */
     public O[] removeNullValues(O[] observation)
@@ -633,7 +631,7 @@ public class HMM<O> implements SequenceLabeler<O> {
         for (int k = 0; k < sequences.length; k++) 
         {
         	
-        	//Daniele Gadler - this comment was lying!!!
+        	//Daniele Gadler - fixed such that an error is raised in case less than 2 sequences are present
             if (sequences[k].length <= 1) {
                 throw new IllegalArgumentException(String.format("Traning sequence %d is too short.", k));
             }
