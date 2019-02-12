@@ -1,5 +1,5 @@
 # Hadoop_HMM
-# Author: Daniele Gadler
+## Author: Daniele Gadler
 
 Created for:
 
