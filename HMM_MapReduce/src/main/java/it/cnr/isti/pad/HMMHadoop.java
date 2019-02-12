@@ -80,7 +80,7 @@ public class HMMHadoop
 						
 			System.out.println("Loaded string content from " + filePath);
 			byte[] bytesRead = bytesContent.getBytes();
-			System.out.println("Loaded bytes into byte array ");			
+			//System.out.println("Loaded bytes into byte array ");			
 		    
 		    //ArrayList<Character> charArrayList = new ArrayList<Character>();
 		    
@@ -258,6 +258,8 @@ public class HMMHadoop
 			}
 		}
 		
+		
+		
 	   @Override
        protected void cleanup(Context context) throws IOException, InterruptedException 
 	   {		   
@@ -271,7 +273,6 @@ public class HMMHadoop
 		   
 		   //all the messages in all sequences
 		   //String[] observationsStr = messagesStored.toArray(new String[messagesStored.size()]);
-		   
 		   //need to convert the observations into an array of integers
 		   //int[] observationsInt = Utilities.convertObsIntoIntArray(symbols, observationsStr);
 		   
@@ -285,9 +286,10 @@ public class HMMHadoop
 		   System.out.println("Amount of messages to process " + messagesStored.size());
 		   System.out.println("Maximum amount of messages in a sequence " + maxSizeSequence);
 		   
-		   
        }
 	}
+	
+	
 
 	public static void main(String[] args) throws Exception
 	{
