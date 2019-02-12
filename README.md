@@ -10,6 +10,8 @@ A Hadoop-based implementation for initializing and training Hidden Markov Models
 
 to run the script:
 
+```console
 git clone https://github.com/DanyEle/Hadoop_HMM.git
 cd HMM_MapReduce
 ./run_program.sh <input_folder on hadoop's HDFS>
+```
